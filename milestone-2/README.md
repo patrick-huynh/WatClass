@@ -1,0 +1,1 @@
+`test-sample.sql` containes 4 sample queries for R6-9
