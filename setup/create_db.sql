@@ -32,7 +32,6 @@ CREATE TABLE CourseRatings (
   analyticalThinking INT CHECK (analyticalThinking BETWEEN 1 AND 5),
   creativity INT CHECK (creativity BETWEEN 1 AND 5),
   collaboration INT CHECK (collaboration BETWEEN 1 AND 5),
-  trivia INT CHECK (trivia BETWEEN 1 AND 5),
   difficulty INT CHECK (difficulty BETWEEN 1 AND 5),
   FOREIGN KEY (cId) REFERENCES Courses (cId)
 );
