@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS Questions;
 DROP TABLE IF EXISTS Courses;
 
 CREATE TABLE Courses (
-  cId VARCHAR(20) PRIMARY KEY, -- course code
+  cId VARCHAR(20) CHECK (cId regexp '^[A-Z]+ [0-9]+$') PRIMARY KEY, -- course code
   name VARCHAR(255) NOT NULL,
   subject VARCHAR(10) NOT NULL
 );
