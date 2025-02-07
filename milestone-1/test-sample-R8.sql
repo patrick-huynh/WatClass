@@ -1,15 +1,15 @@
 SELECT
-  qid,
+  qId,
   questionText
 FROM
   Questions
 WHERE
-  qid = (
+  qId = (
     SELECT
       nextQuestion
     FROM
       NextQuestionLookup
     WHERE
-      qid = 1
+      qId = 1
       AND expectedAnswer = 5
   );
