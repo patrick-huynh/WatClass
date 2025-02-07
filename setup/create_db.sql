@@ -1,4 +1,4 @@
-DROP DATABASE WatClass;
+DROP DATABASE IF EXISTS WatClass;
 CREATE DATABASE WatClass;
 USE WatClass;
 
@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS Questions;
 DROP TABLE IF EXISTS Courses;
 
 CREATE TABLE Courses (
-  cId VARCHAR(20) CHECK (cId regexp '^[A-Z]+ [0-9]+$') PRIMARY KEY, -- course code
+  cId VARCHAR(20) CHECK (cId regexp '^[A-Z]+[0-9]+$') PRIMARY KEY, -- course code
   name VARCHAR(255) NOT NULL,
   subject VARCHAR(10) NOT NULL
 );
@@ -33,10 +33,10 @@ CREATE TABLE Questions (
 
 CREATE TABLE CourseRatings (
   cId VARCHAR(20) PRIMARY KEY,
-  analyticalThinking INT CHECK (analyticalThinking BETWEEN 1 AND 5),
-  creativity INT CHECK (creativity BETWEEN 1 AND 5),
-  collaboration INT CHECK (collaboration BETWEEN 1 AND 5),
-  difficulty INT CHECK (difficulty BETWEEN 1 AND 5),
+  analyticalThinking INT CHECK (analyticalThinking BETWEEN 1 AND 10),
+  creativity INT CHECK (creativity BETWEEN 1 AND 10),
+  collaboration INT CHECK (collaboration BETWEEN 1 AND 10),
+  difficulty INT CHECK (difficulty BETWEEN 1 AND 10),
   FOREIGN KEY (cId) REFERENCES Courses (cId)
 );
 
@@ -91,6 +91,8 @@ CREATE TABLE CourseRecommended (
   FOREIGN KEY (cId) REFERENCES Courses (cId)
 );
 
+SET GLOBAL local_infile = true;
+
 LOAD DATA LOCAL INFILE './setup/courses.csv'
 INTO TABLE Courses
 FIELDS TERMINATED BY ','
@@ -118,3 +120,5 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+
+SET GLOBAL local_infile = false;
