@@ -89,10 +89,41 @@ CREATE TABLE CourseRecommended (
 
 -- Load sample data
 INSERT INTO
-  Courses
+  Courses (cId, name, subject)
 VALUES
   (
     'CS 115',
     'Introduction to Computer Science 1',
     'CS'
+  ),
+  ('CS 341', 'Algorithms', 'CS'),
+  ('CS 350', 'Operating Systems', 'CS'),
+  ('STAT 230', 'Probability', 'STAT'),
+  ('STAT 231', 'Statistics', 'STAT'),
+  (
+    'MATH 135',
+    'Algebra for Honours Mathematics',
+    'MATH'
+  ),
+  (
+    'MATH 137',
+    'Calculus 1 for Honours Mathematics',
+    'MATH'
   );
+
+INSERT INTO
+  CourseRatings (
+    cId,
+    analyticalThinking,
+    creativity,
+    collaboration,
+    difficulty
+  )
+VALUES
+  ('CS 115', 4, 3, 5, 2),
+  ('CS 341', 5, 4, 5, 4),
+  ('CS 350', 4, 5, 4, 5),
+  ('STAT 230', 2, 3, 4, 3),
+  ('STAT 231', 3, 4, 3, 3),
+  ('MATH 135', 4, 4, 4, 4),
+  ('MATH 137', 5, 5, 5, 4)
