@@ -18,3 +18,7 @@ SELECT * FROM Courses;
 ## Running the database with the web app
 1. Setup your `.env.local` with the corresponding password and database name.
 2. Run `cd src; npm i; npm run dev`
+
+## Currently supported features
+1. Loading info on all courses
+2. Loading aggregate metrics (average rating) across courses in each subject
