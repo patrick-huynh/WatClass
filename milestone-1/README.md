@@ -16,7 +16,7 @@ SELECT * FROM Courses;
 ```
 
 ## Running the database with the web app
-1. Setup your `.env.local` with the corresponding password and database name.
+1. Setup your `.env.local` with your mysql root password
 2. Run `cd src; npm i; npm run dev`
 
 ## Currently supported features
