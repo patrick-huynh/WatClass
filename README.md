@@ -1,4 +1,7 @@
-# CS 348 - Undergrad Planner
+# 🏫 WatClass
+Explore hundreds of courses and plan all your study terms at the University of Waterloo with this all-in-one platform.
+
+CS 348 Project
 
 ## Requirements
 
