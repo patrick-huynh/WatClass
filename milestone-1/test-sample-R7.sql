@@ -1,7 +1,8 @@
 SELECT
   *
 FROM
-  Courses;
+  Courses
+  JOIN CourseRatings ON Courses.cId = CourseRatings.cId;
 
 INSERT INTO
   Courses (cId, name, subject)
@@ -26,4 +27,5 @@ VALUES
 SELECT
   *
 FROM
-  Courses;
+  Courses
+  JOIN CourseRatings ON Courses.cId = CourseRatings.cId;

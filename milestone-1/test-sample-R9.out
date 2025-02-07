@@ -9,13 +9,7 @@
 | STAT 230 | Probability                        | STAT    |
 | STAT 231 | Statistics                         | STAT    |
 +----------+------------------------------------+---------+
-7 rows in set (0.00 sec)
 
-mysql> Update Courses SET name = "Algorithms" WHERE name = "Test";
-Query OK, 1 row affected (0.00 sec)
-Rows matched: 1  Changed: 1  Warnings: 0
-
-mysql> Select * from Courses;
 +----------+------------------------------------+---------+
 | cId      | name                               | subject |
 +----------+------------------------------------+---------+
@@ -27,4 +21,3 @@ mysql> Select * from Courses;
 | STAT 230 | Probability                        | STAT    |
 | STAT 231 | Statistics                         | STAT    |
 +----------+------------------------------------+---------+
-7 rows in set (0.00 sec)
