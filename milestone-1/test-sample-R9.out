@@ -1,0 +1,30 @@
++----------+------------------------------------+---------+
+| cId      | name                               | subject |
++----------+------------------------------------+---------+
+| CS 115   | Introduction to Computer Science 1 | CS      |
+| CS 341   | Test                               | CS      |
+| CS 350   | Operating Systems                  | CS      |
+| MATH 135 | Algebra for Honours Mathematics    | MATH    |
+| MATH 137 | Calculus 1 for Honours Mathematics | MATH    |
+| STAT 230 | Probability                        | STAT    |
+| STAT 231 | Statistics                         | STAT    |
++----------+------------------------------------+---------+
+7 rows in set (0.00 sec)
+
+mysql> Update Courses SET name = "Algorithms" WHERE name = "Test";
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> Select * from Courses;
++----------+------------------------------------+---------+
+| cId      | name                               | subject |
++----------+------------------------------------+---------+
+| CS 115   | Introduction to Computer Science 1 | CS      |
+| CS 341   | Algorithms                         | CS      |
+| CS 350   | Operating Systems                  | CS      |
+| MATH 135 | Algebra for Honours Mathematics    | MATH    |
+| MATH 137 | Calculus 1 for Honours Mathematics | MATH    |
+| STAT 230 | Probability                        | STAT    |
+| STAT 231 | Statistics                         | STAT    |
++----------+------------------------------------+---------+
+7 rows in set (0.00 sec)

@@ -1,0 +1,1 @@
+UPDATE Courses SET name = "Algorithms" WHERE name = "Test";
