@@ -1,3 +1,7 @@
+DROP DATABASE WatClass;
+CREATE DATABASE WatClass;
+USE WatClass;
+
 DROP TABLE IF EXISTS CourseRecommended;
 
 DROP TABLE IF EXISTS CourseWishlist;
@@ -87,56 +91,30 @@ CREATE TABLE CourseRecommended (
   FOREIGN KEY (cId) REFERENCES Courses (cId)
 );
 
--- Load sample data
-INSERT INTO
-  Courses (cId, name, subject)
-VALUES
-  (
-    'CS 115',
-    'Introduction to Computer Science 1',
-    'CS'
-  ),
-  ('CS 341', 'Algorithms', 'CS'),
-  ('CS 350', 'Operating Systems', 'CS'),
-  ('STAT 230', 'Probability', 'STAT'),
-  ('STAT 231', 'Statistics', 'STAT'),
-  (
-    'MATH 135',
-    'Algebra for Honours Mathematics',
-    'MATH'
-  ),
-  (
-    'MATH 137',
-    'Calculus 1 for Honours Mathematics',
-    'MATH'
-  );
+LOAD DATA LOCAL INFILE './setup/courses.csv'
+INTO TABLE Courses
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
-INSERT INTO
-  CourseRatings (
-    cId,
-    analyticalThinking,
-    creativity,
-    collaboration,
-    difficulty
-  )
-VALUES
-  ('CS 115', 4, 3, 5, 2),
-  ('CS 341', 5, 4, 5, 4),
-  ('CS 350', 4, 5, 4, 5),
-  ('STAT 230', 2, 3, 4, 3),
-  ('STAT 231', 3, 4, 3, 3),
-  ('MATH 135', 4, 4, 4, 4),
-  ('MATH 137', 5, 5, 5, 4);
+LOAD DATA LOCAL INFILE './setup/course_ratings.csv'
+INTO TABLE CourseRatings
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
-INSERT INTO
-  Questions (questionText)
-VALUES
-  (
-    'How much time do you want to commit to this course?'
-  ),
-  ('How much do you enjoy working with others?');
+LOAD DATA LOCAL INFILE './setup/questions.csv'
+INTO TABLE Questions
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
-INSERT INTO
-  NextQuestionLookup (qId, expectedAnswer, nextQuestion)
-VALUES
-  (1, 5, 2);
+LOAD DATA LOCAL INFILE './setup/next_question.csv'
+INTO TABLE NextQuestionLookup
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

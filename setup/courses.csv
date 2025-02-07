@@ -1,0 +1,2299 @@
+cid,course name,subject
+CS115,Introduction to Computer Science 1,CS
+MATH135,Algebra for Honours Mathematics,MATH
+ECON101,Introduction to Microeconomics,ECON
+PSYCH101,Introductory Psychology,PSYCH
+MATH137,Calculus 1 for Honours Mathematics,MATH
+PD1,Career Fundamentals,PD
+MATH115,Linear Algebra for Engineering,MATH
+CHE102,Chemistry for Engineers,CHE
+CS135,Designing Functional Programs,CS
+MATH136,Linear Algebra 1 for Honours Mathematics,MATH
+STAT230,Probability,STAT
+MATH138,Calculus 2 for Honours Mathematics,MATH
+CS246,Object-Oriented Software Development,CS
+MATH117,Calculus 1 for Engineering,MATH
+CS240,Data Structures and Data Management,CS
+CHEM120,General Chemistry 1,CHEM
+CS136,Elementary Algorithm Design and Data Abstraction,CS
+ECON102,Introduction to Macroeconomics,ECON
+MATH239,Introduction to Combinatorics,MATH
+CS245,Logic and Computation,CS
+BIOL130,Introductory Cell Biology,BIOL
+ECE105,Classical Mechanics,ECE
+ENGL109,Introduction to Academic Writing,ENGL
+STAT231,Statistics,STAT
+CS341,Algorithms,CS
+SPCOM223,Public Speaking,SPCOM
+CS241,Foundations of Sequential Programs,CS
+MATH127,Calculus 1 for the Sciences,MATH
+CHEM120L,General Chemistry Laboratory 1,CHEM
+MATH119,Calculus 2 for Engineering,MATH
+ECE140,Linear Circuits,ECE
+MATH116,Calculus 1 for Engineering,MATH
+ECE124,Digital Circuits and Systems,ECE
+ECE106,Electricity and Magnetism,ECE
+MATH237,Calculus 3 for Honours Mathematics,MATH
+CHEM123,General Chemistry 2,CHEM
+CLAS104,Classical Mythology,CLAS
+PHYS111,Physics 1,PHYS
+MATH235,Linear Algebra 2 for Honours Mathematics,MATH
+CS251,Computer Organization and Design,CS
+AFM101,Introduction to Financial Accounting,AFM
+BIOL130L,Cell Biology Laboratory,BIOL
+CS350,Operating Systems,CS
+ECE222,Digital Computers,ECE
+BIOL239,Genetics,BIOL
+SOC101,Introduction to Sociology,SOC
+MATH118,Calculus 2 for Engineering,MATH
+PHYS121,Mechanics,PHYS
+ECE150,Fundamentals of Programming,ECE
+CHEM123L,General Chemistry Laboratory 2,CHEM
+COOP1,Co-operative Work Term,COOP
+MATH128,Calculus 2 for the Sciences,MATH
+CS116,Introduction to Computer Science 2,CS
+CS137,Programming Principles,CS
+PD11,Processes for Technical Report Writing,PD
+AFM131,Introduction to Business in North America,AFM
+CS348,Introduction to Database Management,CS
+BIOL240,Fundamentals of Microbiology,BIOL
+BIOL273,Principles of Human Physiology 1,BIOL
+SE101,Introduction to Methods of Software Engineering,SE
+PHYS115,Mechanics,PHYS
+CO250,Introduction to Optimization,CO
+MSCI261,Engineering Economics: Financial Management for Engineers,MSCI
+CS349,User Interfaces,CS
+ENVS178,Environmental Applications of Data Management and Statistics,ENVS
+STAT333,Stochastic Processes 1,STAT
+CS145,Designing Functional Programs (Advanced Level),CS
+CS138,Introduction to Data Abstraction and Implementation,CS
+ENVS195,Introduction to Environmental Studies,ENVS
+CHEM266,Basic Organic Chemistry 1,CHEM
+PHYS111L,Physics 1 Laboratory,PHYS
+HRM200,Basic Human Resources Management,HRM
+CS370,Numerical Computation,CS
+WKRPT200,Work-term Report,WKRPT
+SPCOM100,Interpersonal Communication,SPCOM
+AFM102,Introduction to Managerial Accounting,AFM
+CS343,Concurrent and Parallel Programming,CS
+SCI238,Introductory Astronomy,SCI
+PSYCH207,Cognitive Processes,PSYCH
+STAT202,Introductory Statistics for Scientists,STAT
+PHIL145,Critical Thinking,PHIL
+PSYCH257,Psychopathology,PSYCH
+EARTH121,Introductory Earth Sciences,EARTH
+COOP2,Co-operative Work Term,COOP
+PHYS112,Physics 2,PHYS
+SE212,Logic and Computation,SE
+MATH145,Algebra (Advanced Level),MATH
+MUSIC140,Popular Music and Culture,MUSIC
+CS247,Software Engineering Principles,CS
+ECE250,Algorithms and Data Structures,ECE
+GENE123,Electrical Circuits and Instrumentation,GENE
+MATH147,Calculus 1 (Advanced Level),MATH
+ARTS130,Inquiry and Communication,ARTS
+CHEM266L,Organic Chemistry Laboratory,CHEM
+BIOL240L,Microbiology Laboratory,BIOL
+MSCI211,Organizational Behaviour,MSCI
+LS101,Introduction to Legal Studies,LS
+STAT206,Statistics for Software Engineering,STAT
+CS100,Introduction to Computing Through Applications,CS
+ENVS200,Field Ecology,ENVS
+CS136L,Tools and Techniques for Software Development,CS
+ECE190,Engineering Profession and Practice,ECE
+ECE240,Electronic Circuits 1,ECE
+FR151,Basic French 1,FR
+PSYCH211,Developmental Psychology,PSYCH
+HLTH101,Introduction to Health 1,HLTH
+ECE358,Computer Networks,ECE
+MTE100,Mechatronics Engineering,MTE
+ARTS140,Information and Analysis,ARTS
+ECE192,Engineering Economics and Impact on Society,ECE
+AMATH250,Introduction to Differential Equations,AMATH
+ENGL210F,Genres of Business Communication,ENGL
+SCI206,The Physics of How Things Work,SCI
+ECE205,Advanced Calculus 1 for Electrical and Computer Engineers,ECE
+PD20,Strategies for Career Success,PD
+PLAN100,The Evolution of Planning,PLAN
+ARBUS101,Introduction to Business in North America,ARBUS
+ECE100A,Electrical and Computer Engineering Practice,ECE
+WKRPT300,Work-term Report,WKRPT
+PHYS112L,Physics 2 Laboratory,PHYS
+PSYCH253,Social Psychology,PSYCH
+ENGL119,Communications in Mathematics and Computer Science,ENGL
+ACTSC231,Introductory Financial Mathematics,ACTSC
+CS146,Elementary Algorithm Design and Data Abstraction (Advanced Level),CS
+MTE111,Structure and Properties of Materials,MTE
+STAT330,Mathematical Statistics,STAT
+ECE103,Discrete Mathematics,ECE
+ECON201,Microeconomic Theory for Business and Policy,ECON
+JAPAN101R,First-Year Japanese 1,JAPAN
+ECE198,Project Studio,ECE
+MTE140,Algorithms and Data Structures,MTE
+CS486,Introduction to Artificial Intelligence,CS
+BIOL150,Organismal and Evolutionary Ecology,BIOL
+BUS111W,Introduction to Business Organization (WLU),BUS
+PD8,Intercultural Skills,PD
+CS330,Management Information Systems,CS
+ECE207,Signals and Systems,ECE
+PSYCH261,Physiological Psychology,PSYCH
+CHEM237,Introductory Biochemistry,CHEM
+ENVS278,Applied Statistics for Environmental Research,ENVS
+GENE121,Digital Computation,GENE
+MTE120,Circuits,MTE
+BET100,Foundations of Entrepreneurial Practice,BET
+ENGL108D,Digital Lives,ENGL
+GEOG181,Designing Effective Maps,GEOG
+ME100,Introduction to Mechanical Engineering Practice 1,ME
+PD10,Professional Responsibility in Computing,PD
+SPAN101,Introduction to Spanish 1,SPAN
+ECE155,Engineering Design with Embedded Systems,ECE
+INTST101,Introduction to International Studies,INTST
+COOP3,Co-operative Work Term,COOP
+SYDE182,Physics 2: Dynamics,SYDE
+STAT331,Applied Linear Models,STAT
+AFM121,Introduction to Global Financial Markets,AFM
+SE350,Operating Systems,SE
+ECE224,Embedded Microprocessor Systems,ECE
+FR192A,French Language 1: Module 1,FR
+MATH146,Linear Algebra 1 (Advanced Level),MATH
+MTHEL199,Special Topics,MTHEL
+BIOL373,Principles of Human Physiology 2,BIOL
+CS456,Computer Networks,CS
+CS458,Computer Security and Privacy,CS
+MTE119,Statics,MTE
+AFM231,Business Law,AFM
+BIOL308,Principles of Molecular Biology,BIOL
+PLAN102,Professional Communication,PLAN
+MATH148,Calculus 2 (Advanced Level),MATH
+EARTH122,Introductory Environmental Sciences,EARTH
+ARBUS200,Entrepreneurship Principles and Practices,ARBUS
+ENGL193,Communication in the Sciences,ENGL
+MTHEL131,Introduction to Actuarial Practice,MTHEL
+STAT441,Statistical Learning - Classification,STAT
+SYDE111,Calculus 1,SYDE
+SYDE113,Elementary Engineering Mathematics,SYDE
+ECE108,Discrete Mathematics and Logic 1,ECE
+PD19,Tactics for Workplace Success,PD
+ECE100B,Electrical and Computer Engineering Practice,ECE
+PLAN105,Introduction to Planning Analysis,PLAN
+ARBUS202,Professional and Business Ethics,ARBUS
+PLAN104,Perspectives on Planning,PLAN
+BIOL359,Evolution 1: Mechanisms,BIOL
+MATH109,Mathematics for Accounting,MATH
+PD5,Project Management,PD
+WKRPT400,Work-term Report,WKRPT
+BIOL241,Introduction to Applied Microbiology,BIOL
+KIN100,Regional Human Anatomy,KIN
+ARBUS102,Accounting Information for Managers,ARBUS
+ECE380,Analog Control Systems,ECE
+PHYS124,Modern Physics,PHYS
+CS488,Introduction to Computer Graphics,CS
+GENE119,Problems Seminar,GENE
+KIN217,Human Biochemistry,KIN
+AFM291,Intermediate Financial Accounting 1,AFM
+ME115,Structure and Properties of Materials,ME
+MUSIC246,Soundtracks: Music in Film,MUSIC
+SE465,Software Testing and Quality Assurance,SE
+CS234,Data Types and Structures,CS
+CS241E,Foundations of Sequential Programs (Enriched),CS
+ECE318,Communication Systems,ECE
+FINE130,Introduction to Digital Imaging,FINE
+GEOG102,Global Environmental Systems: Processes and Change,GEOG
+KIN100L,Regional Human Anatomy Laboratory,KIN
+FR192B,French Language 1: Module 2,FR
+PHYS234,Quantum Physics 1,PHYS
+SE380,Introduction to Feedback Control,SE
+MATH227,Calculus 3 for Honours Physics,MATH
+ME351,Fluid Mechanics 1,ME
+CHEM140,Introduction to Scientific Calculations,CHEM
+PLAN110,Visual Approaches to Design and Communication,PLAN
+MATH215,Linear Algebra for Engineering,MATH
+ME219,Mechanics of Deformable Solids 1,ME
+PHIL226,Biomedical Ethics,PHIL
+COMMST223,Public Speaking,COMMST
+AFM132,Introduction to Business Stages,AFM
+SYDE252,Linear Systems and Signals,SYDE
+PHYS121L,Mechanics Laboratory,PHYS
+SE463,Software Requirements Specification and Analysis,SE
+STAT211,Introductory Statistics and Sampling for Accounting,STAT
+SYDE101L,Communications in Systems Design Engineering-Visualization,SYDE
+ANTH100,Introduction to Anthropology,ANTH
+CS444,Compiler Construction,CS
+ECE242,Electronic Circuits 2,ECE
+SYDE161,Introduction to Design,SYDE
+CO487,Applied Cryptography,CO
+REC100,Introduction to the Study of Recreation and Leisure,REC
+AFM191,Foundations for Financial Reporting,AFM
+AFM111,Professional Pathways and Problem-Solving,AFM
+MATH114,Linear Algebra for Science,MATH
+PD12,Critical Reflection for Growth in the Workplace,PD
+SE102,Seminar,SE
+BIOL309,Analytical Methods in Molecular Biology,BIOL
+ECE204,Numerical Methods,ECE
+MATH249,Introduction to Combinatorics (Advanced Level),MATH
+ENGL101B,Introduction to Rhetorical Studies,ENGL
+GEOG281,Introduction to Geographic Information Systems (GIS),GEOG
+HLTH102,Introduction to Health 2,HLTH
+HLTH245,Canadian Health Systems,HLTH
+SYDE181,Physics 1: Statics,SYDE
+MATH228,Differential Equations for Physics and Chemistry,MATH
+SPCOM193,Communication in the Sciences,SPCOM
+STAT341,Computational Statistics and Data Analysis,STAT
+SYDE121,Digital Computation,SYDE
+KOREA101R,First-Year Korean 1,KOREA
+SYDE112,Calculus 2,SYDE
+WKRPT200M,Work-term Report,WKRPT
+ARTS190,First-Year Topics in Arts Disciplines,ARTS
+BIOL165,Diversity of Life,BIOL
+BUS121W,Functional Areas of the Organization (WLU),BUS
+CHEM267,Basic Organic Chemistry 2,CHEM
+EARTH121L,Introductory Earth Sciences Laboratory,EARTH
+PSYCH291,Basic Research Methods,PSYCH
+SYDE101,Communications in Systems Design Engineering-Written and Oral,SYDE
+ACTSC371,Introduction to Investments,ACTSC
+ECE200A,Electrical and Computer Engineering Practice,ECE
+EMLS101R,Oral Communications for Academic Purposes,EMLS
+GER101,Elementary German 1,GER
+SE464,Software Design and Architectures,SE
+SYDE351,Systems Models 1,SYDE
+BIOL303,Introductory Developmental Biology and Embryology,BIOL
+PHYS175,Introduction to the Universe,PHYS
+SYDE114,Matrices and Linear Systems,SYDE
+CS338,Computer Applications in Business: Databases,CS
+ME101,Introduction to Mechanical Engineering Practice 2,ME
+MTE202,Ordinary Differential Equations,MTE
+HLTH201,Aging and Health,HLTH
+KIN104,Fundamentals of Kinesiology,KIN
+ECE327,Digital Hardware Systems,ECE
+MTE201,Experimental Measurement and Statistical Analysis,MTE
+BIOL120,Introduction to Plant Structure and Function,BIOL
+CHEM237L,Introductory Biochemistry Laboratory,CHEM
+FR152,Basic French 2,FR
+ME230,Control of Properties of Materials,ME
+ME321,Kinematics and Dynamics of Machines,ME
+PHYS256,Geometrical and Physical Optics,PHYS
+STAT332,Sampling and Experimental Design,STAT
+CIVE104,Mechanics 1,CIVE
+ECE316,Probability Theory and Statistics,ECE
+ECE457A,Co-operative and Adaptive Algorithms,ECE
+MATH245,Linear Algebra 2 (Advanced Level),MATH
+PD21,Engineering Workplace Skills II: Developing Effective Plans,PD
+COOP4,Co-operative Work Term,COOP
+ERS215,Environmental and Sustainability Assessment 1,ERS
+MTE219,Mechanics of Deformable Solids,MTE
+SE390,Design Project Planning,SE
+ECE351,Compilers,ECE
+FINE100,Studio Fundamentals,FINE
+ME202,Statistics for Engineers,ME
+ME269,Electromechanical Devices and Power Processing,ME
+PHIL215,Professional and Business Ethics,PHIL
+PHYS131L,Mechanics Laboratory,PHYS
+ECE200B,Electrical and Computer Engineering Practice,ECE
+ENGL306A,Introduction to Linguistics,ENGL
+MATH106,Applied Linear Algebra 1,MATH
+ME201,Advanced Calculus,ME
+MTE262,Introduction to Microprocessors and Digital Logic,MTE
+REC280,Introduction to Tourism,REC
+SDS150R,Lifespan Processes,SDS
+CS230,Introduction to Computers and Computer Systems,CS
+CS454,Distributed Systems,CS
+GBDA101,Introduction to Digital Media Design,GBDA
+MATH247,Calculus 3 (Advanced Level),MATH
+SMF101,Introduction to Relationships and Families,SMF
+SPCOM225,Interviewing,SPCOM
+CS246E,Object-Oriented Software Development (Enriched),CS
+CS466,Algorithm Design and Analysis,CS
+ECE254,Operating Systems and Systems Programming,ECE
+PD7,Conflict Resolution,PD
+STV202,Design and Society,STV
+SYDE211,Calculus 3,SYDE
+AFM112,Analytic Methods for Business 1,AFM
+AFM123,Accounting Information for Managers,AFM
+AFM241,Impact of Technology on Business,AFM
+CHEM220,Intro Analytical Chemistry,CHEM
+EARTH123,Introductory Hydrology,EARTH
+ECON202,Macroeconomic Theory 1,ECON
+MATH124,Calculus and Vector Algebra for Kinesiology,MATH
+PHYS263,Classical Mechanics and Special Relativity,PHYS
+SDS131R,Political Ideologies and Social Development,SDS
+SOCWK120R,Introduction to Social Work,SOCWK
+CIVE121,Computational Methods,CIVE
+ECE356,Database Systems,ECE
+ECON344,Principles of Marketing,ECON
+MSCI311,Organizational Design and Technology,MSCI
+PMATH347,Groups and Rings,PMATH
+ARBUS100,Introduction to Arts and Business,ARBUS
+CHE100,Chemical Engineering Concepts 1,CHE
+PD13,Research in the Workplace,PD
+CHEM264,Organic Chemistry 1,CHEM
+PSCI150,Introduction to Global Politics,PSCI
+SYDE223,Data Structures and Algorithms,SYDE
+MTE121,Digital Computation,MTE
+EMLS129R,Written Academic English,EMLS
+ME250,Thermodynamics 1,ME
+ECE109,Materials Chemistry for Engineers,ECE
+SYDE192L,Digital Systems Laboratory,SYDE
+MTE380,Mechatronics Engineering Design Workshop,MTE
+PACS202,Conflict Resolution,PACS
+SYDE162,Human Factors in Design,SYDE
+CHEM267L,Organic Chemistry Laboratory,CHEM
+CIVE115,Linear Algebra,CIVE
+NE121,Chemical Principles,NE
+SE201,Seminar,SE
+SYDE192,Digital Systems,SYDE
+AFM391,Intermediate Financial Accounting 2,AFM
+CS360,Introduction to the Theory of Computing,CS
+MUSIC100,Understanding Music,MUSIC
+NE100,Introduction to Nanotechnology Engineering,NE
+PD6,Problem Solving,PD
+PHYS125,Physics for Engineers,PHYS
+PSYCH292,Basic Data Analysis,PSYCH
+ACTSC372,Investment Science and Corporate Finance,ACTSC
+AVIA100,Introduction to Aviation,AVIA
+HLTH260,Social Determinants of Health,HLTH
+MTE220,Sensors and Instrumentation,MTE
+NE112,Linear Algebra for Nanotechnology Engineers,NE
+CS114,Principles of Computing for Science,CS
+CS485,Statistical and Computational Foundations of Machine Learning,CS
+ECE484,Digital Control Applications,ECE
+CS105,Introduction to Computer Programming 1,CS
+ECE300A,Electrical and Computer Engineering Practice,ECE
+ENVS201,Introduction to Canadian Environmental Law,ENVS
+PMATH340,Elementary Number Theory,PMATH
+AFM273,Financial Instruments and Capital Markets,AFM
+AMATH231,Calculus 4,AMATH
+ECE252,Systems Programming and Concurrency,ECE
+ECE454,Distributed Computing,ECE
+HLTH204,Quantitative Approaches to Health Science,HLTH
+KIN121,Biomechanics of Human Movement,KIN
+MTE241,Introduction to Computer Structures and Real-Time Systems,MTE
+PLAN210,Community Design Fundamentals for Planners,PLAN
+AFM341,Accounting Information Systems,AFM
+CHINA101R,First-Year Chinese 1,CHINA
+CIVE105,Mechanics 2,CIVE
+GEOG207,Climate Change Fundamentals,GEOG
+PHYS242,Electricity and Magnetism 1,PHYS
+CS492,The Social Implications of Computing,CS
+MTE360,Automatic Control Systems,MTE
+JAPAN102R,First-Year Japanese 2,JAPAN
+PMATH351,Real Analysis,PMATH
+ECON206,Money and Banking 1,ECON
+ECON371,Business Finance 1,ECON
+ME262,Introduction to Microprocessors and Digital Logic,ME
+MTE204,Numerical Methods,MTE
+SMF204,Introduction to Human Sexuality,SMF
+STAT443,Forecasting,STAT
+ARBUS300,Practical Business Skills,ARBUS
+CHINA120R,Advanced First-Year Chinese,CHINA
+ITAL101,Introduction to Italian Language 1,ITAL
+PHYS358,Thermal Physics,PHYS
+SE490,Design Project 1,SE
+COMM101,Introduction to Financial Markets,COMM
+ECE298,Instrumentation and Prototyping Laboratory,ECE
+ENGL140R,The Use of English,ENGL
+INDEV100,Introduction to International Development,INDEV
+INTEG120,The Art and Science of Learning,INTEG
+MTE322,Electromechanical Machine Design,MTE
+MUSIC270,Music Theory 1,MUSIC
+PHYS275,Planets,PHYS
+PSCI231,Government and Business,PSCI
+PSYCH238,Organizational Psychology,PSYCH
+STAT240,Probability (Advanced Level),STAT
+WKRPT300M,Work-term Report,WKRPT
+CIVE100,Civil Engineering Concepts,CIVE
+ECE300B,Electrical and Computer Engineering Practice,ECE
+ECE498A,Engineering Design Project,ECE
+GEOG203,Environment and Development in a Global Perspective,GEOG
+MTE203,Advanced Calculus,MTE
+PHYS256L,Optics Laboratory,PHYS
+SYDE285,Materials Chemistry,SYDE
+ECE208,Discrete Mathematics and Logic 2,ECE
+KIN221,Advanced Biomechanics of Human Movement,KIN
+AFM272,Global Capital Markets and Financial Analytics,AFM
+AFM274,Introduction to Corporate Finance,AFM
+CHEM209,Introductory Spectroscopy and Structure,CHEM
+GBDA103,User Experience Design,GBDA
+MSCI100,Management Engineering Concepts,MSCI
+NE113,Introduction to Computational Methods,NE
+PHIL110B,Introduction to Philosophy: Ethics and Values,PHIL
+EARTH122L,Introductory Environmental Sciences Laboratory,EARTH
+ECE203,Probability Theory and Statistics 1,ECE
+EMLS102R,Clear Communication in English Writing,EMLS
+NE131,Physics for Nanotechnology Engineering,NE
+PHYS10,Physics Seminar,PHYS
+WKRPT100,Work-term Report,WKRPT
+AFM202,Introduction to Public Practice,AFM
+BIOL301,Human Anatomy,BIOL
+HLTH230,Introduction to Health Informatics,HLTH
+MATH104,Introductory Calculus for Arts and Social Science,MATH
+ME203,Ordinary Differential Equations,ME
+ME340,Manufacturing Processes,ME
+ME354,Thermodynamics 2,ME
+MUSIC116,Music Ensemble,MUSIC
+COMMST100,Interpersonal Communication,COMMST
+BIOL211,Introductory Vertebrate Zoology,BIOL
+CHEM220L,Quantitative Chemical Analysis Laboratory,CHEM
+CIVE153,Earth Engineering,CIVE
+CO342,Introduction to Graph Theory,CO
+CO351,Network Flow Theory,CO
+KIN146,Introduction to Human Nutrition,KIN
+PHYS249,Computational Physics and Linear Algebra,PHYS
+BIOL273L,Human Physiology 1 Laboratory,BIOL
+BIOL302,Functional Histology,BIOL
+BIOL355,Biology of Human Aging,BIOL
+COOP5,Co-operative Work Term,COOP
+CS480,Introduction to Machine Learning,CS
+ENBUS102,Introduction to Environment and Business,ENBUS
+ENGL108A,The Superhero,ENGL
+ME220,Mechanics of Deformable Solids 2,ME
+ME303,Advanced Engineering Mathematics,ME
+STAT241,Statistics (Advanced Level),STAT
+AFM113,Analytic Methods for Business 2,AFM
+ACTSC232,Life Contingencies 1,ACTSC
+CS449,Human-Computer Interaction,CS
+ME212,Dynamics,ME
+ECON120W,Intro to Microeconomics (WLU),ECON
+BIOL373L,Human Physiology Laboratory,BIOL
+BME121,Digital Computation,BME
+CHEM212,Structure and Bonding,CHEM
+CHEM254,Introductory Chemical Thermodynamics,CHEM
+ENGL108P,Popular Potter,ENGL
+ENVS131,Communications for Environmental Professions,ENVS
+GEOG271,Earth from Space Using Remote Sensing,GEOG
+NE125,Introduction to Materials Science and Engineering,NE
+SCBUS123,Workshop 1: Science and Business,SCBUS
+SYDE212,Probability and Statistics,SYDE
+CS371,Introduction to Computational Mathematics,CS
+ECE204A,Numerical Methods 1,ECE
+JAPAN201R,Second-Year Japanese 1,JAPAN
+MTE320,Actuators and Power Electronics,MTE
+NE109,Societal and Environmental Impacts of Nanotechnology,NE
+PHYS236,Computational Physics 1,PHYS
+SPAN102,Introduction to Spanish 2,SPAN
+SYDE262,Engineering Economics of Design,SYDE
+BIOL266,Introduction to Computational Biology,BIOL
+BIOL354,Environmental Toxicology 1,BIOL
+CHE161,Engineering Biology,CHE
+HLTH333,Principles of Epidemiology,HLTH
+MSCI331,Introduction to Optimization,MSCI
+RS121,Evil,RS
+SOC229,Selected Topics in Criminology,SOC
+STAT340,Stochastic Simulation Methods,STAT
+AFM481,Cost Management Systems,AFM
+BIOL361,Biostatistics and Experimental Design,BIOL
+BME181,Physics 1: Statics,BME
+FR101,Beginner French,FR
+HLTH202,Principles of Public and Population Health,HLTH
+KIN101,Biophysical Evaluation Lab,KIN
+ME123,Electrical Engineering for Mechanical Engineers,ME
+MTE325,Microprocessor Systems and Interfacing for Mechatronics Engineering,MTE
+NE111,Introduction to Programming for Engineers,NE
+AFM182,Foundations for Management Accounting,AFM
+CS365,Models of Computation,CS
+ECE206,Adv Calculus 2 for Electrical Engineers,ECE
+ECE458,Computer Security,ECE
+ECON221,Statistics for Economists,ECON
+FR251,French Language 2: Module 1,FR
+MTE100B,Seminar,MTE
+SE202,Seminar,SE
+AFM491,Advanced Financial Accounting,AFM
+BET320,Entrepreneurial Strategy,BET
+CHE101,Chemical Engineering Concepts 2,CHE
+EARTH270,Disasters and Natural Hazards,EARTH
+ECON220,Entrepreneurship Principles and Practices,ECON
+GEOG202,Geography of the Global Economy,GEOG
+HIST105,Rock 'n' Roll and US History,HIST
+HIST200,History and Film,HIST
+PLAN233,People and Plans,PLAN
+PSYCH101R,Introductory Psychology,PSYCH
+CHEM265L,Organic Chemistry Laboratory 1,CHEM
+ECE209,Electronic and Electrical Properties of Materials,ECE
+ECE459,Programming for Performance,ECE
+GEOG209,Hydroclimatology,GEOG
+KIN255,Fundamentals of Neuroscience,KIN
+PMATH333,Introduction to Real Analysis,PMATH
+BME101L,Communications in Biomedical Engineering-Visualization,BME
+CO255,Introduction to Optimization (Advanced Level),CO
+CS245E,Logic and Computation (Enriched),CS
+GBDA102,International Business and Cross-Cultural Management,GBDA
+KIN104L,Fundamentals of Kinesiology Laboratory,KIN
+PHIL101,Challenging Ideas: An Introduction to Philosophy,PHIL
+PHIL110A,Introduction to Philosophy: Knowledge and Reality,PHIL
+PHIL121,Moral Issues,PHIL
+PMATH330,Introduction to Mathematical Logic,PMATH
+PSYCH391,Advanced Data Analysis,PSYCH
+CHEM265,Organic Chemistry 2,CHEM
+ENVE100,Environmental and Geological Engineering Concepts,ENVE
+KIN155,Introduction to Neuroscience for Kinesiology,KIN
+KIN222,Statistical Techniques Applied to Kinesiology,KIN
+KIN354,Psychology of Physical Activity,KIN
+LS202,Criminal Law,LS
+PD22,Professionalism and Ethics in Engineering Practice,PD
+PHIL256,Introduction to Cognitive Science,PHIL
+PHYS175L,Introduction to the Universe Laboratory,PHYS
+PSYCH338,Organizational Psychology,PSYCH
+REC101,Introduction to Recreation and Leisure Services,REC
+STAT371,Applied Linear Models and Process Improvement for Business,STAT
+SYDE286,Mechanics of Deformable Solids,SYDE
+GEOG219,How Pandemics Change the World,GEOG
+ACTSC221,Introductory Financial Mathematics (Non-Specialist Level),ACTSC
+AFM362,Corporate Taxation,AFM
+BET350,Customer Experience Design,BET
+BME161,Introduction to Biomedical Design,BME
+CO370,Deterministic OR Models,CO
+CS442,Principles of Programming Languages,CS
+ECON211,Introduction to Mathematical Economics,ECON
+ECON231,Introduction to International Economics,ECON
+GEOG222,Geographical Study of Canada,GEOG
+HLTH341,Principles of Pathobiology,HLTH
+MATH103,Introductory Algebra for Arts and Social Science,MATH
+ME322,Mechanical Design 1,ME
+ME353,Heat Transfer 1,ME
+MSCI121,Introduction to Computer Programming,MSCI
+VCULT100,World Cinema and Visual Culture,VCULT
+AFM211,Connections to Business Context,AFM
+BIOL439,Environmental and Natural Products Biochemistry,BIOL
+BME101,Communications in Biomedical Engineering-Written and Oral,BME
+CLAS100,An Introduction to Classical Studies,CLAS
+CS200,Concepts for Advanced Computer Usage,CS
+CS446,Software Design and Architectures,CS
+ECE375,Electromagnetic Fields and Waves,ECE
+ENGL101A,Introduction to Literary Studies,ENGL
+GEOG381,Advanced Geographic Information Systems,GEOG
+KIN105,Cardiovascular and Respiratory Responses to Exercise,KIN
+MSCI131,Work Design and Facilities Planning,MSCI
+NE102,Introduction to Nanomaterials Health Risk; Nanotechnology Engineering Practice,NE
+STV205,Cybernetics and Society,STV
+AFM372,Corporate Finance 2,AFM
+ANTH102,Introduction to Social and Cultural Anthropology,ANTH
+CIVE204,Solid Mechanics 1,CIVE
+CO456,Introduction to Game Theory,CO
+CS445,Software Requirements Specification and Analysis,CS
+ENBUS204,Principles of Industrial Ecology,ENBUS
+ME362,Fluid Mechanics 2,ME
+PLAN281,Introduction to Geographic Information Systems (GIS),PLAN
+SE301,Seminar,SE
+SOC101R,Introduction to Sociology,SOC
+SYDE311,Advanced Engineering Math 2,SYDE
+BIOL201,Human Anatomy,BIOL
+CHEM121,Physical and Chemical Properties of Matter,CHEM
+AFM208,Introduction to Assurance,AFM
+BIOL331,Advanced Cell Biology,BIOL
+COMM231,Commercial and Business Law for Mathematics Students,COMM
+MSCI442,Impact of Information Systems on Organizations and Society,MSCI
+MTE481,Mechatronics Engineering Design Project,MTE
+PD2,Critical Reflection and Report Writing,PD
+PLAN203,Transportation Planning and Analysis,PLAN
+PMATH352,Complex Analysis,PMATH
+PSYCH253R,Social Psychology,PSYCH
+ECON140W,Intro to Macroeconomics (WLU),ECON
+AHS150,Foundations of Human Anatomy and Physiology,AHS
+AMATH351,Ordinary Differential Equations,AMATH
+BME122,Data Structures and Algorithms,BME
+CIVE221,Advanced Calculus,CIVE
+CIVE224,Probability and Statistics,CIVE
+GEOG187,Geospatial Data Science,GEOG
+HLTH370,Ecological Determinants of Health,HLTH
+KIN204,Movement Assessment and Exercise Prescription,KIN
+MSCI240,Algorithms and Data Structures,MSCI
+PHIL100J,Introduction to Philosophy,PHIL
+RS110,Religions of the West,RS
+BET210,Business Technology and Infrastructure,BET
+BIOL341,Fundamentals of Immunology,BIOL
+CHEM224L,Analytical Instrumentation Laboratory,CHEM
+CIVE222,Differential Equations,CIVE
+CS231,Algorithmic Problem Solving,CS
+EASIA201R,Introduction to East Asia,EASIA
+ECE350,Real-Time Operating Systems,ECE
+ENBUS202,Environmental Management Systems,ENBUS
+GBDA203,Introduction to Digital Culture,GBDA
+ME380,Mechanical Engineering Design Workshop,ME
+NE216,Advanced Calculus and Numerical Methods 1,NE
+PD3,Communication,PD
+PLAN261,Urban and Metropolitan Planning and Development,PLAN
+SCI250,Environmental Geology,SCI
+WKRPT400M,Work-term Report,WKRPT
+AFM201,Introduction to Professional Practice,AFM
+AFM451,Audit Strategy,AFM
+AMATH242,Introduction to Computational Mathematics,AMATH
+ARTS280,Statistics for Arts Students,ARTS
+CHE120,Computer Literacy and Programming for Chemical Engineers,CHE
+CIVE265,Structure and Properties of Materials,CIVE
+EARTH221,Introductory Geochemistry,EARTH
+FR203,Introduction to Phonetics of French,FR
+GEOG225,Global Environment and Health,GEOG
+HIST113,Canadian Business History: Innovators and Entrepreneurs,HIST
+PLAN300,Planning Theory,PLAN
+SYDE361,Systems Design Methods 1: Needs Analysis and Prototyping,SYDE
+CHEM121L,Chemical Reaction Laboratory 1,CHEM
+AFM361,Taxation 1,AFM
+AFM373,Cases and Applications in Corporate Finance,AFM
+ARBUS301,International Business,ARBUS
+CHEM233,Fundamentals of Biochemistry,CHEM
+CS489,Advanced Topics in Computer Science,CS
+ECE331,Electronic Devices,ECE
+ECON301,Microeconomic Theory 2,ECON
+ENGL378,Professional Communications in Statistics and Actuarial Science,ENGL
+GBDA201,Digital Media Project 1,GBDA
+KIN232,Research Design and Statistics,KIN
+ME360,Introduction to Control Systems,ME
+PHYS334,Quantum Physics 2,PHYS
+PMATH348,Fields and Galois Theory,PMATH
+PSYCH256,Introduction to Cognitive Science,PSYCH
+RS100,Religions of Asia,RS
+SE491,Design Project 2,SE
+SPCOM101,Theories of Communication,SPCOM
+STAT431,Generalized Linear Models and their Applications,STAT
+AFM206,Introduction to Tax,AFM
+AHS105,Mental Health Literacy,AHS
+BIOL139,Genetics,BIOL
+BME182,Physics 2: Dynamics,BME
+BME282,Materials Science for Biomedical Engineers,BME
+CIVE205,Solid Mechanics 2,CIVE
+ECE102,Information Session,ECE
+ECE455,Embedded Software,ECE
+ENGL210C,Genres of Creative Writing,ENGL
+ESL102R,Error Correction in Academic Writing,ESL
+GEOG100,On Becoming a Geographer,GEOG
+GEOG233,Geography of Tourism,GEOG
+KIN202,Exercise Physiology and Metabolism,KIN
+KIN340,Musculoskeletal Injuries in Sport and Activity,KIN
+MNS101,Materials and Nanosciences in the Modern World,MNS
+NE140,Linear Circuits,NE
+PHYS242L,Electricity and Magnetism Laboratory,PHYS
+PHYS342,Electricity and Magnetism 2,PHYS
+HEALTH105,Mental Health Literacy,HEALTH
+ACTSC331,Life Contingencies 2,ACTSC
+AFM331,Business Strategy,AFM
+AFM433,Business Strategy,AFM
+AMATH251,Introduction to Differential Equations (Advanced Level),AMATH
+ANTH101,Human and Cultural Evolution,ANTH
+ANTH204,Biological Anthropology,ANTH
+BME162,Human Factors in the Design of Biomedical and Health Systems,BME
+CIVE280,Fluid Mechanics,CIVE
+CO331,Coding Theory,CO
+CS451,Data-Intensive Distributed Computing,CS
+ENGL208B,Science Fiction,ENGL
+GER102,Elementary German 2,GER
+KOREA102R,First-Year Korean 2,KOREA
+ME459,Energy Conversion,ME
+PHYS232L,Measurement Laboratory,PHYS
+PMATH336,Introduction to Group Theory with Applications,PMATH
+PMATH365,Differential Geometry,PMATH
+SYDE381,Thermodynamics,SYDE
+WKRPT201,Work-term Report,WKRPT
+ASL101R,American Sign Language 1,ASL
+ARBUS302,Principles of Marketing,ARBUS
+CHE121,Engineering Computation,CHE
+CS452,Real-time Programming,CS
+EARTH231,Mineralogy,EARTH
+EARTH458,Physical Hydrogeology,EARTH
+EASIA100R,Introduction to East Asia,EASIA
+ERS110,Environmental Analysis and Solutions I: Foundations,ERS
+FINE112,Modern Art: 1874-1945,FINE
+GEOG294,Approaches to Research in Physical Geography,GEOG
+GEOG306,Human Dimensions of Natural Hazards,GEOG
+GEOG387,Spatial Databases,GEOG
+HIST110,A History of the Western World 1,HIST
+KIN202L,Exercise Physiology and Metabolism Laboratory,KIN
+ME100B,Seminar,ME
+MTE309,Introduction to Thermodynamics and Heat Transfer,MTE
+NE241,Electromagnetism,NE
+PHYS363,Intermediate Classical Mechanics,PHYS
+PSYCH212,Educational Psychology,PSYCH
+PSYCH356,Personality,PSYCH
+SCBUS122,Management of Business Organizations,SCBUS
+STAT337,Introduction to Biostatistics,STAT
+STAT430,Experimental Design,STAT
+SYDE312,Applied Linear Algebra,SYDE
+SYDE383,Fluid Mechanics,SYDE
+WS101,An Introduction to Women's Studies,WS
+AMATH353,Partial Differential Equations 1,AMATH
+CHE180,Chemical Engineering Design Studio 1,CHE
+CHINA201R,Second-Year Chinese 1,CHINA
+CIVE353,Geotechnical Engineering 1,CIVE
+EARTH342,Geomorphology and GIS Applications,EARTH
+ENGL200A,English Literatures 1,ENGL
+ENVS220,Ecological Economics,ENVS
+GEOG201,Fluvial Geomorphology,GEOG
+JAPAN202R,Second-Year Japanese 2,JAPAN
+KIN121L,Biomechanics of Human Movement Laboratory,KIN
+KIN204L,Movement Assessment and Exercise Prescription Laboratory,KIN
+KIN250,Sociology of Physical Activity,KIN
+MSCI271,Advanced Calculus and Numerical Methods,MSCI
+MSCI446,Introduction to Machine Learning,MSCI
+NE220L,Materials Science and Engineering Laboratory,NE
+SDS251R,Social Research,SDS
+AFM280,Introduction to Organizational Behaviour,AFM
+AFM311,Connections to Ethical Context,AFM
+AFM321,Personal Financial Planning and Taxation,AFM
+AMATH350,Differential Equations for Business and Economics,AMATH
+ANTH202,Social and Cultural Anthropology,ANTH
+CHE200,Equilibrium Stage Operations,CHE
+ECE307,Probability Theory and Statistics 2,ECE
+ECE309,Introduction to Thermodynamics and Heat Transfer,ECE
+ECE361,Power Systems and Components,ECE
+EMLS103R,Effective English Pronunciation,EMLS
+INTEG220,Nature of Scientific Knowledge,INTEG
+KIN205,Muscle Physiology in Exercise and Work,KIN
+KIN343,Micronutrient Metabolism,KIN
+KIN346,Human Nutrition and Metabolism,KIN
+KIN406,Physiology of Muscle Aging and Disease,KIN
+MATH211,Advanced Calculus 1 for Electrical and Computer Engineers,MATH
+NE201,Nanotoxicology; Nanotechnology Engineering Practice,NE
+PACS101,Peace is Everybody's Business,PACS
+PHIL224,Environmental Ethics,PHIL
+SDS250R,Social Statistics,SDS
+STAT373,Regression and Forecasting Methods in Finance,STAT
+SYDE411,Optimization and Numerical Methods,SYDE
+COMMST193,Communication in the Sciences,COMMST
+AFM212,Financial Analysis and Planning,AFM
+BET300,Foundations of Venture Creation,BET
+CHE211,Fluid Mechanics,CHE
+CS106,Introduction to Computer Programming 2,CS
+ECON212,Introduction to Game Theory,ECON
+ECON254,Economics of Sport,ECON
+ECON290,Models of Choice in Competitive Markets,ECON
+ENGL108F,The Rebel,ENGL
+ENGL292,Rhetorical Theory and Criticism,ENGL
+ERS102,Sustainability and the Really Long View,ERS
+FINE150,Appreciation and Expression,FINE
+GEOG206,Human Dimensions of Natural Hazards,GEOG
+HLTH103,Biological Determinants of Health,HLTH
+KIN221L,Advanced Biomechanics of Human Movement Laboratory,KIN
+KIN255L,Fundamentals of Neuroscience Laboratory,KIN
+ME235,Materials Science and Engineering,ME
+ME481,Mechanical Engineering Design Project 1,ME
+NE122,Organic Chemistry for Nanotechnology Engineers,NE
+NE336,Micro and Nanosystem Computer-aided Design,NE
+PD4,Teamwork,PD
+PSYCH218,Psychology of Death and Dying,PSYCH
+STAT372,Survey Sampling and Experimental Design Techniques for Business,STAT
+CHEM125L,Chemical Reaction Laboratory 2,CHEM
+ANTH201,Introduction to Archaeology,ANTH
+BIOL342,Molecular Biotechnology 1,BIOL
+BIOL350,Ecosystem Ecology,BIOL
+CHE241,Materials Science and Engineering,CHE
+CHEM262,Organic Chemistry for Engineering,CHEM
+CHEM262L,Organic Chemistry Laboratory for Engineering Students,CHEM
+CHEM360,Organic Chemistry 3,CHEM
+CIVE241,Transport Principles and Applications,CIVE
+ESL129R,Written Academic English,ESL
+KIN242,Introduction to Movement Disorders,KIN
+KIN407,Cardiovascular Pathophysiology,KIN
+LAT101,Introductory Latin 1,LAT
+MATH217,Calculus 3 for Chemical Engineering,MATH
+MSCI263,Managerial Economics,MSCI
+MUSIC111,Fundamentals of Music Theory,MUSIC
+MUSIC117,Music Ensemble,MUSIC
+PHYS225,Modeling Life Physics,PHYS
+PHYS364,Mathematical Physics 1,PHYS
+SYDE352L,Control Systems Laboratory,SYDE
+SYDE575,Image Processing,SYDE
+CFM101,Introduction to Financial Markets and Data Analytics,CFM
+AFM207,Introduction to Performance Analytics,AFM
+BME281,Mechanics of Deformable Solids,BME
+CHE230,Physical Chemistry 1,CHE
+ENBUS112,Operationalizing Sustainable Development within Business,ENBUS
+ENGL104,Rhetoric in Popular Culture,ENGL
+ENVS105,Environmental Sustainability and Ethics,ENVS
+ENVS205,Sustainability: The Future We Want,ENVS
+ME200A,Seminar,ME
+NE224,Biochemistry for Nanotechnology Engineers,NE
+NE225,Structure and Properties of Nanomaterials,NE
+PHYS280,Introduction to Biophysics,PHYS
+PHYS359,Statistical Mechanics,PHYS
+SCBUS223,Workshop 2: Strategies Behind Technological Innovation,SCBUS
+SCBUS225,Organizational Behaviour in Scientific and Technical Workplaces,SCBUS
+SE401,Seminar,SE
+HLTH205,Introduction to Health Research,HLTH
+CS346,Application Development,CS
+ACTSC445,Quantitative Enterprise Risk Management,ACTSC
+AFM244,Analytic Methods for Business 3,AFM
+AFM371,Managerial Finance 2,AFM
+AFM482,Performance Measurement and Organization Control,AFM
+AMATH271,Introduction to Theoretical Mechanics,AMATH
+AVIA101,Professional Pilot Program Course 1,AVIA
+AVIA203,Professional Pilot Program Course 3,AVIA
+BME281L,Mechanics of Deformable Solids Laboratory,BME
+CHE220,Process Data Analysis,CHE
+CHINA102R,First-Year Chinese 2,CHINA
+CIVE303,Structural Analysis,CIVE
+CIVE392,Economics and Life Cycle Cost Analysis,CIVE
+CS240E,Data Structures and Data Management (Enriched),CS
+CS476,Numeric Computation for Financial Modeling,CS
+ECE457B,Fundamentals of Computational Intelligence,ECE
+ENBUS203,Green Entrepreneurship,ENBUS
+ENBUS302,Strategies for Environment and Business,ENBUS
+FINE101,Art History and Visual Culture,FINE
+ME423,Mechanical Design 2,ME
+ME561,Fluid Power Control Systems,ME
+MSCI431,Stochastic Models and Methods,MSCI
+MTE544,Autonomous Mobile Robots,MTE
+NE226,Characterization of Materials,NE
+NE242,Semiconductor Physics and Devices,NE
+PSYCH230,Psychology and Law,PSYCH
+SE302,Seminar,SE
+SOC227,Criminology,SOC
+SYDE352,Introduction to Control Systems,SYDE
+BUS288W,Organizational Behaviour 1 (WLU),BUS
+AFM363,Taxation 2 - Integration,AFM
+ARTS111,Career Development and Decision-Making,ARTS
+BIOL225,Plants and Civilization,BIOL
+BIOL365,Methods in Bioinformatics,BIOL
+BME284,Physiological and Biological Systems,BME
+CHE312,Mathematics of Heat and Mass Transfer,CHE
+CO380,Mathematical Discovery and Invention,CO
+GBDA228,Digital Imaging for Online Applications,GBDA
+GEOG309,Physical Climatology,GEOG
+HLTH220,Psychosocial Perspectives on Lifespan Development and Health,HLTH
+HLTH344,Qualitative Methods for Health Research,HLTH
+INTEG221,The Social Nature of Knowledge,INTEG
+KIN404,Physiology of Obesity and Type 2 Diabetes,KIN
+LS102,Introduction to Criminal Law,LS
+MSCI334,Operations Planning and Inventory Control,MSCI
+MSCI343,Human-Computer Interaction,MSCI
+NE334,Statistical Thermodynamics,NE
+PHIL216,Probability and Decision Making,PHIL
+PMATH450,Lebesgue Integration and Fourier Analysis,PMATH
+PSYCH339,Personnel Psychology,PSYCH
+REC270,Research Design Applicable to Leisure Studies,REC
+SCI201,Global Warming and Climate Change,SCI
+STAT444,Statistical Learning - Advanced Regression,STAT
+SYDE522,Foundations of Artificial Intelligence,SYDE
+WKRPT301,Work-term Report,WKRPT
+AFM205,Introduction to Financial Services,AFM
+AMATH332,Applied Complex Analysis,AMATH
+BIOL140L,Microbiology Laboratory,BIOL
+BME186,Chemistry Principles,BME
+BME285,Engineering Biology,BME
+CHEM357,Physical Biochemistry,CHEM
+CIVE230,Engineering and Sustainable Development,CIVE
+CO330,Combinatorial Enumeration,CO
+CO353,Computational Discrete Optimization,CO
+DRAMA102,Introduction to Performance,DRAMA
+ENGL335,Creative Writing 1,ENGL
+ENVE224,Probability and Statistics,ENVE
+FR197,French Culture & Literature: Origins to 1715,FR
+GBDA204,Working in Teams and Project Management,GBDA
+GENE101,Strategies and Skills for Academic Success,GENE
+HLTH303,Program Planning and Evaluation,HLTH
+HLTH320,Psychosocial Perspectives on Lifespan Development and Health,HLTH
+MSCI432,Production and Service Operations Management,MSCI
+NE215,Probability and Statistics,NE
+NE217,Advanced Calculus and Numerical Methods 2,NE
+NE343,Microfabrication and Thin-film Technology,NE
+PSYCH312,Learning Disabilities,PSYCH
+REC120,Experience Design and Delivery,REC
+SYDE372,Introduction to Pattern Recognition,SYDE
+BUS283W,Financial Management 1 (WLU),BUS
+BUS127W,Introduction to Financial Accounting (WLU),BUS
+CIVE123,Electrical Circuits and Instrumentation,CIVE
+HLTH380,Applied Public Health Ethics,HLTH
+ACTSC431,Casualty and Health Insurance Mathematics 2,ACTSC
+ACTSC446,Mathematics of Financial Markets,ACTSC
+AVIA102,Professional Pilot Program Course 2,AVIA
+BIOL449,Public Health Microbiology,BIOL
+BME252,Linear Systems and Signals,BME
+CHEM250L,Physical Chemistry Laboratory 1,CHEM
+EARTH235,Stratigraphic Approaches to Understanding Earth's History,EARTH
+ECE429,Computer Architecture,ECE
+ECON322,Econometric Analysis 1,ECON
+ENGL200B,English Literatures 2,ENGL
+ENGL251A,Criticism 1,ENGL
+ERS211,Environmental Analysis and Solutions IV: Restoration Ecology,ERS
+FR252,French Language 2: Module 2,FR
+GEOG310,Geodesy and Surveying,GEOG
+KIN140L,Sports Injury Management Laboratory,KIN
+MATH218,Differential Equations for Engineers,MATH
+MSCI262,Managerial and Cost Accounting,MSCI
+MTE200A,Seminar,MTE
+MUSIC275,Music and Technology,MUSIC
+NE232,Quantum Mechanics,NE
+NE333,Macromolecular Science,NE
+NE340L,Microfabrication and Thin-film Technology Laboratory,NE
+PHIL220,Moral Issues,PHIL
+PSCI101,Introduction to Political Ideas,PSCI
+STAT334,Probability Models for Business and Accounting,STAT
+STV210,The Computing Society,STV
+SYDE102,Seminar,SYDE
+AFM271,Managerial Finance 1,AFM
+AFM333,International Business,AFM
+AFM351,Audit Strategy,AFM
+AFM382,Cost Management Systems,AFM
+BET430,Sales Fundamentals,BET
+BIOL351,Aquatic Ecology,BIOL
+BIOL473,Mammalian Reproduction,BIOL
+CHE231,Physical Chemistry 2,CHE
+CHE290,Chemical Engineering Lab 1,CHE
+CHEM200,Introduction to Laboratory Techniques,CHEM
+CHEM360L,Senior Organic Chemistry Laboratory,CHEM
+EARTH232,Introductory Petrography,EARTH
+EARTH260,Introductory Applied Geophysics,EARTH
+ECE320,Computer Architecture,ECE
+ECE498B,Engineering Design Project,ECE
+ERS315,Environmental and Sustainability Assessment 2,ERS
+GBDA202,Digital Media Project 2,GBDA
+MATH225,Applied Linear Algebra 2,MATH
+MTE420,Power Electronics and Motor Drives,MTE
+NE318,Continuum Mechanics for Nanotechnology Engineering,NE
+PHYS239,Computational Physics 2,PHYS
+PHYS375,Stars,PHYS
+PSYCH336,Introduction to Clinical Psychology,PSYCH
+SCBUS323,Workshop 3: Technology Development,SCBUS
+SI101R,Introduction to Arabic 1,SI
+MGMT244,Principles of Marketing,MGMT
+AHS100,Foundations of a Healthy Lifestyle,AHS
+AVIA310,Human Factors in Aviation,AVIA
+BET420,Entrepreneurship for Social Impact,BET
+BIOL345,Microorganisms in Foods,BIOL
+BME213,Statistics and Experimental Design,BME
+CHE181,Chemical Engineering Design Studio 2,CHE
+CHE291,Chemical Engineering Lab 2,CHE
+CHE330,Chemical Engineering Thermodynamics,CHE
+CIVE125,Civil Engineering Concepts 1,CIVE
+ENVE223,Differential Equations and Balance Laws,ENVE
+FR297,French Culture & Literature: 1715 to the Present,FR
+GEOG165,Computer Cartography: Principles and Design,GEOG
+HIST205,History of Western Sport,HIST
+HLTH340,Environmental Toxicology and Public Health,HLTH
+KIN408,Cardiovascular Physiology and Pathophysiology,KIN
+KIN429,Bone and Joint Health,KIN
+LS221,Research Methods,LS
+ME300A,Seminar,ME
+MSCI436,Decision Support Systems,MSCI
+MUSIC110,How Music Matters,MUSIC
+NE222,Organic Chemistry for Nanotechnology Engineers,NE
+NE344,Electronic Circuits,NE
+PHIL265,The Existentialist Experience,PHIL
+RUSS101,Elementary Russian 1,RUSS
+SDS210R,Children's Rights in Canada,SDS
+SOCWK220R,Social Work with Individuals - Theory and Practice 1,SOCWK
+SOCWK222R,Community Organization,SOCWK
+STAT433,Stochastic Processes 2,STAT
+SYDE543,Cognitive Ergonomics,SYDE
+ACTSC432,Credibility and Risk Theory,ACTSC
+AFM401,Accounting Theory,AFM
+BME285L,Engineering Biology Laboratory,BME
+CHE322,Numerical Methods for Process Analysis and Design,CHE
+CHEM101,Introduction to Biochemical Sciences,CHEM
+EARTH238,Introductory Structural Geology,EARTH
+EARTH458L,Field Methods in Hydrogeology,EARTH
+ECE452,Software Design and Architectures,ECE
+ECON302,Macroeconomic Theory 2,ECON
+ECON361,Cost-Benefit Analysis and Project Evaluation,ECON
+ENVE153,Earth Engineering,ENVE
+ERS340,Ecosystem Assessment,ERS
+GEOG293,Approaches to Research in Human Geography,GEOG
+KIN330,Research Design,KIN
+KIN427,Low Back Disorders,KIN
+LS227,Criminology,LS
+LS300,Sociology of Law,LS
+ME566,Computational Fluid Dynamics for Engineering Design,ME
+MSCI342,Principles of Software Engineering,MSCI
+MSCI346,Database Systems,MSCI
+MTE200B,Seminar,MTE
+MUSIC240,Introduction to Jazz,MUSIC
+NE115,Probability and Statistics,NE
+PHIL221,Ethics,PHIL
+PSYCH232,Psychology of Evil,PSYCH
+PSYCH354,Interpersonal Relations,PSYCH
+PSYCH389,Social Science Advanced Research Methods Topics,PSYCH
+SE141,Digital Circuits and Systems,SE
+SYDE461,Systems Design Capstone Project 1,SYDE
+AFM425,Fixed Income Securities,AFM
+ARBUS400,Strategy and Program Integration,ARBUS
+BIOL434,Human Molecular Genetics,BIOL
+BME284L,Physiology and Anatomy Laboratory,BME
+CIVE127,Statics & Solid Mechanics 1,CIVE
+CLAS105,Introduction to Medieval Studies,CLAS
+CS484,Computational Vision,CS
+DUTCH101,Elementary Dutch 1,DUTCH
+EASIA203R,Japanese Culture and Society,EASIA
+ECE201,Information Session,ECE
+ECE406,Algorithm Design and Analysis,ECE
+ECE473,Radio Frequency and Microwave Circuits,ECE
+ECON100,Principles of Economics,ECON
+ENGL190,Shakespeare,ENGL
+ENGL295,Social Media,ENGL
+ERS202,Natural Resources Ecology,ERS
+ERS210,Environmental Analysis and Solutions III: Greening Communities,ERS
+GBDA210,Introduction to User Experience Design,GBDA
+GENE199,Special Topics in First-Year Engineering,GENE
+GEOG318,Spatial Analysis,GEOG
+GEOG371,Advanced Remote Sensing Techniques,GEOG
+HLTH280,Applied Public Health Ethics,HLTH
+HRM303,Compensation,HRM
+LS229,Selected Topics in Criminology,LS
+ME456,Heat Transfer 2,ME
+ME597,Special Topics in Mechanical Engineering,ME
+MSCI251,Probability and Statistics 1,MSCI
+MSCI332,Deterministic Optimization Models and Methods,MSCI
+MSCI333,Simulation Analysis and Design,MSCI
+NE307,Introduction to Nanosystems Design,NE
+NE330L,Macromolecular Science Laboratory,NE
+NE352,Surfaces and Interfaces,NE
+PLAN453,Urban Stormwater Management,PLAN
+PMATH332,Applied Complex Analysis,PMATH
+PMATH334,Introduction to Rings and Fields with Applications,PMATH
+PSCI281,World Politics,PSCI
+PSYCH354R,Interpersonal Relations,PSYCH
+REC201,Leisure and Social Justice,REC
+RS235,Jesus: Life and Legacy,RS
+SOC202,Classical Sociological Theory,SOC
+STAT442,Data Visualization,STAT
+SYDE201,Seminar,SYDE
+SYDE263,Engineering Prototyping,SYDE
+VCULT101,Art History and Visual Culture,VCULT
+GEOG205,Principles of Geomorphology,GEOG
+GSJ101,Introduction to Gender and Social Justice: the Global North,GSJ
+NE110,Introduction to Nanomaterials Health Risks,NE
+AFM431,Professional Ethics for Financial Managers,AFM
+AVIA204,Professional Pilot Program Course 4,AVIA
+BASE32,Introduction to Skills & Strategies for University,BASE
+BIOL346,Microbial Ecology and Diversity,BIOL
+BIOL376,Cellular Neurophysiology,BIOL
+BIOL447,Environmental Microbiology,BIOL
+CHE314,Chemical Reaction Engineering,CHE
+CHEM100,Introduction to Chemical Sciences,CHEM
+CHEM333,Metabolism 1,CHEM
+CO367,Nonlinear Optimization,CO
+CO372,Portfolio Optimization Models,CO
+COMM321,Intermediate Accounting for Finance,COMM
+COOP6,Co-operative Work Term,COOP
+CS335,Computational Methods in Business and Finance,CS
+CS430,Applications Software Engineering,CS
+CS490,Information Systems Management,CS
+ECE486,Robot Dynamics and Control,ECE
+ENGL208A,Forms of Fantasy,ENGL
+ENVE115,Linear Algebra,ENVE
+ENVE275,Environmental Chemistry,ENVE
+GBDA205,Quantitative Methods,GBDA
+HIST109,Ten Days That Shook the World,HIST
+HIST223,The Holocaust in History,HIST
+INTEG251,Creative Thinking,INTEG
+ITAL102,Introduction to Italian Language 2,ITAL
+JAPAN301R,Third-Year Japanese 1,JAPAN
+LS271,Conflict Resolution,LS
+LS283,Business Law,LS
+ME548,Numerical Control of Machine Tools 1,ME
+MNS102,Techniques for Materials and Nanosciences,MNS
+MSCI422,Economic Impact of Technological Change and Entrepreneurship,MSCI
+MTE482,Mechatronics Engineering Project,MTE
+MUSIC216,Music Ensemble,MUSIC
+NE202,Nanomaterials and Environmental Impact; Nanotechnology Engineering Practice,NE
+PHIL240,Introduction to Formal Logic,PHIL
+PHIL251,Metaphysics and Epistemology,PHIL
+PHYS260L,Intermediate Physics Laboratory,PHYS
+PHYS380,Molecular and Cellular Biophysics,PHYS
+PLAN350,Research Methods for Planners,PLAN
+PMATH370,Chaos and Fractals,PMATH
+PSCI110,Introduction to Politics in the Contemporary World,PSCI
+PSCI257,Introduction to Middle East Politics,PSCI
+PSCI260,Canadian Government & Politics,PSCI
+PSYCH320,Language Development,PSYCH
+REC220,Program Management,REC
+SPAN201A,Intermediate Spanish 1,SPAN
+STAT316,Introduction to Statistical Problem Solving,STAT
+SYDE348,User Centred Design Methods,SYDE
+HEALTH100,Foundations of a Healthy Lifestyle,HEALTH
+AMATH331,Applied Real Analysis,AMATH
+AMATH373,Quantum Theory 1,AMATH
+BASE36,Introduction to Academic Speaking and Communication Strategies,BASE
+BIOL382,Computational Modelling of Cellular Systems,BIOL
+BIOL469,Genomics,BIOL
+BME355,Physiological Systems Modelling,BME
+BME381,Biomedical Engineering Ethics,BME
+CHEM221,Multi-Component Analysis,CHEM
+CHEM356,Introductory Quantum Mechanics,CHEM
+CIVE341,Transportation Engineering Applications,CIVE
+CO227,Introduction to Optimization (Non-Specialist Level),CO
+CO454,Scheduling,CO
+CO480,History of Mathematics,CO
+DRAMA101A,Introduction to the Theatre 1,DRAMA
+EARTH281,Geological Impacts on Human Health,EARTH
+ECE445,Integrated Digital Electronics,ECE
+ECON391,Equilibrium in Market Economies,ECON
+ENGL100A,Fiction,ENGL
+ENGL210E,Genres of Technical Communication,ENGL
+ERS275,Special Readings/Seminar on Select Topics,ERS
+GEOG368,Conservation/Resource Management of the Built Environment,GEOG
+HRM301,Strategic Human Resources Management,HRM
+INDEV101,Issues in International Development,INDEV
+INDEV200,The Political Economy of Development,INDEV
+KIN312,Introduction to Neurological Disorders,KIN
+KIN428,Upper Extremity Disorders,KIN
+MATBUS471,Fixed Income Securities,MATBUS
+ME599,Special Topics in Mechanical Engineering,ME
+NE101,Nanotechnology Engineering Practice,NE
+NE320L,Characterization of Materials Laboratory,NE
+PHIL202,Gender Issues,PHIL
+PHIL327,Philosophy of Law,PHIL
+PHYS360A,Modern Physics Laboratory 1,PHYS
+PLAN262,Introduction to Global Emerging Cities,PLAN
+PLAN340,Canadian Environmental Policy and Politics,PLAN
+PLAN362,Regional Planning and Economic Development,PLAN
+PSCI244,Irrational and Rational Choices in Politics,PSCI
+PSYCH340,Training and Development,PSYCH
+REC151,Foundations of Therapeutic Recreation Practice,REC
+REC205,Social Psychology of Leisure,REC
+SMF211,Dynamics of Dating,SMF
+SYDE202,Seminar,SYDE
+WS102,Contemporary Women's Issues in Canada,WS
+BUS231W,Business Law (WLU),BUS
+MGMT171,Fundamentals of Personal and Business Finance,MGMT
+HLTH217,Biochemistry for Health Sciences,HLTH
+AFM461,Taxation 2,AFM
+AMATH342,Computational Methods for Differential Equations,AMATH
+BASE34,Introduction to Academic Writing and Research Skills,BASE
+BASE44,Extended Academic Writing and Research Skills,BASE
+BET580,Consulting,BET
+BIOL443,Fermentation Biotechnology,BIOL
+BME384,Biomedical Transport: Biofluids and Mass Transfer,BME
+CHE361,Bioprocess Engineering,CHE
+CHE420,Introduction to Process Control,CHE
+CHEM331,Fundamentals of Metabolism 1,CHEM
+CIVE292,Engineering Economics,CIVE
+CIVE375,Environmental Engineering Principles,CIVE
+CS475,Computational Linear Algebra,CS
+DAC201,Designing Digital Media,DAC
+ECE260,Electromechanical Energy Conversion,ECE
+ECE405,Introduction to Quantum Mechanics,ECE
+ECE413,Digital Signal Processing,ECE
+ECE481,Digital Control Systems,ECE
+ENGL210J,Technical Editing,ENGL
+ENGL251,Literary Theory and Criticism,ENGL
+ERS283,Ontario Natural History: Species and Patterns,ERS
+FINE102,World Cinema and Visual Culture,FINE
+GBDA303,Data and Society,GBDA
+HLTH352,Sociology of Aging,HLTH
+HLTH355,Public Health Nutrition,HLTH
+KIN301,Human Anatomy of the Central Nervous System,KIN
+ME200B,Seminar,ME
+ME482,Mechanical Engineering Design Project 2,ME
+MSCI245,Databases and Software Design,MSCI
+MSCI253,Probability and Statistics 2,MSCI
+MSCI434,Supply Chain Management,MSCI
+MSCI454,Technical Entrepreneurship,MSCI
+MSCI541,Search Engines,MSCI
+NE226L,Laboratory Characterization Methods,NE
+PORT101,Introduction to Portuguese 1,PORT
+PSYCH307,Human Neuropsychology,PSYCH
+PSYCH334R,Theories of Individual Counselling Psychology,PSYCH
+SOC222,Juvenile Delinquency,SOC
+SPCOM228,Public Communication,SPCOM
+STAT450,Estimation and Hypothesis Testing,STAT
+SYDE462,Systems Design Capstone Project 2,SYDE
+SYDE533,Conflict Resolution,SYDE
+ECON260W,Int Microec Anal for Mgt (WLU),ECON
+BUS354W,Human Resources Management (WLU),BUS
+ECE457C,Reinforcement Learning,ECE
+MTE321,Design and Dynamics of Machines,MTE
+COMMST225,Interviewing,COMMST
+AFM322,Derivative Securities,AFM
+AFM492,Financial Statement Analysis,AFM
+ANTH241,Food as Culture,ANTH
+BET340,Essentials of Entrepreneurial Planning and Execution,BET
+BIOL335L,Molecular Biology Techniques,BIOL
+BME364,Engineering Biomedical Economics,BME
+CHE313,Applications of Heat and Mass Transfer,CHE
+CHE390,Chemical Engineering Lab 3,CHE
+CIVE199,Seminar,CIVE
+CO485,The Mathematics of Public-Key Cryptography,CO
+CS462,Formal Languages and Parsing,CS
+EARTH123L,Field Methods in Hydrology,EARTH
+EARTH223,Field Methods in Hydrology,EARTH
+EASIA204R,Korean Culture and Society,EASIA
+ECE403,Thermal Physics,ECE
+ECE493,Special Topics in Electrical and Computer Engineering,ECE
+ECON321,Introduction to Econometrics,ECON
+ECON323,Econometric Analysis 2,ECON
+ENGL208C,Studies in Children's Literature,ENGL
+ERS270,Introduction to Sustainable Agroecosystems,ERS
+ERS317,Waste Management,ERS
+GBDA301,Global Digital Project 1,GBDA
+GENE403,Interdisciplinary Design Project 1,GENE
+GEOG270,Remotely Piloted Aircraft Systems (RPAS) Knowledge Requirements,GEOG
+GEOG361,Food Systems and Sustainability,GEOG
+GEOG481,Geographic Information Systems Project,GEOG
+HIST236,Law and Society in the Middle Ages,HIST
+HLTH273,Contemporary Issues in Health 2,HLTH
+HLTH301,Applied Health Promotion: Theory and Community Engagement,HLTH
+HLTH360,Psychological Determinants of Health,HLTH
+HLTH410,Health Policy,HLTH
+INTEG320,The Museum Course: Research and Design,INTEG
+LS280,Social Statistics,LS
+ME435,Industrial Metallurgy,ME
+MNS211,Chemistry and the Solid State,MNS
+NE345,Photonic Materials and Devices,NE
+NE451,Simulation Methods,NE
+PHIL100,Introduction to Philosophy,PHIL
+PHYS434,Quantum Physics 3,PHYS
+PLAN309,Site Planning and Design Studio,PLAN
+PMATH331,Applied Real Analysis,PMATH
+PSCI283,International Political Economy,PSCI
+PSYCH306,Perception,PSYCH
+PSYCH353,Social Cognition,PSYCH
+SCI237,Exploring the Universe,SCI
+SDS220R,Changing Concepts of Childhood,SDS
+SE402,Seminar,SE
+SMF205,The Dark Side of Sexuality,SMF
+SOCWK300R,Canadian Social Welfare Policy,SOCWK
+REC219,Introduction to Event Studies,REC
+ACTSC363,Casualty and Health Insurance Mathematics 1,ACTSC
+BUS247W,Managerial Accounting (WLU),BUS
+MGMT220,Entrepreneurship and the Creative Workplace,MGMT
+MTE484,Control Applications,MTE
+AFM462,Specialized Topics in Taxation,AFM
+AFM479,Cases and Applications in Finance 2,AFM
+AMATH456,Calculus of Variations,AMATH
+BIOL208,Analytical Methods in Molecular Biology,BIOL
+BIOL325,Flowering Plants,BIOL
+BIOL370,Comparative Animal Physiology: Environmental Aspects,BIOL
+BME461,Biomedical Engineering Design Workshop 2,BME
+CHE331,Electrochemical Engineering,CHE
+CHE480,Process Analysis and Design,CHE
+CHINA202R,Second-Year Chinese 2,CHINA
+CIVE240,Engineering and Sustainable Development,CIVE
+CIVE491,Engineering Law and Ethics,CIVE
+CS431,Data-Intensive Distributed Analytics,CS
+CS436,Networks and Distributed Computer Systems,CS
+DAC202,Designing Digital Video,DAC
+EARTH333,Introductory Sedimentology,EARTH
+EARTH390,Methods in Geological Mapping,EARTH
+EASIA202R,Chinese Culture and Society,EASIA
+ECE231,Semiconductor Physics and Devices,ECE
+ECE400B,Electrical and Computer Engineering Practice,ECE
+ECON241,Introduction to Public Economics,ECON
+ENGL108G,Horror,ENGL
+ENGL294,Introduction to Critical Game Studies,ENGL
+ENGL309C,Contemporary Rhetoric,ENGL
+ERS335,Restoration Ecology,ERS
+FR250,Intermediate Spoken French,FR
+GBDA304,Marketing in the Digital World,GBDA
+GEOG356,Resources Management,GEOG
+GERON201,Aging and Health,GERON
+HLTH173,Contemporary Issues in Health 1,HLTH
+HLTH346,Human Nutrition,HLTH
+HLTH350,Principles of Occupational Health and Safety,HLTH
+HLTH373,Contemporary Issues in Health 3,HLTH
+INDEV202,Accounting for Development Organizations,INDEV
+ITALST265,The Mafia,ITALST
+KIN356,Sensory Systems Neuroscience,KIN
+KIN470,Seminar in Kinesiology,KIN
+KOREA201R,Second-Year Korean 1,KOREA
+LS222,Juvenile Delinquency,LS
+ME526,Fatigue and Fracture Analysis,ME
+MSCI401,Management Engineering Design Project 1,MSCI
+MUSIC271,Music Theory 2,MUSIC
+PACS203,A History of Peace Movements,PACS
+PLAN320,Economic Analyses for Regional Planning,PLAN
+PMATH446,Introduction to Commutative Algebra,PMATH
+PSYCH317,Child Psychopathology,PSYCH
+PSYCH390,Natural Science Advanced Research Methods Topics,PSYCH
+SCBUS423,Workshop 4: Strategic Management of Science and Business,SCBUS
+SCI255,The Biology of Aging,SCI
+SOC280,Social Statistics,SOC
+SOC302,Contemporary Sociological Theory,SOC
+SPAN201B,Intermediate Spanish 2,SPAN
+PHYS160L,Introductory Measurement Laboratory,PHYS
+AFM424,Equity Investments,AFM
+AFM471,Cases and Applications in Corporate Finance,AFM
+AFM472,Equity Investments,AFM
+AFM476,Corporate Financial Decision Making,AFM
+AMATH361,Continuum Mechanics,AMATH
+AMATH451,Introduction to Dynamical Systems,AMATH
+AVIA306,Professional Pilot Program Course 6,AVIA
+BIOL414,Parasitology,BIOL
+BIOL431,Bacterial Molecular Genetics,BIOL
+BIOL432,Molecular Biotechnology 2,BIOL
+BIOL450,Marine Biology,BIOL
+BIOL462,Applied Wetland Science,BIOL
+BME356L,Control Systems Laboratory,BME
+BME386,The Physics of Medical Imaging,BME
+BME411,Optimization and Numerical Methods,BME
+CHE571,Industrial Ecology,CHE
+CIVE310,Introduction to Structural Design,CIVE
+CIVE354,Geotechnical Engineering 2,CIVE
+CO442,Graph Theory,CO
+CS482,Computational Techniques in Biological Sequence Analysis,CS
+DAC204,Introduction to Game Design,DAC
+EARTH444,Applied Wetland Science,EARTH
+ECE202,Information Session,ECE
+ECE325,Microprocessor Systems and Interfacing for Mechatronics Engineering,ECE
+ECE462,Electrical Distribution Systems,ECE
+ECE475,Radio-Wave Systems,ECE
+ECON306,Macroeconomics,ECON
+ENBUS308,Sustainability Management Standards and Auditing,ENBUS
+ENGL100B,Poetry,ENGL
+ERS300,Social Ecological Systems Analysis,ERS
+ERS361,Food Systems and Sustainability,ERS
+FINE204,Topics in Studio Practice,FINE
+GEOE153,Earth Engineering,GEOE
+GEOG215,China: Diverse and Dynamic,GEOG
+GER201,Intermediate German 1,GER
+HIST115,Crusading in the Middle Ages,HIST
+HIST226,Canada in World War 2,HIST
+HIST232,A History of Peace Movements,HIST
+HLTH304,Health Communication,HLTH
+HLTH330,Health Informatics,HLTH
+INTEG275,Special Topics in Knowledge Integration,INTEG
+JAPAN302R,Third-Year Japanese 2,JAPAN
+KIN405,Exercise Management,KIN
+KIN446,Physiological and Biochemical Aspects of Nutrition and Health,KIN
+LS322,Field Research Methods,LS
+ME559,Finite Element Methods,ME
+MSCI100B,Seminar,MSCI
+MSCI445,Telecommunication Systems: from protocols to applications,MSCI
+MSCI452,Decision Making Under Uncertainty,MSCI
+MUSIC254,Monteverdi to Mozart: Music from 1600-1800,MUSIC
+NE250,Work-term Report 1,NE
+NE332,Quantum Mechanics,NE
+NE335,Soft Nanomaterials,NE
+PHYS476,Introduction to General Relativity,PHYS
+PMATH453,Functional Analysis,PMATH
+PSYCH356R,Personality,PSYCH
+REC252,Therapeutic Recreation: Physical Disabilities,REC
+RS236,Paul: Life and Letters,RS
+SI121R,Islam in the World,SI
+SMF213,Sexual Health and Well-Being,SMF
+SOC224R,Poverty in Canada and its Social Consequences,SOC
+SOC322,Field Research Methods,SOC
+SOC325,Sexuality and the Law,SOC
+SOC327,Policing in a Democratic Society,SOC
+SOCWK221R,Social Group Work,SOCWK
+SPCOM220,Performance Studies,SPCOM
+STV302,Information Technology and Society,STV
+SYDE556,Simulating Neurobiological Systems,SYDE
+ECE495,Autonomous Vehicles,ECE
+AFM335,Business Law for Financial Managers,AFM
+THPERF102,Introduction to Performance,THPERF
+THPERF100,Introduction to Theatre,THPERF
+ECE313,Digital Signal Processing,ECE
+ASL102R,American Sign Language 2,ASL
+MTE421,Linear and Nonlinear Electronics,MTE
+AFM323,Quantitative Foundations for Finance,AFM
+AFM480,Introduction to Organizational Behaviour,AFM
+AVIA205,Professional Pilot Program Course 5,AVIA
+BET400,Marketing Foundations for Early-stage Ventures,BET
+BIOL348L,Laboratory Methods in Microbiology,BIOL
+BIOL479,Population Genetics and Evolution,BIOL
+BME102,Seminar,BME
+BME362,Biomedical Engineering Design Workshop 1,BME
+CHE341,Introduction to Process Control,CHE
+CHE425,Strategies for Process Improvement and Product Development,CHE
+CHE482,Group Design Project,CHE
+CHEM140L,Introductory Scientific Calculations Laboratory,CHEM
+CHEM335L,Advanced Biochemistry Laboratory,CHEM
+CIVE343,Traffic Simulation Modelling and Applications,CIVE
+CIVE413,Structural Steel Design,CIVE
+CLAS252,Roman History,CLAS
+EARTH471,Mineral Deposits,EARTH
+ECE301,Information Session,ECE
+ECE340,Electronic Circuits 2,ECE
+ECE414,Wireless Communications,ECE
+ECE488,Multivariable Control Systems,ECE
+ECON332,International Finance,ECON
+ENGL108X,Literature and Medicine,ENGL
+ENVE214,Fluid Mechanics and Thermal Sciences,ENVE
+ERS253,Communities and Sustainability,ERS
+ESL101R,Oral Communications for Academic Purposes,ESL
+FINE319,Contemporary Art,FINE
+FR296,French Culture & Literature: Origins to 1715,FR
+GBDA212,Portfolio and Professional Communication,GBDA
+GEOG316,Multivariate Statistics,GEOG
+GEOG391,Field Research,GEOG
+GER271,German Thought and Culture: Objects,GER
+GERON255,The Biology of Aging,GERON
+HIST275,The Modern World in Historical Perspective,HIST
+HLTH290,An Introduction to Health Neuroscience,HLTH
+HUMSC101,Great Dialogues: Reflection and Action,HUMSC
+ITALST291,Italian Culture and Civilization 1,ITALST
+JAPAN111R,Japanese for Business 1,JAPAN
+JS233,The Holocaust and Film,JS
+KIN357,Motor Learning and Neuroplasticity,KIN
+KIN415,Clinical Neurophysiology,KIN
+LS325,Sexuality and the Law,LS
+LS351,Philosophy of Law,LS
+MNS201L,Materials and Nanosciences Laboratory,MNS
+MTE460,Mechatronic System Integration,MTE
+MTHEL300,Professional Communications in Statistics and Actuarial Science,MTHEL
+NE454A,Nano-electronics Laboratory 1,NE
+NE481,Nanomedicine and Nanobiotechnology,NE
+NE491,Nanostructured Materials,NE
+PHYS365,Mathematical Physics 2,PHYS
+PHYS475,Cosmology,PHYS
+PLAN484,Physical Infrastructure Planning,PLAN
+PSCI226,Modern Political Thought,PSCI
+PSYCH361,Evolutionary Psychology,PSYCH
+PSYCH363,Special Subjects,PSYCH
+PSYCH395,Research in Social Psychology,PSYCH
+REC251,Therapeutic Recreation: Developmental and Emotional Disabilities,REC
+REC371,Quantitative Data Analysis and Mobilization,REC
+RS170,Religion and Popular Culture,RS
+RS180,Love and Friendship,RS
+SOC201,Victims and Society,SOC
+SOC223R,Deviance: Perspectives and Processes,SOC
+SPCOM227,Leadership,SPCOM
+STAT440,Computational Inference,STAT
+STV203,Biotechnology and Society,STV
+UNIV101,Strategies and Skills for Academic Success,UNIV
+BUS481W,Business Policy 1 (WLU),BUS
+INDG201,The Indigenous Experience in Canada,INDG
+HRTS101,Introduction to Human Rights,HRTS
+CI100,Cultural Identities Today,CI
+KIN308,Cardiovascular and Pulmonary Physiology,KIN
+CS479,Neural Networks,CS
+ME572,Building Energy Analysis,ME
+HEALTH150,Foundations of Human Anatomy and Physiology,HEALTH
+AFM328,Investment Management - Junior Analyst,AFM
+AFM415,Special Topics,AFM
+AFM423,Topics in Financial Econometrics,AFM
+AFM477,Mergers and Acquisitions,AFM
+AMATH343,Discrete Models in Applied Mathematics,AMATH
+AMATH391,From Fourier to Wavelets,AMATH
+ARBUS303,Marketing Strategy,ARBUS
+BIOL360,Evolution 2: Fossil Record,BIOL
+BIOL444,Bacterial Pathogenesis,BIOL
+BIOL499A,Senior Honours Project,BIOL
+CHE383,Chemical Engineering Design Workshop,CHE
+CHEM313L,Inorganic Chemistry Laboratory 1,CHEM
+CHEM464,Spectroscopy in Organic Chemistry,CHEM
+CIVE414,Structural Concrete Design,CIVE
+CLAS230,Greek and Latin Scientific Terminology,CLAS
+CO471,Semidefinite Optimization,CO
+CROAT101,Elementary Croatian 1,CROAT
+CS448,Database Systems Implementation,CS
+CS497,Multidisciplinary Studies in Computer Science,CS
+DRAMA100,Introduction to Theatre,DRAMA
+EARTH336,Evolution 2: Fossil Record,EARTH
+EARTH437,Rock Mechanics,EARTH
+EASIA120R,Monsters and Magic in Japanese Popular Culture,EASIA
+ECE416,Advanced Topics in Networking,ECE
+ECE417,Image Processing,ECE
+ECE432,Radio Frequency Integrated Devices and Circuits,ECE
+ECE444,Integrated Analog Electronics,ECE
+ECE463,Design and Applications of Power Electronic Converters,ECE
+ECE474,Radio and Wireless Systems,ECE
+ECON207,Economic Growth and Development 1,ECON
+ECON372,Business Finance 2,ECON
+ECON421,Econometric Theory,ECON
+ENBUS211,Principles of Marketing for Sustainability Professionals,ENBUS
+ENGL201,The Short Story,ENGL
+ENGL275,Fiction and Film,ENGL
+ENGL293,Introduction to Digital Media Studies,ENGL
+ENGL494,Topics in Forms of Media and Critical Analysis,ENGL
+ENVE335,Decision Making for Environmental Engineers,ENVE
+ERS337,ReWilding and Ecological Restoration,ERS
+ERS346,Wildlife Ecology,ERS
+ERS383,Tropical Ecosystems,ERS
+GEOG307,Societal Adaptation to Climate Change,GEOG
+GER230,Vikings!,GER
+GERON245,Canadian Health Systems,GERON
+GRK101,Introductory Ancient Greek 1,GRK
+HIST230,Introduction to the Modern Middle East,HIST
+HIST262,Early Modern Europe 1450-1700,HIST
+HIST268,A Global History of Empires,HIST
+HIST358,Nazi Germany,HIST
+HLTH401,Global Health,HLTH
+HLTH432A,Honours Thesis (A),HLTH
+INDEV212,Problem-solving for Development,INDEV
+INDEV300,Culture and Ethics,INDEV
+KIN320,Task Analysis,KIN
+LS235,History of Ancient Law,LS
+LS272,Psychology and Law,LS
+LS344,Restorative Justice,LS
+ME300B,Seminar,ME
+MSCI551,Quality Management and Control,MSCI
+MTE545,Introduction to MEMS Fabrication,MTE
+NE381,Introduction to Nanoscale Biosystems,NE
+PACS315,Engineering and Peace,PACS
+PHARM129,Professional Practice 1,PHARM
+PHIL324,Social and Political Philosophy,PHIL
+PHYS454,Quantum Theory 2,PHYS
+PLAN440,Urban Services Planning,PLAN
+PMATH320,Euclidean Geometry,PMATH
+PMATH441,Algebraic Number Theory,PMATH
+PMATH451,Measure and Integration,PMATH
+PMATH465,Smooth Manifolds,PMATH
+PSCI250,The Comparative Politics of State and Nation,PSCI
+PSCI264,American Government and Politics,PSCI
+PSCI387,Globalization,PSCI
+PSYCH213R,Exceptional Children,PSYCH
+PSYCH492,Psychological Measurement: Foundations of Research and Practice,PSYCH
+REC203,Sociology of Sport,REC
+REC213,The Business of Professional Sport,REC
+RS240,History of Christianity,RS
+SCI267,Introduction to the Philosophy of Science,SCI
+SDS355R,Resilience and Social Support,SDS
+SMF208,Introduction to Systemic Therapies and Anti-Oppressive Practices,SMF
+SMF310,Sexual and Relational Ethics,SMF
+SOC204R,Sociology of Adolescence,SOC
+SOC207R,Sociology of Education,SOC
+SPCOM324,Small Group Communication,SPCOM
+STAT322,Sampling and Experimental Design (Non-Specialist Level),STAT
+SYDE332,Introduction to Complex Systems,SYDE
+SYDE401,Seminar,SYDE
+SYDE475,Image Processing,SYDE
+WS202,Women Across Cultures: Canadian and Global Perspectives,WS
+BUS375W,Operations Management (WLU),BUS
+ECON250W,Int Macroec Anlys for Mgt(WLU),ECON
+SEQ2,Co-op Sequence 2,SEQ
+BUS398W,Organizational Behaviour 2 (WLU),BUS
+SYDE572,Introduction to Pattern Recognition,SYDE
+AFM275,Corporate Finance,AFM
+ARABIC101R,Introduction to Arabic 1,ARABIC
+HIST101,Modern Global History,HIST
+AFM346,Applications of Predictive Analytics in Accounting and Finance,AFM
+PHYS449,Machine Learning in Physics,PHYS
+GSJ201,Gender and Social Justice in Popular Culture,GSJ
+SFM101,Introduction to Sustainability and Financial Management,SFM
+MSE261,Engineering Economics: Financial Management for Engineers,MSE
+ACTSC462,Introduction to Property and Casualty Pricing,ACTSC
+ANTH272,Issues in Contemporary Indigenous Communities in Canada,ANTH
+APPLS304R,Language Teaching Methodology,APPLS
+ARTS304,Designing Computer Simulations and Games for Learning,ARTS
+BET460,Business Negotiations,BET
+BIOL310,Invertebrate Zoology,BIOL
+BIOL371,Comparative Animal Physiology: Evolutionary Themes,BIOL
+BIOL455,Ecological Risk Assessment and Management,BIOL
+BIOL465,Structural Bioinformatics,BIOL
+BIOL483,Animal Cell Biotechnology,BIOL
+BIOL499B,Senior Honours Project,BIOL
+BME201,Seminar,BME
+BME356,Control Systems,BME
+CHEM228,Chemical Analysis,CHEM
+CHEM313,Main Group and Solid State Chemistry,CHEM
+CHEM363,Organic Process Chemistry,CHEM
+CHEM430,Special Topics in Biochemistry,CHEM
+CIVE400,Civil Engineering Design Project 1,CIVE
+CIVE507,Building Science and Technology,CIVE
+CLAS205,Medieval Society,CLAS
+CO430,Algebraic Enumeration,CO
+CO450,Combinatorial Optimization,CO
+CO466,Continuous Optimization,CO
+CO481,Introduction to Quantum Information Processing,CO
+CS467,Introduction to Quantum Information Processing,CS
+ECE360,Power Systems and Smart Grids,ECE
+ECE373,Radio Frequency and Microwave Circuits,ECE
+ECE423,Embedded Computer Systems,ECE
+ECE606,Algorithm Design and Analysis,ECE
+ECON392,Strategic Situations and Welfare Economics,ECON
+ECON423,Time Series Econometrics,ECON
+ENBUS407,Corporate Sustainability Accounting and Reporting,ENBUS
+ENGL208E,Women's Writing,ENGL
+ENGL315,Modern Canadian Literature,ENGL
+ENVE121,Computational Methods,ENVE
+ENVE330,Lab Analysis and Field Sampling Techniques,ENVE
+ENVE375,Physico-Chemical Processes,ENVE
+ERS234,Forest Ecosystems,ERS
+ERS400,Social-Ecological Approaches to Sustainability,ERS
+FR303,Introduction to Linguistics,FR
+GBDA211,Introduction to Global Business,GBDA
+GEOE353,Geotechnical Engineering 1,GEOE
+GEOG487,Management Issues in Geographic Information Systems,GEOG
+GER202,Intermediate German 2,GER
+HIST191,Special Topics in History,HIST
+HIST207,The Beatles and the Sixties,HIST
+HIST253,Canada: Cultures and Conflicts in the Colonial Era,HIST
+HIST258,The United States Since the Civil War Era,HIST
+HIST291,Special Topics in History,HIST
+HLTH443,Epidemiology of Communicable Diseases,HLTH
+HRM307,Labour Relations,HRM
+INDEV302,Development Agents,INDEV
+INTEG340,Research Design and Methods,INTEG
+ITALST292,Italian Culture and Civilization 2,ITALST
+KIN420,Occupational Biomechanics,KIN
+KIN471,Contemporary Issues in Kinesiology,KIN
+LAT102,Introductory Latin 2,LAT
+LS224,Victims and Society,LS
+LS291,Legal Writing,LS
+ME400A,Seminar,ME
+ME436,Welding and Joining Processes,ME
+ME533,Non-metallic and Composite Materials,ME
+ME555,Computer-Aided Design,ME
+ME564,Aerodynamics,ME
+ME595,Special Topics in Mechanical Engineering,ME
+MSCI200B,Seminar,MSCI
+MSCI555,Scheduling: Theory and Practice,MSCI
+NE408,Nanosystems Design Project,NE
+NE455A,Nano-electronics Laboratory 2,NE
+PACS329,Restorative Justice,PACS
+PHARM120,Pharmacy in an Evolving Healthcare System,PHARM
+PHARM126,Pharmaceutical Calculations,PHARM
+PHIL250A,Great Works: Ancient and Medieval,PHIL
+PHYS233,Introduction to Quantum Mechanics,PHYS
+PHYS360B,Modern Physics Laboratory 2,PHYS
+PHYS395,Biophysics of Therapeutic Methods,PHYS
+PHYS442,Electricity and Magnetism 3,PHYS
+PHYS474,Galaxies,PHYS
+PLAN474,Special Topics in Planning,PLAN
+PMATH467,Algebraic Topology,PMATH
+PSYCH226R,Positive Psychology,PSYCH
+PSYCH312R,Learning Disabilities,PSYCH
+REC311,Event Management,REC
+REC356,Leisure and Community,REC
+REC373,Qualitative Approaches to Leisure Research,REC
+REC405,Leisure and Well-being,REC
+RS112,Power and Corruption in the Bible (Old Testament),RS
+RS204,Buddhism,RS
+SDS242R,Religious Diversity and Social Development,SDS
+SDS312R,Homelessness and Public Policy,SDS
+SMF307,Conflict in Close Relationships,SMF
+SOC200,Sociology of Marriage and Family,SOC
+SOC232,Technology and Social Change,SOC
+STAT436,Introduction to the Analysis of Spatial Data in Health Research,STAT
+SYDE322,Software Design,SYDE
+WKRPT200S,Science Work-Term Report 2,WKRPT
+GEOG305,Fluvial Geomorphology,GEOG
+HLTH480,Competencies in Health,HLTH
+GSJ203,The Waves of Feminist Thought,GSJ
+CFM301,Financial Data Analytics,CFM
+HLTH335,Introduction to Statistical Analytics in Health,HLTH
+ARTS450,Global Engagement Seminar,ARTS
+AFM203,Introduction to Decision Support,AFM
+AFM474,Derivative Securities,AFM
+AMATH390,Mathematics and Music,AMATH
+ANTH106,Technologies of Being Human,ANTH
+ANTH355,Human Osteology,ANTH
+ARTS122,Quest for Meaning in the Modern World,ARTS
+BIOL349,Synthetic Biology Project Design,BIOL
+BIOL433,Plant Biotechnology,BIOL
+BIOL441,Advances in Immunology,BIOL
+BIOL442,Virology,BIOL
+BIOL484,Advanced Eukaryotic Genetics,BIOL
+BME184L,Engineering Biology Laboratory,BME
+BME283,Chemistry Principles,BME
+CHEM217,Chemical Bonding,CHEM
+CHEM228L,Analytical Chemistry Laboratory for Life Sciences,CHEM
+CHEM233L,Fundamentals of Biochemistry Laboratory,CHEM
+CHEM323,Analytical Instrumentation,CHEM
+CHEM404,Physicochemical Aspects of Natural Waters,CHEM
+CHEM433,Advanced Biochemistry,CHEM
+CLAS123,Classical Studies in Pop Culture,CLAS
+CLAS231,Studies in Ancient Greek Literature,CLAS
+CLAS261,Great Works: Ancient and Medieval,CLAS
+CO434,Combinatorial Designs,CO
+CO444,Algebraic Graph Theory,CO
+CO463,Convex Optimization and Analysis,CO
+COMM103,Principles of Economics,COMM
+COMM433,Income Tax for Finance Students,COMM
+DRAMA243,Technical Production 1,DRAMA
+EARTH331,Volcanology and Igneous Petrology,EARTH
+EARTH438,Engineering Geology,EARTH
+EARTH456,Numerical Methods in Hydrogeology,EARTH
+EASIA336R,Korean Pop Culture,EASIA
+ECE223,Digital Circuits and Systems,ECE
+ECE409,Cryptography and System Security,ECE
+ECE492A,Engineering Design Project,ECE
+ECON255,Introduction to the Economics of Natural Resources,ECON
+ECON406,Money and Banking 2,ECON
+ENGL108E,Gender and Representation,ENGL
+ENGL108T,Tolkien: From Book to Film,ENGL
+ENGL210H,Arts Writing,ENGL
+ENGL308,Race and Resistance,ENGL
+ENGL332,Topics in Creative Writing,ENGL
+ENGL392B,Visual Rhetoric,ENGL
+ENVE321,Advanced Mathematics,ENVE
+ENVE382,Hydrology and Open Channel Flow,ENVE
+ENVE391,Law and Ethics for Environmental and Geological Engineers,ENVE
+ENVE400,Environmental Engineering Design Project 1,ENVE
+ERS316,Urban Water and Wastewater Systems: Integrated Planning and Management,ERS
+FINE229,Hybrid Digital Media,FINE
+FR255,Business French 1,FR
+FR291,French Civilization 1,FR
+FR353,Introduction to Translation,FR
+GBDA310,Advanced User Experience Design and Research,GBDA
+GEOE354,Geotechnical Engineering 2,GEOE
+GEOG308,Human Dimensions of Global Climate Change,GEOG
+GEOG405,Wetlands,GEOG
+GEOG471,Remote Sensing Project,GEOG
+HIST103,Canadian History Through Biography,HIST
+HIST106,Canada at War,HIST
+HIST216,From Gutenberg to Zuckerberg: A (Long) History of the Internet,HIST
+HIST243,European Business History: From Workshop to Factory and Beyond,HIST
+HIST247,Mennonite History: A Survey,HIST
+HIST250,What is History? An Introduction to Historical Thinking,HIST
+HIST254,Canada Since 1867: A New Nation,HIST
+HIST269,Indigenous Histories in Canada,HIST
+HIST369,The Politics of Decolonization,HIST
+HLTH471,Psychopharmacology,HLTH
+INDEV387,Global Cities in Global Development,INDEV
+INTEG375,Special Topics in Knowledge Integration,INTEG
+KIN402,Environmental Physiology,KIN
+KIN403,Occupational Physiology,KIN
+KIN414,Clinical Exercise Physiology,KIN
+KIN418,Physical Activity and Aging,KIN
+LAT201,Intermediate Latin,LAT
+LS201,Women and the Law,LS
+LS236,Law and Society in the Middle Ages,LS
+LS286,Law in Popular Culture,LS
+ME400B,Seminar,ME
+ME401,Law for the Professional Engineer,ME
+MSCI300B,Seminar,MSCI
+MUSIC217,Music Ensemble,MUSIC
+MUSIC245,World Music,MUSIC
+MUSIC255,The Romantic Century: Beethoven and Beyond,MUSIC
+MUSIC316,Music Ensemble,MUSIC
+NE302,Nanotechnology Engineering Practice,NE
+NE455C,Nanobiosystems Laboratory 2,NE
+PACS302,Special Topics in Peace and Conflict Studies 2,PACS
+PACS323,Negotiation: Theories and Strategies,PACS
+PHARM110,Systems Approach to the Study of the Human Body 1,PHARM
+PHARM124,Pharmaceutics 1,PHARM
+PHARM127,Professional Communication Skills in Pharmacy Practice,PHARM
+PHIL200J,Aristotelian Logic,PHIL
+PHIL207J,Philosophy and J.R.R. Tolkien,PHIL
+PHIL284,Great Works: Modern,PHIL
+PHIL315,Ethics and the Engineering Profession,PHIL
+PHIL384,History of Modern Philosophy,PHIL
+PHYS383,Medical Physics,PHYS
+PHYS396,Biophysics of Imaging,PHYS
+PHYS460A,Advanced Laboratory 1,PHYS
+PHYS467,Introduction to Quantum Information Processing,PHYS
+PSCI299,Political Science Beyond the Classroom,PSCI
+PSYCH257R,Psychopathology,PSYCH
+PSYCH318,Psychosexual Organization,PSYCH
+PSYCH330,Criminal Profiling,PSYCH
+PSYCH357,Psychology of Good,PSYCH
+PSYCH372,Environmental Psychology,PSYCH
+PSYCH398,Research in Memory,PSYCH
+PSYCH420,An Introduction to Computational Neuroscience Methods,PSYCH
+PSYCH470,Special Topics in Applied Psychology,PSYCH
+REC105,Interdisciplinary Approaches to Leisure,REC
+REC372,Special Topics in Leisure Studies 3,REC
+REC383,Tourism Impacts - International Perspectives,REC
+REES272,Russian Thought and Culture,REES
+RS123,Monsters and Magic in Japanese Popular Culture,RS
+RS280,Cults and New Religious Movements,RS
+RUSS102,Elementary Russian 2,RUSS
+SDS311R,Indigenous Peoples and Canadian Public Policy,SDS
+SDS350R,Adult Life Crises and Events,SDS
+SDS400R,Comparative Social Policy,SDS
+SE499,Project,SE
+SI131R,Arab Culture,SI
+SOC207,Sociology of Education,SOC
+SOC210,Sociology of Sport,SOC
+SOC221,Research Methods,SOC
+SPAN301A,Spanish in Context 1,SPAN
+SPAN301B,Spanish in Context 2,SPAN
+SPCOM325,Organizational Communication,SPCOM
+SPCOM401,Advanced Gender and Sexuality in Communication,SPCOM
+SYDE334,Applied Statistics,SYDE
+SYDE384,Biological and Human Systems,SYDE
+SYDE433,Conflict Resolution,SYDE
+AVIA417,Aviation Safety,AVIA
+AFM345,Business Applications of Social Media Analytics,AFM
+ECON424,Machine Learning in Economics,ECON
+BIOL251,Fundamentals of Ecology,BIOL
+AFM444,Business Analytics Project Management,AFM
+AMATH453,Partial Differential Equations 2,AMATH
+AMATH475,Introduction to General Relativity,AMATH
+AMATH740,Numerical Analysis,AMATH
+ANTH233,Inuit Cultures,ANTH
+ARTS490,Fourth-Year Topics in Arts Disciplines,ARTS
+BIOL458,Quantitative Ecology,BIOL
+BIOL472,Cell Biology of Human Disease,BIOL
+BIOL475,Current Topics in Microbiology,BIOL
+BME401,Seminar,BME
+CHEM381,Bioorganic Chemistry,CHEM
+COMM421,Financial Statement Analysis,COMM
+CS398,Topics in Computer Science,CS
+DRAMA101B,Introduction to the Theatre 2,DRAMA
+DUTCH102,Elementary Dutch 2,DUTCH
+EARTH461,Near-Surface Geophysics,EARTH
+ECE451,Software Requirements Specification and Analysis,ECE
+ECE477,Photonic Devices and Systems,ECE
+ECE492B,Engineering Design Symposium,ECE
+ECE750,Special Topics in Computer Software,ECE
+ECON351,Labour Economics,ECON
+ECON483,Special Topics,ECON
+ENBUS311,Green Marketing,ENBUS
+ENBUS410,Engaging Stakeholders,ENBUS
+ENGL208H,Arthurian Legend,ENGL
+ENGL210I,Legal Writing,ENGL
+ENGL346R,Global Asian Diasporas,ENGL
+ENGL362,Shakespeare 1,ENGL
+ENVE225,Environmental Modelling,ENVE
+ENVE292,Economics for Environmental Engineering,ENVE
+FR292,French Civilization 2,FR
+FR300A,Advanced Spoken French,FR
+FR473,Aspects of French Canada,FR
+GBDA229,Hybrid Digital Media,GBDA
+GBDA401,Cross-Cultural Digital Business 1,GBDA
+GENE167,Introduction to Methods of Electrical and Computer Engineering,GENE
+GENE404,Interdisciplinary Design Project 2,GENE
+GEOG300,Geomorphology and the Southern Ontario Environment,GEOG
+GEOG333,Recreation Geography,GEOG
+GEOG394,Approaches to Research in Physical Geography,GEOG
+GEOG404,Soil Ecosystem Dynamics,GEOG
+GERON218,Psychology of Death and Dying,GERON
+HIST212,The Computing Society,HIST
+HIST235,History of Christianity,HIST
+HIST256,Murder in Canadian History,HIST
+HIST257,The United States Through the Civil War Era,HIST
+HIST260,Medieval Europe c.300-c.1500,HIST
+HLTH421,Nutritional Aspects of Chronic Disease,HLTH
+HUMSC102,Great Dialogues: Politics and Morality,HUMSC
+INTEG440,Computational Social Science,INTEG
+JAPAN272R,Japanese Culture and Society,JAPAN
+KIN391,Research Apprenticeship,KIN
+KIN425,Biomechanical Modelling,KIN
+KIN431,Research Proposal,KIN
+KOREA272R,Korean Culture and Society,KOREA
+LAT202,Selections from Latin Authors,LAT
+LS319,Negotiation: Theories and Strategies,LS
+LS327,Policing in a Democratic Society,LS
+LS330,Special Topics in Legal Studies,LS
+LS342,Migration and Legality,LS
+LS402,Perspectives on Legal Authority and Subjectivity,LS
+LS403,Socio-Legal Responses to Crime,LS
+LS496,Special Topics in Legal Studies,LS
+MNS321,Electrical and Optical Properties of Materials,MNS
+MSCI400A,Seminar,MSCI
+MSCI543,Analytics and User Experience,MSCI
+MUSIC260,The Symphony,MUSIC
+MUSIC370,Music Theory 3 (19th Century),MUSIC
+NE454B,Nano-instrumentation Laboratory 1,NE
+PHIL200A,Great Works of Western Philosophy: Part 1,PHIL
+PHIL255,Philosophy of Mind,PHIL
+PHIL319J,Ethics of End-of-Life Care,PHIL
+PHYS393,Physical Optics,PHYS
+PHYS468,Introduction to the Implementation of Quantum Information Processing,PHYS
+PMATH367,Topology,PMATH
+PMATH432,First Order Logic and Computability,PMATH
+PSCI255,Political Economy of Rich Countries,PSCI
+PSCI359,Politics of South Asia,PSCI
+PSYCH350,Political Psychology,PSYCH
+PSYCH352,Culture and Psychology,PSYCH
+PSYCH392,Research in Human Cognitive Neuroscience,PSYCH
+REC218,Social Entrepreneurship for Change,REC
+REC334,Introduction to Park Management,REC
+REC351,Therapeutic Recreation Facilitation Techniques,REC
+REC361,Aging and Leisure,REC
+REC380,Tourism Analysis,REC
+REES271,Russian Thought and Culture,REES
+RS152,Introduction to Christian Theology,RS
+RS266,Death and Dying,RS
+RS353,War and Peace in Christian Theology,RS
+SDS353R,The Evolution of Family Law in Canadian Society,SDS
+SI102R,Introduction to Arabic 2,SI
+SMF306,Intimate Relationships,SMF
+SOC120R,Fundamentals of Sociology,SOC
+SOC205,Social Problems,SOC
+SOC352,Sociology of Aging,SOC
+SOC355J,Power and Parenting,SOC
+SOC383,Ethnomethodology in Theory and Practice,SOC
+SOC417,Sociology of Higher Education,SOC
+SOCWK365R,Social Work in Health Care,SOCWK
+SPCOM431,Crisis Communication,SPCOM
+STAT454,Sampling Theory and Practice,STAT
+SYDE402,Seminar,SYDE
+SYDE544,Biomedical Measurement and Signal Processing,SYDE
+SYDE552,Computational Neuroscience,SYDE
+WS206,Women and the Law,WS
+WS207,Women and Entrepreneurship,WS
+HLTH427,Dementia Care,HLTH
+BUS473W,Investment Management (WLU),BUS
+SYDE548,User Centred Design Methods,SYDE
+SYDE584,Physiological Systems and Biomedical Design,SYDE
+PHIL321J,The Philosophy of Palliative Care,PHIL
+CHE225,Strategies for Process Improvement and Product Development,CHE
+RS228,Big Ideas of the Bible,RS
+MTHEL206,Introduction to Mathematics Education,MTHEL
+GSJ222,Gender Issues,GSJ
+GSJ371,Special Topics in Gender and Social Justice,GSJ
+HLTH358,Social Neuroscience 1: Mental Health and Addiction,HLTH
+BME588,Special Topics in Biomechanics,BME
+HLTH392,Mental Health Systems and Policy,HLTH
+GSJ260,Social Determinants of Health,GSJ
+EARTH355,Water: Data to Decisions,EARTH
+BET360,Design Frameworks for Social Ventures,BET
+ME574,Engineering Biomechanics,ME
+SCI266,Ancient Science,SCI
+CS453,Software and Systems Security,CS
+MTE182,Dynamics,MTE
+ACC611,External Reporting with Integration,ACC
+ACC690,Topics in Accounting,ACC
+ACTSC433,Analysis of Survival Data,ACTSC
+AFM416,Special Topics in Finance,AFM
+AFM473,Advanced Topics in Corporate Finance,AFM
+AFM501,Contemporary Issues in Assurance and Accounting,AFM
+AFM502,Control Systems in a Computer Environment,AFM
+AFM503,Issues and Problems in Accounting Practice,AFM
+AMATH383,Introduction to Mathematical Biology,AMATH
+AMATH463,Fluid Mechanics,AMATH
+AMATH731,Applied Functional Analysis,AMATH
+AMATH741,Numerical Solution of Partial Differential Equations,AMATH
+ANTH321,Archaeology of Complex Cultures,ANTH
+ANTH365,Human Evolution,ANTH
+ARCH260,Principles of Structures,ARCH
+ARCH272,Interior Environments: Acoustics and Lighting,ARCH
+AVIA270,Remotely Piloted Aircraft Systems (RPAS) Knowledge Requirements,AVIA
+BIOL364,Mathematical Modelling in Biology,BIOL
+BIOL366,Introduction to Bioinformatics,BIOL
+BIOL457,Analysis of Communities,BIOL
+BIOL476,Systems Neuroscience: From Neurons to Behaviour,BIOL
+BIOL477L,Techniques in Animal Physiology,BIOL
+BME353L,Control Systems Laboratory,BME
+CHE572,Air Pollution Control,CHE
+CHEM494A,Research Project,CHEM
+CHINA302R,Third-Year Chinese 2,CHINA
+CIVE306,Solid Mechanics 3,CIVE
+CIVE497,Special Topics in Civil Engineering,CIVE
+CIVE505,Structural Dynamics,CIVE
+CLAS242,Survey of Roman Art and Architecture,CLAS
+CLAS327,Astrology and Magic,CLAS
+CMW201,Worship Practicum 1,CMW
+CO327,Deterministic OR Models (Non-Specialist Level),CO
+CO739,Topics in Combinatorics,CO
+CO749,Topics in Graph Theory,CO
+COMM431,Project Management,COMM
+CROAT102,Elementary Croatian 2,CROAT
+CS860,Advanced Topics in Algorithms and Complexity,CS
+DAC302,Digital Storytelling Design,DAC
+DAC305,Designing and Evaluating Digital Games,DAC
+EARTH322,Ecohydrology,EARTH
+EARTH459,Chemical Hydrogeology,EARTH
+EASIA275R,Religion and Japanese Film,EASIA
+ECE100,Fundamentals of Electrical Engineering,ECE
+ECE104,Numerical Methods,ECE
+ECE354,Real-time Operating Systems,ECE
+ECE404,Geometrical and Physical Optics,ECE
+ECE428,Computer Networks and Security,ECE
+ECE456,Database Systems,ECE
+ECE636,Advanced Analog Integrated Circuits,ECE
+ECE686,Filtering and Control of Stochastic Linear Systems,ECE
+ECON256,Introduction to Health Economics,ECON
+ECON311,Mathematical Economics,ECON
+ECON408,Business Cycles,ECON
+ECON443,Advanced Public Economics,ECON
+ECON451,Law and Economics,ECON
+ECON484,Special Topics,ECON
+EMLS104R,Reading and Listening for Academic Purposes,EMLS
+ENGL208G,Gothic Monsters,ENGL
+ENGL304,Designing Digital Sound,ENGL
+ENGL306G,Critical Discourse Analysis,ENGL
+ENGL320,History and Theory of Pre-Internet Media,ENGL
+ENGL363,Shakespeare 2,ENGL
+ENVE573,Contaminant Transport,ENVE
+ENVE577,Engineering for Solid Waste Management,ENVE
+ERS265,Water: Environmental History and Change,ERS
+ERS318,Photography for Sustainability,ERS
+ERS320,Economics and Sustainability,ERS
+ERS365,Water Governance,ERS
+ERS484,Soil Ecosystem Dynamics,ERS
+FINE222,Principles of Sculpture,FINE
+FINE228,Design and Imaging,FINE
+FR424,16th-Century French Literature,FR
+FR452,Advanced French Language,FR
+GENE397,Engineering Study Abroad,GENE
+GENE499,Special Topics in Fourth-Year Engineering,GENE
+GEOG323,Tourism Impacts - International Perspectives,GEOG
+GEOG411,The Digital Economy,GEOG
+GEOG420,Ice Sheets and Glaciers,GEOG
+GER211,Contemporary German Language and Culture,GER
+HIST209,Smallpox to Medicare: Canadian Medical History,HIST
+HIST210,History of Ancient Law,HIST
+HIST225,History of Education in Canada,HIST
+HIST389,Canada in World Affairs,HIST
+HIST391,Special Topics in History,HIST
+HLTH218,Psychology of Death and Dying,HLTH
+INTEG210,Making Collaboration Work,INTEG
+ISS150R,Lifespan Processes: The Normal Events,ISS
+ITAL201,Intermediate Italian 1,ITAL
+KIN307,Methods in Biochemical and Physiological Research,KIN
+KIN342,Nutrition and Aging,KIN
+KIN453,Applied Sport Psychology,KIN
+KOREA202R,Second-Year Korean 2,KOREA
+KOREA301R,Third-Year Korean 1,KOREA
+LS273,Children's Rights in Canada,LS
+LS328,Trafficking and Financial Crime,LS
+ME215,Structure and Properties of Materials,ME
+ME452,HVAC Load Analysis and Design Fundamentals,ME
+ME524,Advanced Dynamics and Vibrations,ME
+ME557,Combustion 1,ME
+ME563,Turbomachines,ME
+MEDVL115,Crusading in the Middle Ages,MEDVL
+MSCI421,Strategic Management of Technology,MSCI
+MSCI433,Applications of Management Engineering,MSCI
+MSCI491,Work-term Report,MSCI
+MTE546,Multi-sensor Data Fusion,MTE
+MTE598,Special Topics in Mechatronics Engineering: Hardware Systems,MTE
+MUSIC222,Conducting 1,MUSIC
+MUSIC232,Music as a Global Phenomenon,MUSIC
+MUSIC390,Special Topics in Music,MUSIC
+NE409,Nanosystems Design Project and Symposium,NE
+NE452,Special Topics in Nanoscale Simulations,NE
+PACS325,Refugees and Forced Migration,PACS
+PHIL209,Philosophy in Literature,PHIL
+PHIL210J,Human Nature,PHIL
+PHIL252,Quantum Mechanics for Everyone,PHIL
+PHIL283,Great Works: Ancient and Medieval,PHIL
+PHIL363,Philosophy of Language,PHIL
+PHIL371,Special Topics,PHIL
+PHYS246,Physical Optics,PHYS
+PHYS437A,Research Project,PHYS
+PHYS444,Introduction to Particle Physics,PHYS
+PHYS461,Nanophysics,PHYS
+PMATH440,Analytic Number Theory,PMATH
+PORT102,Introduction to Portuguese 2,PORT
+PSCI355,Russia and its Neighbours,PSCI
+PSYCH236,A Psychological Analysis of Human Sexuality,PSYCH
+PSYCH308,Psychology of Reading,PSYCH
+PSYCH314,Cognitive Development,PSYCH
+PSYCH323R,Psychopathology,PSYCH
+PSYCH335,Developmental Neuropsychology,PSYCH
+PSYCH342,The Psychology of Groups and Teams,PSYCH
+PSYCH355,Intergroup Relations,PSYCH
+PSYCH447,Seminar in Cognitive Science,PSYCH
+PSYCH457,Honours Seminar in Personality and Clinical Psychology,PSYCH
+PSYCH464,Advanced Research Apprenticeship,PSYCH
+REC253,Practicum in Therapeutic Recreation,REC
+REC362,Sociology of Aging,REC
+REC480,Advanced Seminar in Tourism Development,REC
+REES260,Special Topics,REES
+RS101,Introductory Ancient Greek 1,RS
+RS210,Judaism,RS
+RS216,Islam,RS
+RS255,Roman Catholicism,RS
+RS270R,Religion in Popular Film,RS
+RS357,The Church's Song,RS
+SCI395,Science Study Abroad Program,SCI
+SDS231R,Introduction to Social Policy Processes,SDS
+SDS240R,Art and Society,SDS
+SDS354R,Values and Contemporary Families,SDS
+SDS367R,Aging and Social Development,SDS
+SDS440R,Optimal Living,SDS
+SDS441R,Popular Culture and Social Change in the Radical Imagination,SDS
+SDS450R,Senior Seminar in Special Topics,SDS
+SDS496R,Applied Apprenticeship in Social Development Studies,SDS
+SI231R,Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts,SI
+SOC240,Terrorism,SOC
+SOC253,Demographic Change in Canada,SOC
+SOC334,Public Policy,SOC
+SPAN228,Introduction to Latin American Literature,SPAN
+SPCOM102,Introduction to Performance,SPCOM
+SPCOM432,Conflict Management,SPCOM
+STAT437,Statistical Methods for Life History Analysis,STAT
+STV306,Biotechnology and Society,STV
+SYDE302,Seminar,SYDE
+BIOL451,Advanced Ecology and Evolution,BIOL
+AVIA416,Aviation Sustainability,AVIA
+SYDE532,Introduction to Complex Systems,SYDE
+CHINA401R,Introduction to Classical Chinese 1,CHINA
+NE488,Biomaterials and Biomedical Design,NE
+SPCOM201,Introduction to Gender and Sexuality in Communication,SPCOM
+PHIL262J,Postmodernist Philosophy,PHIL
+NE487,Microfluidic and Nanobiotechnological Systems,NE
+PLAN211,Design Studio Foundations,PLAN
+SCI252,Quantum Mechanics for Everyone,SCI
+MOHAWK101R,Mohawk Language 1,MOHAWK
+AE377,Structural Timber Design,AE
+NE486,Biosensors,NE
+THPERF243,Technical Production 1,THPERF
+RS270,Religion in Popular Film,RS
+ENBUS304,Circular Economy,ENBUS
+CO431,Symmetric Functions,CO
+HLTH455,Disease Mapping and Geographic Information Systems,HLTH
+KIN360,Concussion,KIN
+SFM102,Sustainability Economics,SFM
+ENGL200C,English Literatures 3,ENGL
+COMMST101,Theories of Communication,COMMST
+CO432,Information Theory and Applications,CO
+MTE252,Linear Systems and Signals,MTE
+ACC606,Business Valuations,ACC
+ACC610,Public Accounting Practice,ACC
+ACC623,Business Technology Law,ACC
+ACC650,Assurance and Governance,ACC
+ACC680,Systems and Analysis for Management Decision-making,ACC
+ACC685,Performance Management,ACC
+ACINTY610,Academic Integrity Module,ACINTY
+ACINTY640,Academic Integrity Module,ACINTY
+AMATH477,Stochastic Processes for Applied Mathematics,AMATH
+ANTH300,Practicing Anthropology,ANTH
+ANTH303,Anthropology of Digital Media,ANTH
+ANTH305,Paleopathology of Health and Disease,ANTH
+ANTH320,Hunter-Gatherer Archaeology,ANTH
+ANTH348,Anthropology of Tourism,ANTH
+ANTH377,Dental Anthropology,ANTH
+ANTH389,Special Topics in Anthropology,ANTH
+ARCH293,Design Studio,ARCH
+ARTS290,Second-Year Topics in Arts Disciplines,ARTS
+ARTS366,Arts Study Abroad,ARTS
+BET450,Leadership,BET
+BIOL321,Plant Anatomy and Morphogenesis,BIOL
+BIOL323,Plant Physiology,BIOL
+BIOL452,Quantitative Fisheries Biology,BIOL
+BIOL456,Population Biology,BIOL
+BIOL489,Arctic Ecology,BIOL
+CHE514,Fundamentals of Petroleum Production,CHE
+CHEM239,Introduction to Biological Systems,CHEM
+CHEM339,Methods and Tools for Biosyntheses,CHEM
+CHINA272R,Chinese Culture and Society,CHINA
+CHINA301R,Third-Year Chinese 1,CHINA
+CIVE401,Civil Engineering Design Project 2,CIVE
+CIVE415,Structural System Design,CIVE
+CLAS210,History of Ancient Law,CLAS
+CLAS241,Survey of Greek Art and Architecture,CLAS
+CLAS486,Senior Seminar,CLAS
+CMW202,Worship Practicum 2,CMW
+COGSCI600,Seminar in Cognitive Science,COGSCI
+CS487,Introduction to Symbolic Computation,CS
+CS761,Randomized Algorithms,CS
+CS763,Computational Geometry,CS
+DRAMA221,Performing Text,DRAMA
+EASIA205R,Religions of East Asia,EASIA
+EASIA220R,The History of East Asian Communities in Canada,EASIA
+EASIA277R,International Relations of East Asia,EASIA
+EASIA302R,Chinese Foreign Policy Since 1949,EASIA
+ECE433,Fabrication Technologies for Micro and Nano Devices,ECE
+ECE610,Broadband Communication Networks,ECE
+ECE630,Physics and Models of Semiconductor Devices,ECE
+ECE642,Radio Frequency Integrated Circuit Design,ECE
+ECE654,Software Reliability Engineering,ECE
+ECE682,Multivariable Control Systems,ECE
+ECE730,Special Topics in Solid State Devices,ECE
+ECE760,Special Topics in Power Systems and High Voltage Engineering,ECE
+ECON341,Public Economics: Expenditure,ECON
+ECON366,Gender and Economics,ECON
+ECON491,Advanced Microeconomics,ECON
+ENBUS375,Special Topics in Environment and Business,ENBUS
+ENGL108B,Global English Literatures,ENGL
+ENGL408A,Writing for the Media,ENGL
+ENGL408B,The Discourse of Advertising,ENGL
+ENGL409A,Rhetoric of Argumentation,ENGL
+ENVE430,Environmental Engineering Project 1,ENVE
+ENVE583,Design of Urban Water Systems,ENVE
+ENVS433,Ecotourism and Communities,ENVS
+ERS225,Gendering Environmental Politics,ERS
+ERS294,The Sacred Earth: Religion and Ecology,ERS
+ERS401,Translational Ecology,ERS
+ERS402,Senior Honours Research Seminar,ERS
+ERS431,Ecological Consequences of Climate Change,ERS
+FINE212,Renaissance Art: 1300-1500,FINE
+FINE243,Topics in Fine Arts Experiential Learning,FINE
+FR471,Francophone Literatures in Canada,FR
+GEOE224,Probability and Statistics,GEOE
+GEOE280,Fluid Mechanics,GEOE
+GEOG409,Energy Balance Climatology,GEOG
+GEOG483,Civic Technology and Digital Infrastructures,GEOG
+GER303,Interactive German Language and Culture,GER
+GER334,Exploring German Literature,GER
+GRK201,Intermediate Greek,GRK
+HIST203,Methods of Public History,HIST
+HIST227,The French Revolution and Napoleonic Europe,HIST
+HIST359,Fascism Beyond Germany,HIST
+JS130,Power and Corruption in the Bible (Old Testament),JS
+JS203,Jewish Responses to the Holocaust,JS
+JS215,Visions of Israel in Judaism: From Biblical to Modern Times,JS
+KIN326,Forensic Biomechanics,KIN
+KIN432,Research Project,KIN
+KIN433,Senior Essay,KIN
+KIN472,Directed Study in Special Topics,KIN
+LS237,Canadian Legal History,LS
+LS306,Juvenile Justice,LS
+LS326,Punishment and Society,LS
+LS428,Sentencing as a Social Process,LS
+ME562,Experimental Methods in Fluids,ME
+ME571,Air Pollution,ME
+ME760,Special Topics in Thermal Engineering,ME
+MSCI435,Advanced Optimization Techniques,MSCI
+MSCI603,Principles of Operations Research,MSCI
+MSCI605,Organizational Behaviour,MSCI
+MSCI609,Quantitative Data Analysis for Management Sciences,MSCI
+MUSIC261,Opera,MUSIC
+MUSIC363,The Church's Song,MUSIC
+NE499,Special Topics in Nanostructured Materials,NE
+PACS313,Community Conflict Resolution,PACS
+PACS332,Ethics of Peacebuilding,PACS
+PHARM353,Entrepreneurship in Pharmacy,PHARM
+PHIL204J,Philosophy and Culture,PHIL
+PHIL206,Philosophy of Sport,PHIL
+PHIL320,Topics in Value Theory,PHIL
+PHIL331,Philosophy of Art,PHIL
+PHIL402,Studies in Feminist Philosophy/Philosophy of Sex,PHIL
+PHIL407,Studies in 19th- and 20th-Century Philosophy,PHIL
+PHIL420,Studies in Ethics,PHIL
+PHYS483,Advanced Therapeutic Concepts in Oncology and Medical Physics,PHYS
+PHYS701,Quantum Mechanics 1,PHYS
+PHYS785,Introduction to Quantum Field Theory for Cosmology,PHYS
+PLAN351,Multivariate Statistics,PLAN
+PMATH464,Introduction to Algebraic Geometry,PMATH
+PMATH753,Functional Analysis,PMATH
+PSCI254,The Political Documentary,PSCI
+PSCI334,Public Policy,PSCI
+PSCI402,Politics of International Trade,PSCI
+PSYCH120R,Introductory Psychology I,PSYCH
+PSYCH453,Honours Seminar in Developmental Psychology,PSYCH
+RS213,Kabbalah: Jewish Mysticism,RS
+RS220,Religion and Politics,RS
+RS232,The Hebrew Prophets,RS
+RS250,History of Christian Thought,RS
+RS251,Catholic Social Thought,RS
+RS283,Religion and Ethics,RS
+RS342,Heresy and Religious Crises in Late Medieval Europe,RS
+SDS358R,Child Maltreatment: Identification and Prevention,SDS
+SI250R,The History of Islamic Civilization from Late Antiquity to 1300,SI
+SI251R,The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires,SI
+SMF212,Navigating Sexuality and Relationships in Mid/Later Life,SMF
+SMF305,Social Issues and Controversies in Human Sexuality,SMF
+SMF308,Relational Therapy,SMF
+SMF311,Communication and Counselling Skills,SMF
+SOC261,Religion in America,SOC
+SOC304,Media and Crime,SOC
+SOC326,Punishment and Society,SOC
+SOC418,Social Theory and Popular Culture,SOC
+SOC431,Science as Practice and Culture,SOC
+SPAN218,Parallel Revolutions in a Nascent Continent,SPAN
+SPAN290,Approaches to Translation,SPAN
+STAT435,Statistical Methods for Process Improvements,STAT
+STAT438,Advanced Methods in Biostatistics,STAT
+STAT631,Introduction to Statistical Methods in Health Informatics,STAT
+SWREN300R,Canadian Social Welfare Policy,SWREN
+SWREN414R,Interviewing and Assessment in Social Work Practice,SWREN
+SWREN422R,Macro Practice: Critical Considerations of Community Organization,SWREN
+SWREN423R,Social Work Knowledge and Skills for Diverse Group Work Practice,SWREN
+SYDE673,Video Processing and Analysis,SYDE
+SYDE780,Selected Topics in Engineering Sciences,SYDE
+SVENT225P,Fundamentals of Social Innovation and Social Entrepreneurship,SVENT
+SVENT325P,Leading a social venture,SVENT
+BUS491W,Business Policy 2 (WLU),BUS
+BUS461AW,Computational Case Analysis (WLU),BUS
+SDS410R,Queer and Trans Studies,SDS
+PHYS349,Advanced Computational Physics,PHYS
+GER330,Infamous Lovers,GER
+GSJ410,Eighteenth-Century Women Writers,GSJ
+HIST322,Global History of the Detention Camp,HIST
+GSJ472,Special Topics in Intersectional Feminist Theory,GSJ
+SOC436,Alcohol and Well-Being,SOC
+AE300,Architectural Engineering Studio 1,AE
+THPERF149,Introduction to Critical Design Practices,THPERF
+GSJ380,Applied Public Health Ethics,GSJ
+THPERF220,Performance Studies,THPERF
+ENVS210,Future Studies,ENVS
+KIN455,Brain and Behavioural Development,KIN
+SPAN317,Afro-Latin America,SPAN
+BLKST101,Foundations of Black Studies,BLKST
+GEOG357,River Management,GEOG
+ENGL225,Introduction to Anti-Racist Communication,ENGL
+BIOL220,Introduction to Plant Structure and Function,BIOL
+COMMST490,Selected Seminars in Speech Communication,COMMST
+CHINA180R,Conversational Chinese,CHINA
+COMMST434,The Discourse of Dissent,COMMST
+GEOG457,Wildfire and Landscape Change,GEOG
+BME530,The Healthcare System,BME
+COMMST435,Games and Culture,COMMST
+LS350,Love and the Law,LS
+COMMST475,Communication Ethics,COMMST
+AMATH445,Scientific Machine Learning,AMATH
+MSE442,Impact of Information Systems on Organizations and Society,MSE
+MSE251,Probability and Statistics 1,MSE
+MSE240,Algorithms and Data Structures,MSE
+SYDE577,Deep Learning,SYDE
+PSYCH352R,Culture and Psychology,PSYCH
+MSE311,Organizational Design and Technology,MSE
+MSE271,Advanced Calculus and Numerical Methods,MSE
+AFM417,Special Topics in Accounting,AFM
+ECON472,Senior Honours Essay,ECON
