@@ -1,23 +1,11 @@
-+----------+------------------------------------+---------+
-| cId      | name                               | subject |
-+----------+------------------------------------+---------+
-| CS 115   | Introduction to Computer Science 1 | CS      |
-| CS 341   | Test                               | CS      |
-| CS 350   | Operating Systems                  | CS      |
-| MATH 135 | Algebra for Honours Mathematics    | MATH    |
-| MATH 137 | Calculus 1 for Honours Mathematics | MATH    |
-| STAT 230 | Probability                        | STAT    |
-| STAT 231 | Statistics                         | STAT    |
-+----------+------------------------------------+---------+
++-------+------------+---------+
+| cId   | name       | subject |
++-------+------------+---------+
+| CS341 | Algorithms | CS      |
++-------+------------+---------+
 
-+----------+------------------------------------+---------+
-| cId      | name                               | subject |
-+----------+------------------------------------+---------+
-| CS 115   | Introduction to Computer Science 1 | CS      |
-| CS 341   | Algorithms                         | CS      |
-| CS 350   | Operating Systems                  | CS      |
-| MATH 135 | Algebra for Honours Mathematics    | MATH    |
-| MATH 137 | Calculus 1 for Honours Mathematics | MATH    |
-| STAT 230 | Probability                        | STAT    |
-| STAT 231 | Statistics                         | STAT    |
-+----------+------------------------------------+---------+
++-------+--------------+---------+
+| cId   | name         | subject |
++-------+--------------+---------+
+| CS341 | Algorithms I | CS      |
++-------+--------------+---------+

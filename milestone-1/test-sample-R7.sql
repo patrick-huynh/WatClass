@@ -2,14 +2,16 @@ SELECT
   *
 FROM
   Courses
-  JOIN CourseRatings ON Courses.cId = CourseRatings.cId;
+  JOIN CourseRatings ON Courses.cId = CourseRatings.cId
+WHERE
+  subject = "ECON";
 
 INSERT INTO
   Courses (cId, name, subject)
 VALUES
   (
-    'ECON 101',
-    'Introduction to Microeconomics',
+    'ECON103',
+    'Introduction to Microeconomics II',
     'ECON'
   );
 
@@ -22,10 +24,12 @@ INSERT INTO
     difficulty
   )
 VALUES
-  ('ECON 101', 4, 1, 2, 2);
+  ('ECON103', 4, 1, 2, 2);
 
 SELECT
   *
 FROM
   Courses
-  JOIN CourseRatings ON Courses.cId = CourseRatings.cId;
+  JOIN CourseRatings ON Courses.cId = CourseRatings.cId
+WHERE
+  subject = "ECON";

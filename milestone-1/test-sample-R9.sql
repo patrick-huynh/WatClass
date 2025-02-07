@@ -1,15 +1,19 @@
 SELECT
   *
 FROM
-  Courses;
+  Courses
+WHERE
+  cId = "CS341";
 
 UPDATE Courses
 SET
-  name = "Algorithms"
+  name = "Algorithms I"
 WHERE
-  cId = "CS 341";
+  cId = "CS341";
 
 SELECT
   *
 FROM
-  Courses;
+  Courses
+WHERE
+  cId = "CS341";
