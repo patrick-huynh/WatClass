@@ -1,1004 +1,115 @@
-+-----------+------------------------------------------------------------------------+---------+
-| cId       | name                                                                   | subject |
-+-----------+------------------------------------------------------------------------+---------+
-| ACC606    | Business Valuations                                                    | ACC     |
-| ACC610    | Public Accounting Practice                                             | ACC     |
-| ACC611    | External Reporting with Integration                                    | ACC     |
-| ACC623    | Business Technology Law                                                | ACC     |
-| ACC650    | Assurance and Governance                                               | ACC     |
-| ACC680    | Systems and Analysis for Management Decision-making                    | ACC     |
-| ACC685    | Performance Management                                                 | ACC     |
-| ACC690    | Topics in Accounting                                                   | ACC     |
-| ACINTY610 | Academic Integrity Module                                              | ACINTY  |
-| ACINTY640 | Academic Integrity Module                                              | ACINTY  |
-| ACTSC221  | Introductory Financial Mathematics (Non-Specialist Level)              | ACTSC   |
-| ACTSC231  | Introductory Financial Mathematics                                     | ACTSC   |
-| ACTSC232  | Life Contingencies 1                                                   | ACTSC   |
-| ACTSC331  | Life Contingencies 2                                                   | ACTSC   |
-| ACTSC363  | Casualty and Health Insurance Mathematics 1                            | ACTSC   |
-| ACTSC371  | Introduction to Investments                                            | ACTSC   |
-| ACTSC372  | Investment Science and Corporate Finance                               | ACTSC   |
-| ACTSC431  | Casualty and Health Insurance Mathematics 2                            | ACTSC   |
-| ACTSC432  | Credibility and Risk Theory                                            | ACTSC   |
-| ACTSC433  | Analysis of Survival Data                                              | ACTSC   |
-| ACTSC445  | Quantitative Enterprise Risk Management                                | ACTSC   |
-| ACTSC446  | Mathematics of Financial Markets                                       | ACTSC   |
-| ACTSC462  | Introduction to Property and Casualty Pricing                          | ACTSC   |
-| AE300     | Architectural Engineering Studio 1                                     | AE      |
-| AE377     | Structural Timber Design                                               | AE      |
-| AFM101    | Introduction to Financial Accounting                                   | AFM     |
-| AFM102    | Introduction to Managerial Accounting                                  | AFM     |
-| AFM111    | Professional Pathways and Problem-Solving                              | AFM     |
-| AFM112    | Analytic Methods for Business 1                                        | AFM     |
-| AFM113    | Analytic Methods for Business 2                                        | AFM     |
-| AFM121    | Introduction to Global Financial Markets                               | AFM     |
-| AFM123    | Accounting Information for Managers                                    | AFM     |
-| AFM131    | Introduction to Business in North America                              | AFM     |
-| AFM132    | Introduction to Business Stages                                        | AFM     |
-| AFM182    | Foundations for Management Accounting                                  | AFM     |
-| AFM191    | Foundations for Financial Reporting                                    | AFM     |
-| AFM201    | Introduction to Professional Practice                                  | AFM     |
-| AFM202    | Introduction to Public Practice                                        | AFM     |
-| AFM203    | Introduction to Decision Support                                       | AFM     |
-| AFM205    | Introduction to Financial Services                                     | AFM     |
-| AFM206    | Introduction to Tax                                                    | AFM     |
-| AFM207    | Introduction to Performance Analytics                                  | AFM     |
-| AFM208    | Introduction to Assurance                                              | AFM     |
-| AFM211    | Connections to Business Context                                        | AFM     |
-| AFM212    | Financial Analysis and Planning                                        | AFM     |
-| AFM231    | Business Law                                                           | AFM     |
-| AFM241    | Impact of Technology on Business                                       | AFM     |
-| AFM244    | Analytic Methods for Business 3                                        | AFM     |
-| AFM271    | Managerial Finance 1                                                   | AFM     |
-| AFM272    | Global Capital Markets and Financial Analytics                         | AFM     |
-| AFM273    | Financial Instruments and Capital Markets                              | AFM     |
-| AFM274    | Introduction to Corporate Finance                                      | AFM     |
-| AFM275    | Corporate Finance                                                      | AFM     |
-| AFM280    | Introduction to Organizational Behaviour                               | AFM     |
-| AFM291    | Intermediate Financial Accounting 1                                    | AFM     |
-| AFM311    | Connections to Ethical Context                                         | AFM     |
-| AFM321    | Personal Financial Planning and Taxation                               | AFM     |
-| AFM322    | Derivative Securities                                                  | AFM     |
-| AFM323    | Quantitative Foundations for Finance                                   | AFM     |
-| AFM328    | Investment Management - Junior Analyst                                 | AFM     |
-| AFM331    | Business Strategy                                                      | AFM     |
-| AFM333    | International Business                                                 | AFM     |
-| AFM335    | Business Law for Financial Managers                                    | AFM     |
-| AFM341    | Accounting Information Systems                                         | AFM     |
-| AFM345    | Business Applications of Social Media Analytics                        | AFM     |
-| AFM346    | Applications of Predictive Analytics in Accounting and Finance         | AFM     |
-| AFM351    | Audit Strategy                                                         | AFM     |
-| AFM361    | Taxation 1                                                             | AFM     |
-| AFM362    | Corporate Taxation                                                     | AFM     |
-| AFM363    | Taxation 2 - Integration                                               | AFM     |
-| AFM371    | Managerial Finance 2                                                   | AFM     |
-| AFM372    | Corporate Finance 2                                                    | AFM     |
-| AFM373    | Cases and Applications in Corporate Finance                            | AFM     |
-| AFM382    | Cost Management Systems                                                | AFM     |
-| AFM391    | Intermediate Financial Accounting 2                                    | AFM     |
-| AFM401    | Accounting Theory                                                      | AFM     |
-| AFM415    | Special Topics                                                         | AFM     |
-| AFM416    | Special Topics in Finance                                              | AFM     |
-| AFM417    | Special Topics in Accounting                                           | AFM     |
-| AFM423    | Topics in Financial Econometrics                                       | AFM     |
-| AFM424    | Equity Investments                                                     | AFM     |
-| AFM425    | Fixed Income Securities                                                | AFM     |
-| AFM431    | Professional Ethics for Financial Managers                             | AFM     |
-| AFM433    | Business Strategy                                                      | AFM     |
-| AFM444    | Business Analytics Project Management                                  | AFM     |
-| AFM451    | Audit Strategy                                                         | AFM     |
-| AFM461    | Taxation 2                                                             | AFM     |
-| AFM462    | Specialized Topics in Taxation                                         | AFM     |
-| AFM471    | Cases and Applications in Corporate Finance                            | AFM     |
-| AFM472    | Equity Investments                                                     | AFM     |
-| AFM473    | Advanced Topics in Corporate Finance                                   | AFM     |
-| AFM474    | Derivative Securities                                                  | AFM     |
-| AFM476    | Corporate Financial Decision Making                                    | AFM     |
-| AFM477    | Mergers and Acquisitions                                               | AFM     |
-| AFM479    | Cases and Applications in Finance 2                                    | AFM     |
-| AFM480    | Introduction to Organizational Behaviour                               | AFM     |
-| AFM481    | Cost Management Systems                                                | AFM     |
-| AFM482    | Performance Measurement and Organization Control                       | AFM     |
-| AFM491    | Advanced Financial Accounting                                          | AFM     |
-| AFM492    | Financial Statement Analysis                                           | AFM     |
-| AFM501    | Contemporary Issues in Assurance and Accounting                        | AFM     |
-| AFM502    | Control Systems in a Computer Environment                              | AFM     |
-| AFM503    | Issues and Problems in Accounting Practice                             | AFM     |
-| AHS100    | Foundations of a Healthy Lifestyle                                     | AHS     |
-| AHS105    | Mental Health Literacy                                                 | AHS     |
-| AHS150    | Foundations of Human Anatomy and Physiology                            | AHS     |
-| AMATH231  | Calculus 4                                                             | AMATH   |
-| AMATH242  | Introduction to Computational Mathematics                              | AMATH   |
-| AMATH250  | Introduction to Differential Equations                                 | AMATH   |
-| AMATH251  | Introduction to Differential Equations (Advanced Level)                | AMATH   |
-| AMATH271  | Introduction to Theoretical Mechanics                                  | AMATH   |
-| AMATH331  | Applied Real Analysis                                                  | AMATH   |
-| AMATH332  | Applied Complex Analysis                                               | AMATH   |
-| AMATH342  | Computational Methods for Differential Equations                       | AMATH   |
-| AMATH343  | Discrete Models in Applied Mathematics                                 | AMATH   |
-| AMATH350  | Differential Equations for Business and Economics                      | AMATH   |
-| AMATH351  | Ordinary Differential Equations                                        | AMATH   |
-| AMATH353  | Partial Differential Equations 1                                       | AMATH   |
-| AMATH361  | Continuum Mechanics                                                    | AMATH   |
-| AMATH373  | Quantum Theory 1                                                       | AMATH   |
-| AMATH383  | Introduction to Mathematical Biology                                   | AMATH   |
-| AMATH390  | Mathematics and Music                                                  | AMATH   |
-| AMATH391  | From Fourier to Wavelets                                               | AMATH   |
-| AMATH445  | Scientific Machine Learning                                            | AMATH   |
-| AMATH451  | Introduction to Dynamical Systems                                      | AMATH   |
-| AMATH453  | Partial Differential Equations 2                                       | AMATH   |
-| AMATH456  | Calculus of Variations                                                 | AMATH   |
-| AMATH463  | Fluid Mechanics                                                        | AMATH   |
-| AMATH475  | Introduction to General Relativity                                     | AMATH   |
-| AMATH477  | Stochastic Processes for Applied Mathematics                           | AMATH   |
-| AMATH731  | Applied Functional Analysis                                            | AMATH   |
-| AMATH740  | Numerical Analysis                                                     | AMATH   |
-| AMATH741  | Numerical Solution of Partial Differential Equations                   | AMATH   |
-| ANTH100   | Introduction to Anthropology                                           | ANTH    |
-| ANTH101   | Human and Cultural Evolution                                           | ANTH    |
-| ANTH102   | Introduction to Social and Cultural Anthropology                       | ANTH    |
-| ANTH106   | Technologies of Being Human                                            | ANTH    |
-| ANTH201   | Introduction to Archaeology                                            | ANTH    |
-| ANTH202   | Social and Cultural Anthropology                                       | ANTH    |
-| ANTH204   | Biological Anthropology                                                | ANTH    |
-| ANTH233   | Inuit Cultures                                                         | ANTH    |
-| ANTH241   | Food as Culture                                                        | ANTH    |
-| ANTH272   | Issues in Contemporary Indigenous Communities in Canada                | ANTH    |
-| ANTH300   | Practicing Anthropology                                                | ANTH    |
-| ANTH303   | Anthropology of Digital Media                                          | ANTH    |
-| ANTH305   | Paleopathology of Health and Disease                                   | ANTH    |
-| ANTH320   | Hunter-Gatherer Archaeology                                            | ANTH    |
-| ANTH321   | Archaeology of Complex Cultures                                        | ANTH    |
-| ANTH348   | Anthropology of Tourism                                                | ANTH    |
-| ANTH355   | Human Osteology                                                        | ANTH    |
-| ANTH365   | Human Evolution                                                        | ANTH    |
-| ANTH377   | Dental Anthropology                                                    | ANTH    |
-| ANTH389   | Special Topics in Anthropology                                         | ANTH    |
-| ARBUS100  | Introduction to Arts and Business                                      | ARBUS   |
-| ARBUS101  | Introduction to Business in North America                              | ARBUS   |
-| ARBUS102  | Accounting Information for Managers                                    | ARBUS   |
-| ARBUS200  | Entrepreneurship Principles and Practices                              | ARBUS   |
-| ARBUS202  | Professional and Business Ethics                                       | ARBUS   |
-| ARBUS300  | Practical Business Skills                                              | ARBUS   |
-| ARBUS301  | International Business                                                 | ARBUS   |
-| ARBUS302  | Principles of Marketing                                                | ARBUS   |
-| ARBUS303  | Marketing Strategy                                                     | ARBUS   |
-| ARBUS400  | Strategy and Program Integration                                       | ARBUS   |
-| ARCH260   | Principles of Structures                                               | ARCH    |
-| ARCH272   | Interior Environments: Acoustics and Lighting                          | ARCH    |
-| ARCH293   | Design Studio                                                          | ARCH    |
-| ARTS111   | Career Development and Decision-Making                                 | ARTS    |
-| ARTS122   | Quest for Meaning in the Modern World                                  | ARTS    |
-| ARTS130   | Inquiry and Communication                                              | ARTS    |
-| ARTS140   | Information and Analysis                                               | ARTS    |
-| ARTS190   | First-Year Topics in Arts Disciplines                                  | ARTS    |
-| ARTS280   | Statistics for Arts Students                                           | ARTS    |
-| ARTS290   | Second-Year Topics in Arts Disciplines                                 | ARTS    |
-| ARTS304   | Designing Computer Simulations and Games for Learning                  | ARTS    |
-| ARTS366   | Arts Study Abroad                                                      | ARTS    |
-| ARTS450   | Global Engagement Seminar                                              | ARTS    |
-| ARTS490   | Fourth-Year Topics in Arts Disciplines                                 | ARTS    |
-| AVIA100   | Introduction to Aviation                                               | AVIA    |
-| AVIA101   | Professional Pilot Program Course 1                                    | AVIA    |
-| AVIA102   | Professional Pilot Program Course 2                                    | AVIA    |
-| AVIA203   | Professional Pilot Program Course 3                                    | AVIA    |
-| AVIA204   | Professional Pilot Program Course 4                                    | AVIA    |
-| AVIA205   | Professional Pilot Program Course 5                                    | AVIA    |
-| AVIA270   | Remotely Piloted Aircraft Systems (RPAS) Knowledge Requirements        | AVIA    |
-| AVIA306   | Professional Pilot Program Course 6                                    | AVIA    |
-| AVIA310   | Human Factors in Aviation                                              | AVIA    |
-| AVIA416   | Aviation Sustainability                                                | AVIA    |
-| AVIA417   | Aviation Safety                                                        | AVIA    |
-| BASE32    | Introduction to Skills & Strategies for University                     | BASE    |
-| BASE34    | Introduction to Academic Writing and Research Skills                   | BASE    |
-| BASE36    | Introduction to Academic Speaking and Communication Strategies         | BASE    |
-| BASE44    | Extended Academic Writing and Research Skills                          | BASE    |
-| BET100    | Foundations of Entrepreneurial Practice                                | BET     |
-| BET210    | Business Technology and Infrastructure                                 | BET     |
-| BET300    | Foundations of Venture Creation                                        | BET     |
-| BET320    | Entrepreneurial Strategy                                               | BET     |
-| BET340    | Essentials of Entrepreneurial Planning and Execution                   | BET     |
-| BET350    | Customer Experience Design                                             | BET     |
-| BET360    | Design Frameworks for Social Ventures                                  | BET     |
-| BET400    | Marketing Foundations for Early-stage Ventures                         | BET     |
-| BET420    | Entrepreneurship for Social Impact                                     | BET     |
-| BET430    | Sales Fundamentals                                                     | BET     |
-| BET450    | Leadership                                                             | BET     |
-| BET460    | Business Negotiations                                                  | BET     |
-| BET580    | Consulting                                                             | BET     |
-| BIOL120   | Introduction to Plant Structure and Function                           | BIOL    |
-| BIOL130   | Introductory Cell Biology                                              | BIOL    |
-| BIOL139   | Genetics                                                               | BIOL    |
-| BIOL150   | Organismal and Evolutionary Ecology                                    | BIOL    |
-| BIOL165   | Diversity of Life                                                      | BIOL    |
-| BIOL201   | Human Anatomy                                                          | BIOL    |
-| BIOL208   | Analytical Methods in Molecular Biology                                | BIOL    |
-| BIOL211   | Introductory Vertebrate Zoology                                        | BIOL    |
-| BIOL220   | Introduction to Plant Structure and Function                           | BIOL    |
-| BIOL225   | Plants and Civilization                                                | BIOL    |
-| BIOL239   | Genetics                                                               | BIOL    |
-| BIOL240   | Fundamentals of Microbiology                                           | BIOL    |
-| BIOL241   | Introduction to Applied Microbiology                                   | BIOL    |
-| BIOL251   | Fundamentals of Ecology                                                | BIOL    |
-| BIOL266   | Introduction to Computational Biology                                  | BIOL    |
-| BIOL273   | Principles of Human Physiology 1                                       | BIOL    |
-| BIOL301   | Human Anatomy                                                          | BIOL    |
-| BIOL302   | Functional Histology                                                   | BIOL    |
-| BIOL303   | Introductory Developmental Biology and Embryology                      | BIOL    |
-| BIOL308   | Principles of Molecular Biology                                        | BIOL    |
-| BIOL309   | Analytical Methods in Molecular Biology                                | BIOL    |
-| BIOL310   | Invertebrate Zoology                                                   | BIOL    |
-| BIOL321   | Plant Anatomy and Morphogenesis                                        | BIOL    |
-| BIOL323   | Plant Physiology                                                       | BIOL    |
-| BIOL325   | Flowering Plants                                                       | BIOL    |
-| BIOL331   | Advanced Cell Biology                                                  | BIOL    |
-| BIOL341   | Fundamentals of Immunology                                             | BIOL    |
-| BIOL342   | Molecular Biotechnology 1                                              | BIOL    |
-| BIOL345   | Microorganisms in Foods                                                | BIOL    |
-| BIOL346   | Microbial Ecology and Diversity                                        | BIOL    |
-| BIOL349   | Synthetic Biology Project Design                                       | BIOL    |
-| BIOL350   | Ecosystem Ecology                                                      | BIOL    |
-| BIOL351   | Aquatic Ecology                                                        | BIOL    |
-| BIOL354   | Environmental Toxicology 1                                             | BIOL    |
-| BIOL355   | Biology of Human Aging                                                 | BIOL    |
-| BIOL359   | Evolution 1: Mechanisms                                                | BIOL    |
-| BIOL360   | Evolution 2: Fossil Record                                             | BIOL    |
-| BIOL361   | Biostatistics and Experimental Design                                  | BIOL    |
-| BIOL364   | Mathematical Modelling in Biology                                      | BIOL    |
-| BIOL365   | Methods in Bioinformatics                                              | BIOL    |
-| BIOL366   | Introduction to Bioinformatics                                         | BIOL    |
-| BIOL370   | Comparative Animal Physiology: Environmental Aspects                   | BIOL    |
-| BIOL371   | Comparative Animal Physiology: Evolutionary Themes                     | BIOL    |
-| BIOL373   | Principles of Human Physiology 2                                       | BIOL    |
-| BIOL376   | Cellular Neurophysiology                                               | BIOL    |
-| BIOL382   | Computational Modelling of Cellular Systems                            | BIOL    |
-| BIOL414   | Parasitology                                                           | BIOL    |
-| BIOL431   | Bacterial Molecular Genetics                                           | BIOL    |
-| BIOL432   | Molecular Biotechnology 2                                              | BIOL    |
-| BIOL433   | Plant Biotechnology                                                    | BIOL    |
-| BIOL434   | Human Molecular Genetics                                               | BIOL    |
-| BIOL439   | Environmental and Natural Products Biochemistry                        | BIOL    |
-| BIOL441   | Advances in Immunology                                                 | BIOL    |
-| BIOL442   | Virology                                                               | BIOL    |
-| BIOL443   | Fermentation Biotechnology                                             | BIOL    |
-| BIOL444   | Bacterial Pathogenesis                                                 | BIOL    |
-| BIOL447   | Environmental Microbiology                                             | BIOL    |
-| BIOL449   | Public Health Microbiology                                             | BIOL    |
-| BIOL450   | Marine Biology                                                         | BIOL    |
-| BIOL451   | Advanced Ecology and Evolution                                         | BIOL    |
-| BIOL452   | Quantitative Fisheries Biology                                         | BIOL    |
-| BIOL455   | Ecological Risk Assessment and Management                              | BIOL    |
-| BIOL456   | Population Biology                                                     | BIOL    |
-| BIOL457   | Analysis of Communities                                                | BIOL    |
-| BIOL458   | Quantitative Ecology                                                   | BIOL    |
-| BIOL462   | Applied Wetland Science                                                | BIOL    |
-| BIOL465   | Structural Bioinformatics                                              | BIOL    |
-| BIOL469   | Genomics                                                               | BIOL    |
-| BIOL472   | Cell Biology of Human Disease                                          | BIOL    |
-| BIOL473   | Mammalian Reproduction                                                 | BIOL    |
-| BIOL475   | Current Topics in Microbiology                                         | BIOL    |
-| BIOL476   | Systems Neuroscience: From Neurons to Behaviour                        | BIOL    |
-| BIOL479   | Population Genetics and Evolution                                      | BIOL    |
-| BIOL483   | Animal Cell Biotechnology                                              | BIOL    |
-| BIOL484   | Advanced Eukaryotic Genetics                                           | BIOL    |
-| BIOL489   | Arctic Ecology                                                         | BIOL    |
-| BLKST101  | Foundations of Black Studies                                           | BLKST   |
-| BME101    | Communications in Biomedical Engineering-Written and Oral              | BME     |
-| BME102    | Seminar                                                                | BME     |
-| BME121    | Digital Computation                                                    | BME     |
-| BME122    | Data Structures and Algorithms                                         | BME     |
-| BME161    | Introduction to Biomedical Design                                      | BME     |
-| BME162    | Human Factors in the Design of Biomedical and Health Systems           | BME     |
-| BME181    | Physics 1: Statics                                                     | BME     |
-| BME182    | Physics 2: Dynamics                                                    | BME     |
-| BME186    | Chemistry Principles                                                   | BME     |
-| BME201    | Seminar                                                                | BME     |
-| BME213    | Statistics and Experimental Design                                     | BME     |
-| BME252    | Linear Systems and Signals                                             | BME     |
-| BME281    | Mechanics of Deformable Solids                                         | BME     |
-| BME282    | Materials Science for Biomedical Engineers                             | BME     |
-| BME283    | Chemistry Principles                                                   | BME     |
-| BME284    | Physiological and Biological Systems                                   | BME     |
-| BME285    | Engineering Biology                                                    | BME     |
-| BME355    | Physiological Systems Modelling                                        | BME     |
-| BME356    | Control Systems                                                        | BME     |
-| BME362    | Biomedical Engineering Design Workshop 1                               | BME     |
-| BME364    | Engineering Biomedical Economics                                       | BME     |
-| BME381    | Biomedical Engineering Ethics                                          | BME     |
-| BME384    | Biomedical Transport: Biofluids and Mass Transfer                      | BME     |
-| BME386    | The Physics of Medical Imaging                                         | BME     |
-| BME401    | Seminar                                                                | BME     |
-| BME411    | Optimization and Numerical Methods                                     | BME     |
-| BME461    | Biomedical Engineering Design Workshop 2                               | BME     |
-| BME530    | The Healthcare System                                                  | BME     |
-| BME588    | Special Topics in Biomechanics                                         | BME     |
-| CFM101    | Introduction to Financial Markets and Data Analytics                   | CFM     |
-| CFM301    | Financial Data Analytics                                               | CFM     |
-| CHE100    | Chemical Engineering Concepts 1                                        | CHE     |
-| CHE101    | Chemical Engineering Concepts 2                                        | CHE     |
-| CHE102    | Chemistry for Engineers                                                | CHE     |
-| CHE120    | Computer Literacy and Programming for Chemical Engineers               | CHE     |
-| CHE121    | Engineering Computation                                                | CHE     |
-| CHE161    | Engineering Biology                                                    | CHE     |
-| CHE180    | Chemical Engineering Design Studio 1                                   | CHE     |
-| CHE181    | Chemical Engineering Design Studio 2                                   | CHE     |
-| CHE200    | Equilibrium Stage Operations                                           | CHE     |
-| CHE211    | Fluid Mechanics                                                        | CHE     |
-| CHE220    | Process Data Analysis                                                  | CHE     |
-| CHE225    | Strategies for Process Improvement and Product Development             | CHE     |
-| CHE230    | Physical Chemistry 1                                                   | CHE     |
-| CHE231    | Physical Chemistry 2                                                   | CHE     |
-| CHE241    | Materials Science and Engineering                                      | CHE     |
-| CHE290    | Chemical Engineering Lab 1                                             | CHE     |
-| CHE291    | Chemical Engineering Lab 2                                             | CHE     |
-| CHE312    | Mathematics of Heat and Mass Transfer                                  | CHE     |
-| CHE313    | Applications of Heat and Mass Transfer                                 | CHE     |
-| CHE314    | Chemical Reaction Engineering                                          | CHE     |
-| CHE322    | Numerical Methods for Process Analysis and Design                      | CHE     |
-| CHE330    | Chemical Engineering Thermodynamics                                    | CHE     |
-| CHE331    | Electrochemical Engineering                                            | CHE     |
-| CHE341    | Introduction to Process Control                                        | CHE     |
-| CHE361    | Bioprocess Engineering                                                 | CHE     |
-| CHE383    | Chemical Engineering Design Workshop                                   | CHE     |
-| CHE390    | Chemical Engineering Lab 3                                             | CHE     |
-| CHE420    | Introduction to Process Control                                        | CHE     |
-| CHE425    | Strategies for Process Improvement and Product Development             | CHE     |
-| CHE480    | Process Analysis and Design                                            | CHE     |
-| CHE482    | Group Design Project                                                   | CHE     |
-| CHE514    | Fundamentals of Petroleum Production                                   | CHE     |
-| CHE571    | Industrial Ecology                                                     | CHE     |
-| CHE572    | Air Pollution Control                                                  | CHE     |
-| CHEM100   | Introduction to Chemical Sciences                                      | CHEM    |
-| CHEM101   | Introduction to Biochemical Sciences                                   | CHEM    |
-| CHEM120   | General Chemistry 1                                                    | CHEM    |
-| CHEM121   | Physical and Chemical Properties of Matter                             | CHEM    |
-| CHEM123   | General Chemistry 2                                                    | CHEM    |
-| CHEM140   | Introduction to Scientific Calculations                                | CHEM    |
-| CHEM200   | Introduction to Laboratory Techniques                                  | CHEM    |
-| CHEM209   | Introductory Spectroscopy and Structure                                | CHEM    |
-| CHEM212   | Structure and Bonding                                                  | CHEM    |
-| CHEM217   | Chemical Bonding                                                       | CHEM    |
-| CHEM220   | Intro Analytical Chemistry                                             | CHEM    |
-| CHEM221   | Multi-Component Analysis                                               | CHEM    |
-| CHEM228   | Chemical Analysis                                                      | CHEM    |
-| CHEM233   | Fundamentals of Biochemistry                                           | CHEM    |
-| CHEM237   | Introductory Biochemistry                                              | CHEM    |
-| CHEM239   | Introduction to Biological Systems                                     | CHEM    |
-| CHEM254   | Introductory Chemical Thermodynamics                                   | CHEM    |
-| CHEM262   | Organic Chemistry for Engineering                                      | CHEM    |
-| CHEM264   | Organic Chemistry 1                                                    | CHEM    |
-| CHEM265   | Organic Chemistry 2                                                    | CHEM    |
-| CHEM266   | Basic Organic Chemistry 1                                              | CHEM    |
-| CHEM267   | Basic Organic Chemistry 2                                              | CHEM    |
-| CHEM313   | Main Group and Solid State Chemistry                                   | CHEM    |
-| CHEM323   | Analytical Instrumentation                                             | CHEM    |
-| CHEM331   | Fundamentals of Metabolism 1                                           | CHEM    |
-| CHEM333   | Metabolism 1                                                           | CHEM    |
-| CHEM339   | Methods and Tools for Biosyntheses                                     | CHEM    |
-| CHEM356   | Introductory Quantum Mechanics                                         | CHEM    |
-| CHEM357   | Physical Biochemistry                                                  | CHEM    |
-| CHEM360   | Organic Chemistry 3                                                    | CHEM    |
-| CHEM363   | Organic Process Chemistry                                              | CHEM    |
-| CHEM381   | Bioorganic Chemistry                                                   | CHEM    |
-| CHEM404   | Physicochemical Aspects of Natural Waters                              | CHEM    |
-| CHEM430   | Special Topics in Biochemistry                                         | CHEM    |
-| CHEM433   | Advanced Biochemistry                                                  | CHEM    |
-| CHEM464   | Spectroscopy in Organic Chemistry                                      | CHEM    |
-| CI100     | Cultural Identities Today                                              | CI      |
-| CIVE100   | Civil Engineering Concepts                                             | CIVE    |
-| CIVE104   | Mechanics 1                                                            | CIVE    |
-| CIVE105   | Mechanics 2                                                            | CIVE    |
-| CIVE115   | Linear Algebra                                                         | CIVE    |
-| CIVE121   | Computational Methods                                                  | CIVE    |
-| CIVE123   | Electrical Circuits and Instrumentation                                | CIVE    |
-| CIVE125   | Civil Engineering Concepts 1                                           | CIVE    |
-| CIVE127   | Statics & Solid Mechanics 1                                            | CIVE    |
-| CIVE153   | Earth Engineering                                                      | CIVE    |
-| CIVE199   | Seminar                                                                | CIVE    |
-| CIVE204   | Solid Mechanics 1                                                      | CIVE    |
-| CIVE205   | Solid Mechanics 2                                                      | CIVE    |
-| CIVE221   | Advanced Calculus                                                      | CIVE    |
-| CIVE222   | Differential Equations                                                 | CIVE    |
-| CIVE224   | Probability and Statistics                                             | CIVE    |
-| CIVE230   | Engineering and Sustainable Development                                | CIVE    |
-| CIVE240   | Engineering and Sustainable Development                                | CIVE    |
-| CIVE241   | Transport Principles and Applications                                  | CIVE    |
-| CIVE265   | Structure and Properties of Materials                                  | CIVE    |
-| CIVE280   | Fluid Mechanics                                                        | CIVE    |
-| CIVE292   | Engineering Economics                                                  | CIVE    |
-| CIVE303   | Structural Analysis                                                    | CIVE    |
-| CIVE306   | Solid Mechanics 3                                                      | CIVE    |
-| CIVE310   | Introduction to Structural Design                                      | CIVE    |
-| CIVE341   | Transportation Engineering Applications                                | CIVE    |
-| CIVE343   | Traffic Simulation Modelling and Applications                          | CIVE    |
-| CIVE353   | Geotechnical Engineering 1                                             | CIVE    |
-| CIVE354   | Geotechnical Engineering 2                                             | CIVE    |
-| CIVE375   | Environmental Engineering Principles                                   | CIVE    |
-| CIVE392   | Economics and Life Cycle Cost Analysis                                 | CIVE    |
-| CIVE400   | Civil Engineering Design Project 1                                     | CIVE    |
-| CIVE401   | Civil Engineering Design Project 2                                     | CIVE    |
-| CIVE413   | Structural Steel Design                                                | CIVE    |
-| CIVE414   | Structural Concrete Design                                             | CIVE    |
-| CIVE415   | Structural System Design                                               | CIVE    |
-| CIVE491   | Engineering Law and Ethics                                             | CIVE    |
-| CIVE497   | Special Topics in Civil Engineering                                    | CIVE    |
-| CIVE505   | Structural Dynamics                                                    | CIVE    |
-| CIVE507   | Building Science and Technology                                        | CIVE    |
-| CLAS100   | An Introduction to Classical Studies                                   | CLAS    |
-| CLAS104   | Classical Mythology                                                    | CLAS    |
-| CLAS105   | Introduction to Medieval Studies                                       | CLAS    |
-| CLAS123   | Classical Studies in Pop Culture                                       | CLAS    |
-| CLAS205   | Medieval Society                                                       | CLAS    |
-| CLAS210   | History of Ancient Law                                                 | CLAS    |
-| CLAS230   | Greek and Latin Scientific Terminology                                 | CLAS    |
-| CLAS231   | Studies in Ancient Greek Literature                                    | CLAS    |
-| CLAS241   | Survey of Greek Art and Architecture                                   | CLAS    |
-| CLAS242   | Survey of Roman Art and Architecture                                   | CLAS    |
-| CLAS252   | Roman History                                                          | CLAS    |
-| CLAS261   | Great Works: Ancient and Medieval                                      | CLAS    |
-| CLAS327   | Astrology and Magic                                                    | CLAS    |
-| CLAS486   | Senior Seminar                                                         | CLAS    |
-| CMW201    | Worship Practicum 1                                                    | CMW     |
-| CMW202    | Worship Practicum 2                                                    | CMW     |
-| CO227     | Introduction to Optimization (Non-Specialist Level)                    | CO      |
-| CO250     | Introduction to Optimization                                           | CO      |
-| CO255     | Introduction to Optimization (Advanced Level)                          | CO      |
-| CO327     | Deterministic OR Models (Non-Specialist Level)                         | CO      |
-| CO330     | Combinatorial Enumeration                                              | CO      |
-| CO331     | Coding Theory                                                          | CO      |
-| CO342     | Introduction to Graph Theory                                           | CO      |
-| CO351     | Network Flow Theory                                                    | CO      |
-| CO353     | Computational Discrete Optimization                                    | CO      |
-| CO367     | Nonlinear Optimization                                                 | CO      |
-| CO370     | Deterministic OR Models                                                | CO      |
-| CO372     | Portfolio Optimization Models                                          | CO      |
-| CO380     | Mathematical Discovery and Invention                                   | CO      |
-| CO430     | Algebraic Enumeration                                                  | CO      |
-| CO431     | Symmetric Functions                                                    | CO      |
-| CO432     | Information Theory and Applications                                    | CO      |
-| CO434     | Combinatorial Designs                                                  | CO      |
-| CO442     | Graph Theory                                                           | CO      |
-| CO444     | Algebraic Graph Theory                                                 | CO      |
-| CO450     | Combinatorial Optimization                                             | CO      |
-| CO454     | Scheduling                                                             | CO      |
-| CO456     | Introduction to Game Theory                                            | CO      |
-| CO463     | Convex Optimization and Analysis                                       | CO      |
-| CO466     | Continuous Optimization                                                | CO      |
-| CO471     | Semidefinite Optimization                                              | CO      |
-| CO480     | History of Mathematics                                                 | CO      |
-| CO481     | Introduction to Quantum Information Processing                         | CO      |
-| CO485     | The Mathematics of Public-Key Cryptography                             | CO      |
-| CO487     | Applied Cryptography                                                   | CO      |
-| CO739     | Topics in Combinatorics                                                | CO      |
-| CO749     | Topics in Graph Theory                                                 | CO      |
-| COGSCI600 | Seminar in Cognitive Science                                           | COGSCI  |
-| COMM101   | Introduction to Financial Markets                                      | COMM    |
-| COMM103   | Principles of Economics                                                | COMM    |
-| COMM231   | Commercial and Business Law for Mathematics Students                   | COMM    |
-| COMM321   | Intermediate Accounting for Finance                                    | COMM    |
-| COMM421   | Financial Statement Analysis                                           | COMM    |
-| COMM431   | Project Management                                                     | COMM    |
-| COMM433   | Income Tax for Finance Students                                        | COMM    |
-| COMMST100 | Interpersonal Communication                                            | COMMST  |
-| COMMST101 | Theories of Communication                                              | COMMST  |
-| COMMST193 | Communication in the Sciences                                          | COMMST  |
-| COMMST223 | Public Speaking                                                        | COMMST  |
-| COMMST225 | Interviewing                                                           | COMMST  |
-| COMMST434 | The Discourse of Dissent                                               | COMMST  |
-| COMMST435 | Games and Culture                                                      | COMMST  |
-| COMMST475 | Communication Ethics                                                   | COMMST  |
-| COMMST490 | Selected Seminars in Speech Communication                              | COMMST  |
-| COOP1     | Co-operative Work Term                                                 | COOP    |
-| COOP2     | Co-operative Work Term                                                 | COOP    |
-| COOP3     | Co-operative Work Term                                                 | COOP    |
-| COOP4     | Co-operative Work Term                                                 | COOP    |
-| COOP5     | Co-operative Work Term                                                 | COOP    |
-| COOP6     | Co-operative Work Term                                                 | COOP    |
-| CROAT101  | Elementary Croatian 1                                                  | CROAT   |
-| CROAT102  | Elementary Croatian 2                                                  | CROAT   |
-| CS100     | Introduction to Computing Through Applications                         | CS      |
-| CS105     | Introduction to Computer Programming 1                                 | CS      |
-| CS106     | Introduction to Computer Programming 2                                 | CS      |
-| CS114     | Principles of Computing for Science                                    | CS      |
-| CS115     | Introduction to Computer Science 1                                     | CS      |
-| CS116     | Introduction to Computer Science 2                                     | CS      |
-| CS135     | Designing Functional Programs                                          | CS      |
-| CS136     | Elementary Algorithm Design and Data Abstraction                       | CS      |
-| CS137     | Programming Principles                                                 | CS      |
-| CS138     | Introduction to Data Abstraction and Implementation                    | CS      |
-| CS145     | Designing Functional Programs (Advanced Level)                         | CS      |
-| CS146     | Elementary Algorithm Design and Data Abstraction (Advanced Level)      | CS      |
-| CS200     | Concepts for Advanced Computer Usage                                   | CS      |
-| CS230     | Introduction to Computers and Computer Systems                         | CS      |
-| CS231     | Algorithmic Problem Solving                                            | CS      |
-| CS234     | Data Types and Structures                                              | CS      |
-| CS240     | Data Structures and Data Management                                    | CS      |
-| CS241     | Foundations of Sequential Programs                                     | CS      |
-| CS245     | Logic and Computation                                                  | CS      |
-| CS246     | Object-Oriented Software Development                                   | CS      |
-| CS247     | Software Engineering Principles                                        | CS      |
-| CS251     | Computer Organization and Design                                       | CS      |
-| CS330     | Management Information Systems                                         | CS      |
-| CS335     | Computational Methods in Business and Finance                          | CS      |
-| CS338     | Computer Applications in Business: Databases                           | CS      |
-| CS341     | Algorithms                                                             | CS      |
-| CS343     | Concurrent and Parallel Programming                                    | CS      |
-| CS346     | Application Development                                                | CS      |
-| CS348     | Introduction to Database Management                                    | CS      |
-| CS349     | User Interfaces                                                        | CS      |
-| CS350     | Operating Systems                                                      | CS      |
-| CS360     | Introduction to the Theory of Computing                                | CS      |
-| CS365     | Models of Computation                                                  | CS      |
-| CS370     | Numerical Computation                                                  | CS      |
-| CS371     | Introduction to Computational Mathematics                              | CS      |
-| CS398     | Topics in Computer Science                                             | CS      |
-| CS430     | Applications Software Engineering                                      | CS      |
-| CS431     | Data-Intensive Distributed Analytics                                   | CS      |
-| CS436     | Networks and Distributed Computer Systems                              | CS      |
-| CS442     | Principles of Programming Languages                                    | CS      |
-| CS444     | Compiler Construction                                                  | CS      |
-| CS445     | Software Requirements Specification and Analysis                       | CS      |
-| CS446     | Software Design and Architectures                                      | CS      |
-| CS448     | Database Systems Implementation                                        | CS      |
-| CS449     | Human-Computer Interaction                                             | CS      |
-| CS451     | Data-Intensive Distributed Computing                                   | CS      |
-| CS452     | Real-time Programming                                                  | CS      |
-| CS453     | Software and Systems Security                                          | CS      |
-| CS454     | Distributed Systems                                                    | CS      |
-| CS456     | Computer Networks                                                      | CS      |
-| CS458     | Computer Security and Privacy                                          | CS      |
-| CS462     | Formal Languages and Parsing                                           | CS      |
-| CS466     | Algorithm Design and Analysis                                          | CS      |
-| CS467     | Introduction to Quantum Information Processing                         | CS      |
-| CS475     | Computational Linear Algebra                                           | CS      |
-| CS476     | Numeric Computation for Financial Modeling                             | CS      |
-| CS479     | Neural Networks                                                        | CS      |
-| CS480     | Introduction to Machine Learning                                       | CS      |
-| CS482     | Computational Techniques in Biological Sequence Analysis               | CS      |
-| CS484     | Computational Vision                                                   | CS      |
-| CS485     | Statistical and Computational Foundations of Machine Learning          | CS      |
-| CS486     | Introduction to Artificial Intelligence                                | CS      |
-| CS487     | Introduction to Symbolic Computation                                   | CS      |
-| CS488     | Introduction to Computer Graphics                                      | CS      |
-| CS489     | Advanced Topics in Computer Science                                    | CS      |
-| CS490     | Information Systems Management                                         | CS      |
-| CS492     | The Social Implications of Computing                                   | CS      |
-| CS497     | Multidisciplinary Studies in Computer Science                          | CS      |
-| CS761     | Randomized Algorithms                                                  | CS      |
-| CS763     | Computational Geometry                                                 | CS      |
-| CS860     | Advanced Topics in Algorithms and Complexity                           | CS      |
-| DAC201    | Designing Digital Media                                                | DAC     |
-| DAC202    | Designing Digital Video                                                | DAC     |
-| DAC204    | Introduction to Game Design                                            | DAC     |
-| DAC302    | Digital Storytelling Design                                            | DAC     |
-| DAC305    | Designing and Evaluating Digital Games                                 | DAC     |
-| DRAMA100  | Introduction to Theatre                                                | DRAMA   |
-| DRAMA102  | Introduction to Performance                                            | DRAMA   |
-| DRAMA221  | Performing Text                                                        | DRAMA   |
-| DRAMA243  | Technical Production 1                                                 | DRAMA   |
-| DUTCH101  | Elementary Dutch 1                                                     | DUTCH   |
-| DUTCH102  | Elementary Dutch 2                                                     | DUTCH   |
-| EARTH121  | Introductory Earth Sciences                                            | EARTH   |
-| EARTH122  | Introductory Environmental Sciences                                    | EARTH   |
-| EARTH123  | Introductory Hydrology                                                 | EARTH   |
-| EARTH221  | Introductory Geochemistry                                              | EARTH   |
-| EARTH223  | Field Methods in Hydrology                                             | EARTH   |
-| EARTH231  | Mineralogy                                                             | EARTH   |
-| EARTH232  | Introductory Petrography                                               | EARTH   |
-| EARTH235  | Stratigraphic Approaches to Understanding Earth's History              | EARTH   |
-| EARTH238  | Introductory Structural Geology                                        | EARTH   |
-| EARTH260  | Introductory Applied Geophysics                                        | EARTH   |
-| EARTH270  | Disasters and Natural Hazards                                          | EARTH   |
-| EARTH281  | Geological Impacts on Human Health                                     | EARTH   |
-| EARTH322  | Ecohydrology                                                           | EARTH   |
-| EARTH331  | Volcanology and Igneous Petrology                                      | EARTH   |
-| EARTH333  | Introductory Sedimentology                                             | EARTH   |
-| EARTH336  | Evolution 2: Fossil Record                                             | EARTH   |
-| EARTH342  | Geomorphology and GIS Applications                                     | EARTH   |
-| EARTH355  | Water: Data to Decisions                                               | EARTH   |
-| EARTH390  | Methods in Geological Mapping                                          | EARTH   |
-| EARTH437  | Rock Mechanics                                                         | EARTH   |
-| EARTH438  | Engineering Geology                                                    | EARTH   |
-| EARTH444  | Applied Wetland Science                                                | EARTH   |
-| EARTH456  | Numerical Methods in Hydrogeology                                      | EARTH   |
-| EARTH458  | Physical Hydrogeology                                                  | EARTH   |
-| EARTH459  | Chemical Hydrogeology                                                  | EARTH   |
-| EARTH461  | Near-Surface Geophysics                                                | EARTH   |
-| EARTH471  | Mineral Deposits                                                       | EARTH   |
-| ECE100    | Fundamentals of Electrical Engineering                                 | ECE     |
-| ECE102    | Information Session                                                    | ECE     |
-| ECE103    | Discrete Mathematics                                                   | ECE     |
-| ECE104    | Numerical Methods                                                      | ECE     |
-| ECE105    | Classical Mechanics                                                    | ECE     |
-| ECE106    | Electricity and Magnetism                                              | ECE     |
-| ECE108    | Discrete Mathematics and Logic 1                                       | ECE     |
-| ECE109    | Materials Chemistry for Engineers                                      | ECE     |
-| ECE124    | Digital Circuits and Systems                                           | ECE     |
-| ECE140    | Linear Circuits                                                        | ECE     |
-| ECE150    | Fundamentals of Programming                                            | ECE     |
-| ECE155    | Engineering Design with Embedded Systems                               | ECE     |
-| ECE190    | Engineering Profession and Practice                                    | ECE     |
-| ECE192    | Engineering Economics and Impact on Society                            | ECE     |
-| ECE198    | Project Studio                                                         | ECE     |
-| ECE201    | Information Session                                                    | ECE     |
-| ECE202    | Information Session                                                    | ECE     |
-| ECE203    | Probability Theory and Statistics 1                                    | ECE     |
-| ECE204    | Numerical Methods                                                      | ECE     |
-| ECE205    | Advanced Calculus 1 for Electrical and Computer Engineers              | ECE     |
-| ECE206    | Adv Calculus 2 for Electrical Engineers                                | ECE     |
-| ECE207    | Signals and Systems                                                    | ECE     |
-| ECE208    | Discrete Mathematics and Logic 2                                       | ECE     |
-| ECE209    | Electronic and Electrical Properties of Materials                      | ECE     |
-| ECE222    | Digital Computers                                                      | ECE     |
-| ECE223    | Digital Circuits and Systems                                           | ECE     |
-| ECE224    | Embedded Microprocessor Systems                                        | ECE     |
-| ECE231    | Semiconductor Physics and Devices                                      | ECE     |
-| ECE240    | Electronic Circuits 1                                                  | ECE     |
-| ECE242    | Electronic Circuits 2                                                  | ECE     |
-| ECE250    | Algorithms and Data Structures                                         | ECE     |
-| ECE252    | Systems Programming and Concurrency                                    | ECE     |
-| ECE254    | Operating Systems and Systems Programming                              | ECE     |
-| ECE260    | Electromechanical Energy Conversion                                    | ECE     |
-| ECE298    | Instrumentation and Prototyping Laboratory                             | ECE     |
-| ECE301    | Information Session                                                    | ECE     |
-| ECE307    | Probability Theory and Statistics 2                                    | ECE     |
-| ECE309    | Introduction to Thermodynamics and Heat Transfer                       | ECE     |
-| ECE313    | Digital Signal Processing                                              | ECE     |
-| ECE316    | Probability Theory and Statistics                                      | ECE     |
-| ECE318    | Communication Systems                                                  | ECE     |
-| ECE320    | Computer Architecture                                                  | ECE     |
-| ECE325    | Microprocessor Systems and Interfacing for Mechatronics Engineering    | ECE     |
-| ECE327    | Digital Hardware Systems                                               | ECE     |
-| ECE331    | Electronic Devices                                                     | ECE     |
-| ECE340    | Electronic Circuits 2                                                  | ECE     |
-| ECE350    | Real-Time Operating Systems                                            | ECE     |
-| ECE351    | Compilers                                                              | ECE     |
-| ECE354    | Real-time Operating Systems                                            | ECE     |
-| ECE356    | Database Systems                                                       | ECE     |
-| ECE358    | Computer Networks                                                      | ECE     |
-| ECE360    | Power Systems and Smart Grids                                          | ECE     |
-| ECE361    | Power Systems and Components                                           | ECE     |
-| ECE373    | Radio Frequency and Microwave Circuits                                 | ECE     |
-| ECE375    | Electromagnetic Fields and Waves                                       | ECE     |
-| ECE380    | Analog Control Systems                                                 | ECE     |
-| ECE403    | Thermal Physics                                                        | ECE     |
-| ECE404    | Geometrical and Physical Optics                                        | ECE     |
-| ECE405    | Introduction to Quantum Mechanics                                      | ECE     |
-| ECE406    | Algorithm Design and Analysis                                          | ECE     |
-| ECE409    | Cryptography and System Security                                       | ECE     |
-| ECE413    | Digital Signal Processing                                              | ECE     |
-| ECE414    | Wireless Communications                                                | ECE     |
-| ECE416    | Advanced Topics in Networking                                          | ECE     |
-| ECE417    | Image Processing                                                       | ECE     |
-| ECE423    | Embedded Computer Systems                                              | ECE     |
-| ECE428    | Computer Networks and Security                                         | ECE     |
-| ECE429    | Computer Architecture                                                  | ECE     |
-| ECE432    | Radio Frequency Integrated Devices and Circuits                        | ECE     |
-| ECE433    | Fabrication Technologies for Micro and Nano Devices                    | ECE     |
-| ECE444    | Integrated Analog Electronics                                          | ECE     |
-| ECE445    | Integrated Digital Electronics                                         | ECE     |
-| ECE451    | Software Requirements Specification and Analysis                       | ECE     |
-| ECE452    | Software Design and Architectures                                      | ECE     |
-| ECE454    | Distributed Computing                                                  | ECE     |
-| ECE455    | Embedded Software                                                      | ECE     |
-| ECE456    | Database Systems                                                       | ECE     |
-| ECE458    | Computer Security                                                      | ECE     |
-| ECE459    | Programming for Performance                                            | ECE     |
-| ECE462    | Electrical Distribution Systems                                        | ECE     |
-| ECE463    | Design and Applications of Power Electronic Converters                 | ECE     |
-| ECE473    | Radio Frequency and Microwave Circuits                                 | ECE     |
-| ECE474    | Radio and Wireless Systems                                             | ECE     |
-| ECE475    | Radio-Wave Systems                                                     | ECE     |
-| ECE477    | Photonic Devices and Systems                                           | ECE     |
-| ECE481    | Digital Control Systems                                                | ECE     |
-| ECE484    | Digital Control Applications                                           | ECE     |
-| ECE486    | Robot Dynamics and Control                                             | ECE     |
-| ECE488    | Multivariable Control Systems                                          | ECE     |
-| ECE493    | Special Topics in Electrical and Computer Engineering                  | ECE     |
-| ECE495    | Autonomous Vehicles                                                    | ECE     |
-| ECE606    | Algorithm Design and Analysis                                          | ECE     |
-| ECE610    | Broadband Communication Networks                                       | ECE     |
-| ECE630    | Physics and Models of Semiconductor Devices                            | ECE     |
-| ECE636    | Advanced Analog Integrated Circuits                                    | ECE     |
-| ECE642    | Radio Frequency Integrated Circuit Design                              | ECE     |
-| ECE654    | Software Reliability Engineering                                       | ECE     |
-| ECE682    | Multivariable Control Systems                                          | ECE     |
-| ECE686    | Filtering and Control of Stochastic Linear Systems                     | ECE     |
-| ECE730    | Special Topics in Solid State Devices                                  | ECE     |
-| ECE750    | Special Topics in Computer Software                                    | ECE     |
-| ECE760    | Special Topics in Power Systems and High Voltage Engineering           | ECE     |
-| ECON100   | Principles of Economics                                                | ECON    |
-| ECON101   | Introduction to Microeconomics                                         | ECON    |
-| ECON102   | Introduction to Macroeconomics                                         | ECON    |
-| ECON201   | Microeconomic Theory for Business and Policy                           | ECON    |
-| ECON202   | Macroeconomic Theory 1                                                 | ECON    |
-| ECON206   | Money and Banking 1                                                    | ECON    |
-| ECON207   | Economic Growth and Development 1                                      | ECON    |
-| ECON211   | Introduction to Mathematical Economics                                 | ECON    |
-| ECON212   | Introduction to Game Theory                                            | ECON    |
-| ECON220   | Entrepreneurship Principles and Practices                              | ECON    |
-| ECON221   | Statistics for Economists                                              | ECON    |
-| ECON231   | Introduction to International Economics                                | ECON    |
-| ECON241   | Introduction to Public Economics                                       | ECON    |
-| ECON254   | Economics of Sport                                                     | ECON    |
-| ECON255   | Introduction to the Economics of Natural Resources                     | ECON    |
-| ECON256   | Introduction to Health Economics                                       | ECON    |
-| ECON290   | Models of Choice in Competitive Markets                                | ECON    |
-| ECON301   | Microeconomic Theory 2                                                 | ECON    |
-| ECON302   | Macroeconomic Theory 2                                                 | ECON    |
-| ECON306   | Macroeconomics                                                         | ECON    |
-| ECON311   | Mathematical Economics                                                 | ECON    |
-| ECON321   | Introduction to Econometrics                                           | ECON    |
-| ECON322   | Econometric Analysis 1                                                 | ECON    |
-| ECON323   | Econometric Analysis 2                                                 | ECON    |
-| ECON332   | International Finance                                                  | ECON    |
-| ECON341   | Public Economics: Expenditure                                          | ECON    |
-| ECON344   | Principles of Marketing                                                | ECON    |
-| ECON351   | Labour Economics                                                       | ECON    |
-| ECON361   | Cost-Benefit Analysis and Project Evaluation                           | ECON    |
-| ECON366   | Gender and Economics                                                   | ECON    |
-| ECON371   | Business Finance 1                                                     | ECON    |
-| ECON372   | Business Finance 2                                                     | ECON    |
-| ECON391   | Equilibrium in Market Economies                                        | ECON    |
-| ECON392   | Strategic Situations and Welfare Economics                             | ECON    |
-| ECON406   | Money and Banking 2                                                    | ECON    |
-| ECON408   | Business Cycles                                                        | ECON    |
-| ECON421   | Econometric Theory                                                     | ECON    |
-| ECON423   | Time Series Econometrics                                               | ECON    |
-| ECON424   | Machine Learning in Economics                                          | ECON    |
-| ECON443   | Advanced Public Economics                                              | ECON    |
-| ECON451   | Law and Economics                                                      | ECON    |
-| ECON472   | Senior Honours Essay                                                   | ECON    |
-| ECON483   | Special Topics                                                         | ECON    |
-| ECON484   | Special Topics                                                         | ECON    |
-| ECON491   | Advanced Microeconomics                                                | ECON    |
-| ENBUS102  | Introduction to Environment and Business                               | ENBUS   |
-| ENBUS112  | Operationalizing Sustainable Development within Business               | ENBUS   |
-| ENBUS202  | Environmental Management Systems                                       | ENBUS   |
-| ENBUS203  | Green Entrepreneurship                                                 | ENBUS   |
-| ENBUS204  | Principles of Industrial Ecology                                       | ENBUS   |
-| ENBUS211  | Principles of Marketing for Sustainability Professionals               | ENBUS   |
-| ENBUS302  | Strategies for Environment and Business                                | ENBUS   |
-| ENBUS304  | Circular Economy                                                       | ENBUS   |
-| ENBUS308  | Sustainability Management Standards and Auditing                       | ENBUS   |
-| ENBUS311  | Green Marketing                                                        | ENBUS   |
-| ENBUS375  | Special Topics in Environment and Business                             | ENBUS   |
-| ENBUS407  | Corporate Sustainability Accounting and Reporting                      | ENBUS   |
-| ENBUS410  | Engaging Stakeholders                                                  | ENBUS   |
-| ENGL104   | Rhetoric in Popular Culture                                            | ENGL    |
-| ENGL109   | Introduction to Academic Writing                                       | ENGL    |
-| ENGL119   | Communications in Mathematics and Computer Science                     | ENGL    |
-| ENGL190   | Shakespeare                                                            | ENGL    |
-| ENGL193   | Communication in the Sciences                                          | ENGL    |
-| ENGL201   | The Short Story                                                        | ENGL    |
-| ENGL225   | Introduction to Anti-Racist Communication                              | ENGL    |
-| ENGL251   | Literary Theory and Criticism                                          | ENGL    |
-| ENGL275   | Fiction and Film                                                       | ENGL    |
-| ENGL292   | Rhetorical Theory and Criticism                                        | ENGL    |
-| ENGL293   | Introduction to Digital Media Studies                                  | ENGL    |
-| ENGL294   | Introduction to Critical Game Studies                                  | ENGL    |
-| ENGL295   | Social Media                                                           | ENGL    |
-| ENGL304   | Designing Digital Sound                                                | ENGL    |
-| ENGL308   | Race and Resistance                                                    | ENGL    |
-| ENGL315   | Modern Canadian Literature                                             | ENGL    |
-| ENGL320   | History and Theory of Pre-Internet Media                               | ENGL    |
-| ENGL332   | Topics in Creative Writing                                             | ENGL    |
-| ENGL335   | Creative Writing 1                                                     | ENGL    |
-| ENGL362   | Shakespeare 1                                                          | ENGL    |
-| ENGL363   | Shakespeare 2                                                          | ENGL    |
-| ENGL378   | Professional Communications in Statistics and Actuarial Science        | ENGL    |
-| ENGL494   | Topics in Forms of Media and Critical Analysis                         | ENGL    |
-| ENVE100   | Environmental and Geological Engineering Concepts                      | ENVE    |
-| ENVE115   | Linear Algebra                                                         | ENVE    |
-| ENVE121   | Computational Methods                                                  | ENVE    |
-| ENVE153   | Earth Engineering                                                      | ENVE    |
-| ENVE214   | Fluid Mechanics and Thermal Sciences                                   | ENVE    |
-| ENVE223   | Differential Equations and Balance Laws                                | ENVE    |
-| ENVE224   | Probability and Statistics                                             | ENVE    |
-| ENVE225   | Environmental Modelling                                                | ENVE    |
-| ENVE275   | Environmental Chemistry                                                | ENVE    |
-| ENVE292   | Economics for Environmental Engineering                                | ENVE    |
-| ENVE321   | Advanced Mathematics                                                   | ENVE    |
-| ENVE330   | Lab Analysis and Field Sampling Techniques                             | ENVE    |
-| ENVE335   | Decision Making for Environmental Engineers                            | ENVE    |
-| ENVE375   | Physico-Chemical Processes                                             | ENVE    |
-| ENVE382   | Hydrology and Open Channel Flow                                        | ENVE    |
-| ENVE391   | Law and Ethics for Environmental and Geological Engineers              | ENVE    |
-| ENVE400   | Environmental Engineering Design Project 1                             | ENVE    |
-| ENVE430   | Environmental Engineering Project 1                                    | ENVE    |
-| ENVE573   | Contaminant Transport                                                  | ENVE    |
-| ENVE577   | Engineering for Solid Waste Management                                 | ENVE    |
-| ENVE583   | Design of Urban Water Systems                                          | ENVE    |
-| ENVS105   | Environmental Sustainability and Ethics                                | ENVS    |
-| ENVS131   | Communications for Environmental Professions                           | ENVS    |
-| ENVS178   | Environmental Applications of Data Management and Statistics           | ENVS    |
-| ENVS195   | Introduction to Environmental Studies                                  | ENVS    |
-| ENVS200   | Field Ecology                                                          | ENVS    |
-| ENVS201   | Introduction to Canadian Environmental Law                             | ENVS    |
-| ENVS205   | Sustainability: The Future We Want                                     | ENVS    |
-| ENVS210   | Future Studies                                                         | ENVS    |
-| ENVS220   | Ecological Economics                                                   | ENVS    |
-| ENVS278   | Applied Statistics for Environmental Research                          | ENVS    |
-| ENVS433   | Ecotourism and Communities                                             | ENVS    |
-| ERS102    | Sustainability and the Really Long View                                | ERS     |
-| ERS110    | Environmental Analysis and Solutions I: Foundations                    | ERS     |
-| ERS202    | Natural Resources Ecology                                              | ERS     |
-| ERS210    | Environmental Analysis and Solutions III: Greening Communities         | ERS     |
-| ERS211    | Environmental Analysis and Solutions IV: Restoration Ecology           | ERS     |
-| ERS215    | Environmental and Sustainability Assessment 1                          | ERS     |
-| ERS225    | Gendering Environmental Politics                                       | ERS     |
-| ERS234    | Forest Ecosystems                                                      | ERS     |
-| ERS253    | Communities and Sustainability                                         | ERS     |
-| ERS265    | Water: Environmental History and Change                                | ERS     |
-| ERS270    | Introduction to Sustainable Agroecosystems                             | ERS     |
-| ERS275    | Special Readings/Seminar on Select Topics                              | ERS     |
-| ERS283    | Ontario Natural History: Species and Patterns                          | ERS     |
-| ERS294    | The Sacred Earth: Religion and Ecology                                 | ERS     |
-| ERS300    | Social Ecological Systems Analysis                                     | ERS     |
-| ERS315    | Environmental and Sustainability Assessment 2                          | ERS     |
-| ERS316    | Urban Water and Wastewater Systems: Integrated Planning and Management | ERS     |
-| ERS317    | Waste Management                                                       | ERS     |
-| ERS318    | Photography for Sustainability                                         | ERS     |
-| ERS320    | Economics and Sustainability                                           | ERS     |
-| ERS335    | Restoration Ecology                                                    | ERS     |
-| ERS337    | ReWilding and Ecological Restoration                                   | ERS     |
-| ERS340    | Ecosystem Assessment                                                   | ERS     |
-| ERS346    | Wildlife Ecology                                                       | ERS     |
-| ERS361    | Food Systems and Sustainability                                        | ERS     |
-| ERS365    | Water Governance                                                       | ERS     |
-| ERS383    | Tropical Ecosystems                                                    | ERS     |
-| ERS400    | Social-Ecological Approaches to Sustainability                         | ERS     |
-| ERS401    | Translational Ecology                                                  | ERS     |
-| ERS402    | Senior Honours Research Seminar                                        | ERS     |
-| ERS431    | Ecological Consequences of Climate Change                              | ERS     |
-| ERS484    | Soil Ecosystem Dynamics                                                | ERS     |
-| FINE100   | Studio Fundamentals                                                    | FINE    |
-| FINE101   | Art History and Visual Culture                                         | FINE    |
-| FINE102   | World Cinema and Visual Culture                                        | FINE    |
-| FINE112   | Modern Art: 1874-1945                                                  | FINE    |
-| FINE130   | Introduction to Digital Imaging                                        | FINE    |
-| FINE150   | Appreciation and Expression                                            | FINE    |
-| FINE204   | Topics in Studio Practice                                              | FINE    |
-| FINE212   | Renaissance Art: 1300-1500                                             | FINE    |
-| FINE222   | Principles of Sculpture                                                | FINE    |
-| FINE228   | Design and Imaging                                                     | FINE    |
-| FINE229   | Hybrid Digital Media                                                   | FINE    |
-| FINE243   | Topics in Fine Arts Experiential Learning                              | FINE    |
-| FINE319   | Contemporary Art                                                       | FINE    |
-| FR101     | Beginner French                                                        | FR      |
-| FR151     | Basic French 1                                                         | FR      |
-| FR152     | Basic French 2                                                         | FR      |
-| FR197     | French Culture & Literature: Origins to 1715                           | FR      |
-| FR203     | Introduction to Phonetics of French                                    | FR      |
-| FR250     | Intermediate Spoken French                                             | FR      |
-| FR251     | French Language 2: Module 1                                            | FR      |
-| FR252     | French Language 2: Module 2                                            | FR      |
-| FR255     | Business French 1                                                      | FR      |
-| FR291     | French Civilization 1                                                  | FR      |
-| FR292     | French Civilization 2                                                  | FR      |
-| FR296     | French Culture & Literature: Origins to 1715                           | FR      |
-| FR297     | French Culture & Literature: 1715 to the Present                       | FR      |
-| FR303     | Introduction to Linguistics                                            | FR      |
-| FR353     | Introduction to Translation                                            | FR      |
-| FR424     | 16th-Century French Literature                                         | FR      |
-| FR452     | Advanced French Language                                               | FR      |
-| FR471     | Francophone Literatures in Canada                                      | FR      |
-| FR473     | Aspects of French Canada                                               | FR      |
-| GBDA101   | Introduction to Digital Media Design                                   | GBDA    |
-| GBDA102   | International Business and Cross-Cultural Management                   | GBDA    |
-| GBDA103   | User Experience Design                                                 | GBDA    |
-| GBDA201   | Digital Media Project 1                                                | GBDA    |
-| GBDA202   | Digital Media Project 2                                                | GBDA    |
-| GBDA203   | Introduction to Digital Culture                                        | GBDA    |
-| GBDA204   | Working in Teams and Project Management                                | GBDA    |
-| GBDA205   | Quantitative Methods                                                   | GBDA    |
-| GBDA210   | Introduction to User Experience Design                                 | GBDA    |
-| GBDA211   | Introduction to Global Business                                        | GBDA    |
-| GBDA212   | Portfolio and Professional Communication                               | GBDA    |
-| GBDA228   | Digital Imaging for Online Applications                                | GBDA    |
-| GBDA229   | Hybrid Digital Media                                                   | GBDA    |
-| GBDA301   | Global Digital Project 1                                               | GBDA    |
-| GBDA303   | Data and Society                                                       | GBDA    |
-| GBDA304   | Marketing in the Digital World                                         | GBDA    |
-| GBDA310   | Advanced User Experience Design and Research                           | GBDA    |
-| GBDA401   | Cross-Cultural Digital Business 1                                      | GBDA    |
-| GENE101   | Strategies and Skills for Academic Success                             | GENE    |
-| GENE119   | Problems Seminar                                                       | GENE    |
-| GENE121   | Digital Computation                                                    | GENE    |
-| GENE123   | Electrical Circuits and Instrumentation                                | GENE    |
-| GENE167   | Introduction to Methods of Electrical and Computer Engineering         | GENE    |
-| GENE199   | Special Topics in First-Year Engineering                               | GENE    |
-| GENE397   | Engineering Study Abroad                                               | GENE    |
-| GENE403   | Interdisciplinary Design Project 1                                     | GENE    |
-| GENE404   | Interdisciplinary Design Project 2                                     | GENE    |
-| GENE499   | Special Topics in Fourth-Year Engineering                              | GENE    |
-| GEOE153   | Earth Engineering                                                      | GEOE    |
-| GEOE224   | Probability and Statistics                                             | GEOE    |
-| GEOE280   | Fluid Mechanics                                                        | GEOE    |
-| GEOE353   | Geotechnical Engineering 1                                             | GEOE    |
-| GEOE354   | Geotechnical Engineering 2                                             | GEOE    |
-| GEOG100   | On Becoming a Geographer                                               | GEOG    |
-| GEOG102   | Global Environmental Systems: Processes and Change                     | GEOG    |
-| GEOG165   | Computer Cartography: Principles and Design                            | GEOG    |
-| GEOG181   | Designing Effective Maps                                               | GEOG    |
-| GEOG187   | Geospatial Data Science                                                | GEOG    |
-| GEOG201   | Fluvial Geomorphology                                                  | GEOG    |
-| GEOG202   | Geography of the Global Economy                                        | GEOG    |
-| GEOG203   | Environment and Development in a Global Perspective                    | GEOG    |
-| GEOG205   | Principles of Geomorphology                                            | GEOG    |
-| GEOG206   | Human Dimensions of Natural Hazards                                    | GEOG    |
-| GEOG207   | Climate Change Fundamentals                                            | GEOG    |
-| GEOG209   | Hydroclimatology                                                       | GEOG    |
-| GEOG215   | China: Diverse and Dynamic                                             | GEOG    |
-| GEOG219   | How Pandemics Change the World                                         | GEOG    |
-| GEOG222   | Geographical Study of Canada                                           | GEOG    |
-| GEOG225   | Global Environment and Health                                          | GEOG    |
-| GEOG233   | Geography of Tourism                                                   | GEOG    |
-| GEOG270   | Remotely Piloted Aircraft Systems (RPAS) Knowledge Requirements        | GEOG    |
-| GEOG271   | Earth from Space Using Remote Sensing                                  | GEOG    |
-| GEOG281   | Introduction to Geographic Information Systems (GIS)                   | GEOG    |
-| GEOG293   | Approaches to Research in Human Geography                              | GEOG    |
-| GEOG294   | Approaches to Research in Physical Geography                           | GEOG    |
-| GEOG300   | Geomorphology and the Southern Ontario Environment                     | GEOG    |
-| GEOG305   | Fluvial Geomorphology                                                  | GEOG    |
-| GEOG306   | Human Dimensions of Natural Hazards                                    | GEOG    |
-| GEOG307   | Societal Adaptation to Climate Change                                  | GEOG    |
-| GEOG308   | Human Dimensions of Global Climate Change                              | GEOG    |
-| GEOG309   | Physical Climatology                                                   | GEOG    |
-| GEOG310   | Geodesy and Surveying                                                  | GEOG    |
-| GEOG316   | Multivariate Statistics                                                | GEOG    |
-| GEOG318   | Spatial Analysis                                                       | GEOG    |
-| GEOG323   | Tourism Impacts - International Perspectives                           | GEOG    |
-| GEOG333   | Recreation Geography                                                   | GEOG    |
-| GEOG356   | Resources Management                                                   | GEOG    |
-| GEOG357   | River Management                                                       | GEOG    |
-| GEOG361   | Food Systems and Sustainability                                        | GEOG    |
-| GEOG368   | Conservation/Resource Management of the Built Environment              | GEOG    |
-| GEOG371   | Advanced Remote Sensing Techniques                                     | GEOG    |
-| GEOG381   | Advanced Geographic Information Systems                                | GEOG    |
-| GEOG387   | Spatial Databases                                                      | GEOG    |
-| GEOG391   | Field Research                                                         | GEOG    |
-| GEOG394   | Approaches to Research in Physical Geography                           | GEOG    |
-| GEOG404   | Soil Ecosystem Dynamics                                                | GEOG    |
-| GEOG405   | Wetlands                                                               | GEOG    |
-| GEOG409   | Energy Balance Climatology                                             | GEOG    |
-| GEOG411   | The Digital Economy                                                    | GEOG    |
-| GEOG420   | Ice Sheets and Glaciers                                                | GEOG    |
-| GEOG457   | Wildfire and Landscape Change                                          | GEOG    |
-| GEOG471   | Remote Sensing Project                                                 | GEOG    |
-| GEOG481   | Geographic Information Systems Project                                 | GEOG    |
-| GEOG483   | Civic Technology and Digital Infrastructures                           | GEOG    |
-| GEOG487   | Management Issues in Geographic Information Systems                    | GEOG    |
-| GER101    | Elementary German 1                                                    | GER     |
-| GER102    | Elementary German 2                                                    | GER     |
-| GER201    | Intermediate German 1                                                  | GER     |
-| GER202    | Intermediate German 2                                                  | GER     |
-| GER211    | Contemporary German Language and Culture                               | GER     |
-| GER230    | Vikings!                                                               | GER     |
-| GER271    | German Thought and Culture: Objects                                    | GER     |
-| GER303    | Interactive German Language and Culture                                | GER     |
-| GER330    | Infamous Lovers                                                        | GER     |
-| GER334    | Exploring German Literature                                            | GER     |
-| GERON201  | Aging and Health                                                       | GERON   |
-| GERON218  | Psychology of Death and Dying                                          | GERON   |
-| GERON245  | Canadian Health Systems                                                | GERON   |
-| GERON255  | The Biology of Aging                                                   | GERON   |
-| GRK101    | Introductory Ancient Greek 1                                           | GRK     |
-| GRK201    | Intermediate Greek                                                     | GRK     |
-| GSJ101    | Introduction to Gender and Social Justice: the Global North            | GSJ     |
-| GSJ201    | Gender and Social Justice in Popular Culture                           | GSJ     |
-| GSJ203    | The Waves of Feminist Thought                                          | GSJ     |
-| GSJ222    | Gender Issues                                                          | GSJ     |
-| GSJ260    | Social Determinants of Health                                          | GSJ     |
-| GSJ371    | Special Topics in Gender and Social Justice                            | GSJ     |
-| GSJ380    | Applied Public Health Ethics                                           | GSJ     |
-| GSJ410    | Eighteenth-Century Women Writers                                       | GSJ     |
-| GSJ472    | Special Topics in Intersectional Feminist Theory                       | GSJ     |
-| HEALTH100 | Foundations of a Healthy Lifestyle                                     | HEALTH  |
-| HEALTH105 | Mental Health Literacy                                                 | HEALTH  |
-| HEALTH150 | Foundations of Human Anatomy and Physiology                            | HEALTH  |
-| HIST101   | Modern Global History                                                  | HIST    |
-| HIST103   | Canadian History Through Biography                                     | HIST    |
-| HIST105   | Rock 'n' Roll and US History                                           | HIST    |
-| HIST106   | Canada at War                                                          | HIST    |
-+-----------+------------------------------------------------------------------------+---------+
++---------+-------------------+---------------------------+-------------------+----------------------+
+| subject | AVG(r.difficulty) | AVG(r.analyticalThinking) | AVG(r.creativity) | AVG(r.collaboration) |
++---------+-------------------+---------------------------+-------------------+----------------------+
+| ACC     |            6.0000 |                    7.1250 |            5.7500 |               5.2500 |
+| ACINTY  |            5.0000 |                    5.0000 |            5.0000 |               5.0000 |
+| ACTSC   |            7.7692 |                    7.6154 |            7.1538 |               5.0000 |
+| AE      |            5.0000 |                    4.0000 |            6.5000 |               5.0000 |
+| AFM     |            6.1795 |                    7.3590 |            6.1923 |               5.7051 |
+| AHS     |            6.3333 |                    7.0000 |            7.0000 |               6.6667 |
+| AMATH   |            7.6667 |                    7.1481 |            7.1852 |               5.0741 |
+| ANTH    |            7.3000 |                    6.0500 |            6.7500 |               5.7000 |
+| ARBUS   |            5.8000 |                    7.0000 |            6.5000 |               6.9000 |
+| ARCH    |            6.3333 |                    6.3333 |            6.3333 |               5.0000 |
+| ARTS    |            6.0909 |                    6.5455 |            6.9091 |               6.0000 |
+| AVIA    |            5.7273 |                    6.4545 |            5.6364 |               5.1818 |
+| BASE    |            5.0000 |                    5.0000 |            5.0000 |               5.7500 |
+| BET     |            6.8462 |                    7.7692 |            7.2308 |               6.4615 |
+| BIOL    |            7.7105 |                    7.7237 |            7.5263 |               6.0263 |
+| BLKST   |            5.0000 |                    5.0000 |            7.0000 |               5.0000 |
+| BME     |            6.9310 |                    6.5862 |            6.5862 |               5.4138 |
+| CFM     |            9.0000 |                    8.5000 |            8.0000 |               5.0000 |
+| CHE     |            5.9412 |                    6.4412 |            6.2647 |               5.2647 |
+| CHEM    |            7.2222 |                    7.3333 |            7.2500 |               5.4444 |
+| CI      |            5.0000 |                    5.0000 |            5.0000 |               5.0000 |
+| CIVE    |            6.1795 |                    6.8974 |            6.3333 |               5.3077 |
+| CLAS    |            7.2857 |                    6.5714 |            7.1429 |               5.2857 |
+| CMW     |            5.0000 |                    5.0000 |            5.0000 |               5.0000 |
+| CO      |            8.0968 |                    7.7419 |            7.2903 |               5.3871 |
+| COGSCI  |            5.0000 |                    3.0000 |            5.0000 |               7.0000 |
+| COMM    |            6.4286 |                    7.4286 |            5.7143 |               5.2857 |
+| COMMST  |            5.8889 |                    6.6667 |            7.1111 |               6.5556 |
+| COOP    |            5.3333 |                    5.5000 |            6.1667 |               5.0000 |
+| CROAT   |            5.0000 |                    9.0000 |            3.0000 |               5.0000 |
+| CS      |            7.7606 |                    8.5211 |            7.5775 |               5.5915 |
+| DAC     |            5.0000 |                    5.8000 |            7.0000 |               6.2000 |
+| DRAMA   |            6.0000 |                    5.2500 |            6.0000 |               5.5000 |
+| DUTCH   |            7.0000 |                    5.5000 |            6.5000 |               5.0000 |
+| EARTH   |            6.6296 |                    7.9630 |            6.7037 |               5.8519 |
+| ECE     |            6.9216 |                    7.0392 |            6.5980 |               5.1863 |
+| ECON    |            7.0444 |                    7.2667 |            6.7778 |               5.2444 |
+| ENBUS   |            6.8462 |                    7.6923 |            7.0000 |               6.1538 |
+| ENGL    |            7.1739 |                    7.0435 |            7.2174 |               6.0435 |
+| ENVE    |            5.7619 |                    6.1905 |            6.0476 |               5.0952 |
+| ENVS    |            8.6364 |                    8.1818 |            7.9091 |               6.0000 |
+| ERS     |            7.1250 |                    6.4063 |            6.7188 |               5.5625 |
+| FINE    |            6.5385 |                    6.1538 |            7.4615 |               5.2308 |
+| FR      |            6.0526 |                    7.2105 |            5.6842 |               5.6316 |
+| GBDA    |            6.3333 |                    7.0556 |            6.6667 |               6.3889 |
+| GENE    |            5.6000 |                    5.7000 |            6.5000 |               5.7000 |
+| GEOE    |            5.8000 |                    7.6000 |            5.8000 |               5.0000 |
+| GEOG    |            7.6154 |                    7.0385 |            7.1731 |               5.5962 |
+| GER     |            7.0000 |                    5.3000 |            7.1000 |               5.8000 |
+| GERON   |            8.0000 |                    8.0000 |            7.2500 |               6.2500 |
+| GRK     |            5.0000 |                    6.5000 |            6.5000 |               5.0000 |
+| GSJ     |            5.8889 |                    7.1111 |            6.2222 |               6.5556 |
+| HEALTH  |            7.6667 |                    8.3333 |            6.3333 |               7.3333 |
+| HIST    |            7.2222 |                    6.6667 |            6.6222 |               5.5778 |
+| HLTH    |            7.3111 |                    7.0222 |            7.3111 |               6.0000 |
+| HRM     |            7.0000 |                    8.2500 |            7.2500 |               5.0000 |
+| HRTS    |            9.0000 |                    3.0000 |            7.0000 |               5.0000 |
+| HUMSC   |            5.0000 |                    5.0000 |            5.0000 |               6.0000 |
+| INDEV   |            6.5000 |                    5.3750 |            6.2500 |               5.7500 |
+| INDG    |            5.0000 |                    5.0000 |            5.0000 |               7.0000 |
+| INTEG   |            7.0000 |                    6.4000 |            7.2000 |               6.1000 |
+| INTST   |            9.0000 |                    3.0000 |            8.0000 |               7.0000 |
+| ITAL    |            5.0000 |                    5.0000 |            6.0000 |               6.6667 |
+| ITALST  |            9.0000 |                    6.3333 |            7.6667 |               6.3333 |
+| JS      |            6.0000 |                    7.0000 |            5.7500 |               5.5000 |
+| KIN     |            7.2456 |                    7.2456 |            7.2982 |               5.6667 |
+| LAT     |            5.0000 |                    4.5000 |            6.2500 |               5.0000 |
+| LS      |            7.5556 |                    6.3889 |            7.3056 |               5.8056 |
+| MATBUS  |            5.0000 |                    8.0000 |            5.0000 |               5.0000 |
+| MATH    |            7.1176 |                    8.2059 |            7.3824 |               5.4412 |
+| ME      |            7.4815 |                    7.4074 |            7.3519 |               5.5926 |
+| MEDVL   |            5.0000 |                    8.0000 |            5.0000 |               7.0000 |
+| MGMT    |            6.3333 |                    8.0000 |            8.0000 |               6.3333 |
+| MNS     |            6.0000 |                    6.0000 |            5.7500 |               5.0000 |
+| MSCI    |            6.4286 |                    6.8333 |            6.6190 |               5.8095 |
+| MSE     |            4.6667 |                    7.0000 |            6.1667 |               5.3333 |
+| MTE     |            6.8182 |                    7.5455 |            6.9697 |               5.6061 |
+| MTHEL   |            5.0000 |                    6.2500 |            4.5000 |               5.5000 |
+| MUSIC   |            6.5000 |                    6.0833 |            6.7083 |               5.1667 |
+| NE      |            6.4400 |                    7.3600 |            6.7400 |               5.2800 |
+| PACS    |            7.4000 |                    6.4000 |            6.7000 |               5.8000 |
+| PD      |            6.3750 |                    7.4375 |            6.0625 |               5.0000 |
+| PHARM   |            5.0000 |                    5.8571 |            4.7143 |               5.0000 |
+| PHIL    |            7.0625 |                    6.3750 |            6.8438 |               5.7188 |
+| PHYS    |            7.3750 |                    7.6250 |            7.0833 |               5.1875 |
+| PLAN    |            6.4783 |                    7.3043 |            6.5217 |               5.7391 |
+| PMATH   |            8.2308 |                    7.8846 |            7.2692 |               5.5769 |
+| PORT    |            5.0000 |                    4.0000 |            5.0000 |               5.0000 |
+| PSCI    |            7.5000 |                    6.0000 |            6.8500 |               5.7000 |
+| PSYCH   |            7.2642 |                    6.5849 |            6.8491 |               5.7358 |
+| REC     |            6.0667 |                    6.6667 |            6.0667 |               6.0000 |
+| REES    |            6.3333 |                    6.0000 |            7.6667 |               6.3333 |
+| RS      |            6.5172 |                    6.0345 |            6.5517 |               5.3103 |
+| RUSS    |            5.0000 |                    5.0000 |            5.0000 |               5.0000 |
+| SCBUS   |            6.3333 |                    6.8333 |            5.5000 |               6.3333 |
+| SCI     |            7.4000 |                    7.0000 |            6.6000 |               5.3000 |
+| SE      |            6.8947 |                    6.4211 |            6.9474 |               5.8421 |
+| SEQ     |            5.0000 |                    5.0000 |            7.0000 |               5.0000 |
+| SFM     |            5.0000 |                    8.5000 |            5.0000 |               5.0000 |
+| SMF     |            6.8462 |                    5.7692 |            6.7692 |               5.7692 |
+| SOC     |            7.4828 |                    6.2069 |            6.7241 |               5.4483 |
+| SPAN    |            5.6667 |                    7.3333 |            6.5000 |               5.6667 |
+| SPCOM   |            6.7333 |                    6.9333 |            7.0667 |               6.2667 |
+| STAT    |            7.5143 |                    7.8571 |            7.2286 |               5.2286 |
+| STV     |            8.3333 |                    7.0000 |            7.1667 |               6.3333 |
+| SYDE    |            7.2105 |                    7.3509 |            7.2456 |               5.3158 |
+| THPERF  |            6.6000 |                    6.0000 |            6.6000 |               6.4000 |
+| UNIV    |            5.0000 |                    8.0000 |            5.0000 |               5.0000 |
+| VCULT   |            7.0000 |                    7.0000 |            6.5000 |               6.0000 |
+| WKRPT   |            5.0000 |                    4.8333 |            5.6667 |               5.0000 |
+| WS      |            6.6000 |                    4.6000 |            6.6000 |               5.8000 |
++---------+-------------------+---------------------------+-------------------+----------------------+
