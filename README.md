@@ -1,7 +1,7 @@
 # 🏫 WatClass
 Explore hundreds of courses and plan all your study terms at the University of Waterloo with this all-in-one platform.
 
-CS 348 Project
+CS 348 Project Group Members: Ed, Edward, Rainbow, Aadar, Patrick
 
 ## Requirements
 
@@ -9,7 +9,7 @@ CS 348 Project
 - NodeJS:22.13.0
 - MySQL:9.2.0
 
-## Setting up databse
+## Setting up database
 NOTE: Make sure you have mySQL Community Server (9.2.0 Innovation) installed.
 
 1. Run `mysql --local_infile=1 -u root -p < setup/create_db.sql`. The script creates the database "WatClass" and imports the sample data into the tables
