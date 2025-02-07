@@ -126,4 +126,17 @@ VALUES
   ('STAT 230', 2, 3, 4, 3),
   ('STAT 231', 3, 4, 3, 3),
   ('MATH 135', 4, 4, 4, 4),
-  ('MATH 137', 5, 5, 5, 4)
+  ('MATH 137', 5, 5, 5, 4);
+
+INSERT INTO
+  Questions (questionText)
+VALUES
+  (
+    'How much time do you want to commit to this course?'
+  ),
+  ('How much do you enjoy working with others?');
+
+INSERT INTO
+  NextQuestionLookup (qId, expectedAnswer, nextQuestion)
+VALUES
+  (1, 5, 2);
