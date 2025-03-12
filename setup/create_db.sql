@@ -4,9 +4,7 @@ USE WatClass;
 
 DROP TABLE IF EXISTS CourseRecommended;
 
-DROP TABLE IF EXISTS CourseWishlist;
-
-DROP TABLE IF EXISTS CourseTaken;
+DROP TABLE IF EXISTS CoursePinned;
 
 DROP TABLE IF EXISTS Answers;
 
@@ -67,15 +65,7 @@ CREATE TABLE Answers (
   FOREIGN KEY (qId) REFERENCES Questions (qId)
 );
 
-CREATE TABLE CourseTaken (
-  uId INT,
-  cId VARCHAR(20),
-  PRIMARY KEY (uId, cId),
-  FOREIGN KEY (uId) REFERENCES Users (uId),
-  FOREIGN KEY (cId) REFERENCES Courses (cId)
-);
-
-CREATE TABLE CourseWishlist (
+CREATE TABLE CoursePinned (
   uId INT,
   cId VARCHAR(20),
   PRIMARY KEY (uId, cId),
