@@ -4,12 +4,13 @@ import React, { useState } from "react";
 import { FaHeart, FaSortUp, FaSortDown } from "react-icons/fa";
 
 interface DataTableProps {
+  uId: number;
   courses: any[];
   columnNames?: string[];
   includeFavourites?: boolean;
 }
 
-export default function DataTable({ courses, columnNames, includeFavourites = false }: DataTableProps) {
+export default function DataTable({ uId, courses, columnNames, includeFavourites = false }: DataTableProps) {
   if (!courses || courses.length === 0) {
     return <p className="text-gray-500 mt-4">No data available</p>;
   }
@@ -21,11 +22,27 @@ export default function DataTable({ courses, columnNames, includeFavourites = fa
   const [favourites, setFavourites] = useState<{ [cId: string]: boolean }>({});
   const [sortConfig, setSortConfig] = useState<{ key: string; direction: "asc" | "desc" | null } | null>(null);
 
-  const toggleFavourite = (cId: string) => {
-    setFavourites((prev) => ({
-      ...prev,
-      [cId]: !prev[cId],
-    }));
+  // Fetch favourites on mount
+  React.useEffect(() => {
+    const fetchFavourites = async () => {
+      const response = await fetch(`/api/users/${uId}/coursePinned`);
+      const data = await response.json();
+      const newFavourites: { [cId: string]: boolean } = {};
+      data.cIds.forEach((cId: string) => {
+        newFavourites[cId] = true;
+      });
+      setFavourites(newFavourites);
+    };
+    fetchFavourites();
+  }, [uId]);
+
+  const toggleFavourite = async (cId: string) => {
+    const prevStatus = favourites[cId];
+    setFavourites({ ...favourites, [cId]: !prevStatus });
+    await fetch(`/api/users/${uId}/coursePinned/${cId}`, {
+      method: "PATCH",
+      body: JSON.stringify({ pinCourse: !prevStatus }),
+    });
   };
 
   const getFavouriteCIds = () => {

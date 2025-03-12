@@ -5,7 +5,11 @@ import DataTable from "./DataTable";
 import Button from "./Button";
 import { mapColumns } from "../constants/ColumnMappings";
 
-export default function CoursesList() {
+interface CoursesListProps {
+  uId: number;
+}
+
+export default function CoursesList({ uId }: CoursesListProps) {
   const [courses, setCourses] = useState([]);
 
   const fetchCourses = async () => {
@@ -23,7 +27,7 @@ export default function CoursesList() {
     <div className="text-center mt-4">
       <Button onClick={fetchCourses} title="Get all courses" />
       {courses.length > 0 ? (
-        <DataTable courses={courses} includeFavourites={true} />
+        <DataTable uId={uId} courses={courses} includeFavourites={true} />
       ) : (
         <p className="text-gray-500 mt-4">No courses available</p>
       )}
