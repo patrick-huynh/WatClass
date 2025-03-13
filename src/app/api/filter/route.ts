@@ -13,7 +13,6 @@ export const POST = async (req: NextRequest) => {
   const connection = await createConnection();
   try {
     const body = (await req.json()) as CoursePayload;
-    console.log(body);
     const { analyticalThinking, creativity, collaboration, difficulty } = body;
     if(!analyticalThinking || !creativity || !collaboration || !difficulty) 
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
