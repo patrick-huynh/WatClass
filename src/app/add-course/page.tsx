@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function AddCoursePage() {
   const [course, setCourse] = useState({
+    cId: '',
     name: '',
     subject: '',
     analyticalThinking: '',
@@ -27,15 +28,15 @@ export default function AddCoursePage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const response = await fetch('/api/add-course', {   // TODO: add updated API
+    const response = await fetch('/api/add_course', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(course),
     });
-
     if (response.ok) {
       alert('Course added successfully!'); // TODO: maybe customize
       setCourse({
+        cId: '',
         name: '',
         subject: '',
         analyticalThinking: '',
@@ -44,6 +45,8 @@ export default function AddCoursePage() {
         trivia: '',
         difficulty: '',
       });
+    } else if(response.status == 409){
+      alert("Failed: Duplicate Course");
     } else {
       alert('Failed to add course.'); // TODO: maybe customize
     }
@@ -53,6 +56,15 @@ export default function AddCoursePage() {
     <div className="p-6 max-w-md mx-auto">
       <h1 className="text-lg font-bold mb-4">Add a New Course</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+        <input
+          type="text"
+          name="cId"
+          placeholder="Course Code"
+          value={course.cId}
+          onChange={handleChange}
+          className="border p-2 rounded"
+          required
+        />
         <input
           type="text"
           name="name"
