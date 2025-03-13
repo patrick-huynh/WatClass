@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaHeart, FaSortUp, FaSortDown } from "react-icons/fa";
 
 interface DataTableProps {
-  uId: number;
+  uId?: number;
   courses: any[];
   columnNames?: string[];
   includeFavourites?: boolean;
@@ -102,7 +102,7 @@ export default function DataTable({ uId, courses, columnNames, includeFavourites
         </thead>
         <tbody>
           {sortedCourses.map((course, rowIndex) => {
-            const rowKey = course['Course Code'];
+            const rowKey = course['Course Code'] ?? course['Subject'];
 
             return (
               <tr key={rowKey} className="border-b border-gray-300 hover:bg-gray-100">
