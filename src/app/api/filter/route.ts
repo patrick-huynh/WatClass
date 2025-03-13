@@ -2,7 +2,7 @@ import { createConnection } from "@/db";
 import { NextRequest, NextResponse } from "next/server";
 import { RowDataPacket } from 'mysql2';
 
-interface CoursePayload {
+interface FilterPayload {
   analyticalThinking: [number, number];
   creativity: [number, number];
   collaboration: [number, number];
@@ -12,7 +12,7 @@ interface CoursePayload {
 export const POST = async (req: NextRequest) => {
   const connection = await createConnection();
   try {
-    const body = (await req.json()) as CoursePayload;
+    const body = (await req.json()) as FilterPayload;
     const { analyticalThinking, creativity, collaboration, difficulty } = body;
     if(!analyticalThinking || !creativity || !collaboration || !difficulty) 
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
