@@ -29,10 +29,13 @@ export const GET = async (request: NextRequest) => {
     );`;
     const [rows] = await connection.query<RowDataPacket[]>(sqlQuery);
 
-    const formattedData = rows.map((row: any) => ({
-      qid: row.qid,
-      questionText: row.questionText,
-    }));
+    let formattedData = null;
+    if (rows.length > 0) {
+      formattedData = {
+        qid: rows[0].qid,
+        questionText: rows[0].questionText,
+      };
+    }
 
     return NextResponse.json(formattedData);
   } catch (error) {
