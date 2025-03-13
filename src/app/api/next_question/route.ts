@@ -30,7 +30,7 @@ export const GET = async (request: NextRequest) => {
     const [rows] = await connection.query<RowDataPacket[]>(sqlQuery);
 
     const formattedData = rows.map((row: any) => ({
-      qId: row.cId,
+      qid: row.qid,
       questionText: row.questionText,
     }));
 
