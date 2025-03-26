@@ -38,6 +38,10 @@ CREATE TABLE CourseRatings (
   FOREIGN KEY (cId) REFERENCES Courses (cId)
 );
 
+DROP VIEW IF EXISTS CourseRatingView;
+CREATE VIEW CourseRatingView AS
+SELECT * FROM CourseRatings NATURAL JOIN Courses;
+
 CREATE TABLE Users (
   uId INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,

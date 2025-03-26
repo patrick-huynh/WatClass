@@ -1,8 +1,7 @@
-SELECT c.subject, 
-    AVG(r.difficulty), 
-    AVG(r.analyticalThinking), 
-    AVG(r.creativity), 
-    AVG(r.collaboration) 
-    FROM 
-    (CourseRatings r JOIN Courses c on r.cId = c.cId) 
-    GROUP BY c.subject;
+SELECT subject, 
+    AVG(difficulty), 
+    AVG(analyticalThinking), 
+    AVG(creativity), 
+    AVG(collaboration) 
+    FROM CourseRatingView
+    GROUP BY subject;
