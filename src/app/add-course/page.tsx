@@ -84,7 +84,7 @@ export default function AddCoursePage() {
           required
         />
 
-        <h2 className="text-sm font-semibold mt-2">Ratings (1-5)</h2>
+        <h2 className="text-sm font-semibold mt-2">Ratings (1-10)</h2>
         <input
           type="number"
           name="analyticalThinking"
