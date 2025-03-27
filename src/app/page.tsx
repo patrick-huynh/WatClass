@@ -10,7 +10,7 @@ import Button from "./components/Button";
 
 export default function HomePage() {
   const [uId, setUId] = useState(1);
-  const [user, setUser] = useState('professor');// TODO: add login/signup
+  const [user, setUser] = useState('student'); // TODO: add login/signup
 
   return (
     <main className="flex min-h-screen flex-col  p-6">
@@ -18,8 +18,12 @@ export default function HomePage() {
         <Image src="/Logo.svg" alt="logo" width={150} height={150} />
         <div className="h-full flex flex-row gap-4">
           {user == 'professor' && <AddCourseButton />}
-          {user == 'student' && <GetFormButton />}
-          <Button onClick={() => setUser(user == 'professor' ? 'student' : 'professor')} title={user == 'professor' ? 'Switch to student' : 'Switch to professor'} />
+          {user != 'professor' && <GetFormButton />}
+          {
+            user == ''
+            ? (<Button onClick={() => console.log('login')} title="Login" />)
+            : (<Button onClick={() => setUser('')} title="Logout" />)
+          }
         </div>
       </div>
 
