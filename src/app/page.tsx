@@ -10,7 +10,7 @@ import Button from "./components/Button";
 
 export default function HomePage() {
   const [uId, setUId] = useState(1);
-  const [user, setUser] = useState('student'); // TODO: add login/signup
+  const [user, setUser] = useState(''); // TODO: add login/signup
 
   return (
     <main className="flex min-h-screen flex-col  p-6">
@@ -28,13 +28,22 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-4">
-      <div className="max-w-4xl text-center">
-        <h1 className="text-2xl font-bold mb-4">Course and Stats Viewer</h1>
-        <CoursesList uId={uId} />
-        <AggregateStats />
-      </div>
-      </div>
+      {
+        user == ''
+        ? (
+          <div className="flex flex-row justify-center items-center gap-4">
+            <div className="max-w-4xl text-center">
+              <h1 className="text-2xl font-bold mb-4">Course and Stats Viewer</h1>
+              <CoursesList uId={uId} />
+              <AggregateStats />
+            </div>
+          </div>
+        )
+        : (
+          <div>Please login/signup to continue</div>
+        )
+      }
+
     </main>
   );
 }
