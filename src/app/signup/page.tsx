@@ -8,6 +8,7 @@ import { useUser } from '../hooks/useUser';
 
 export default function SignupPage() {
   const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [role, setRole] = useState('student'); // Default role
   const [term, setTerm] = useState('1A'); // Default term
   const [error, setError] = useState('');
@@ -16,6 +17,16 @@ export default function SignupPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!username || !password || username.trim() === '' || password.trim() === '') {
+      setError('Username or password cannot be empty');
+      return;
+    }
+    if (password.length < 8) {
+      setError('Password must be at least 8 characters long');
+      return;
+    }
+
     setError('');
 
     try {
@@ -24,7 +35,7 @@ export default function SignupPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, role, term }),
+        body: JSON.stringify({ username, password, role, term }),
       });
 
       const data = await response.json();
@@ -76,6 +87,21 @@ export default function SignupPage() {
                   placeholder="Username"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Password
+                </label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  className="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
               <div>

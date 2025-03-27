@@ -1,9 +1,10 @@
 import { createConnection } from "@/db";
 import { NextResponse } from "next/server";
+import bcrypt from "bcryptjs";
 
 export const POST = async (request: Request) => {
   try {
-    const { username } = await request.json();
+    const { username, password } = await request.json();
     const connection = await createConnection();
 
     // Check if user exists
@@ -19,7 +20,17 @@ export const POST = async (request: Request) => {
       );
     }
 
+    // Authenticate
     const user = users[0];
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    
+    if (!isPasswordValid) {
+      return NextResponse.json(
+        { error: "Incorrect password" },
+        { status: 401 }
+      );
+    }
+
     return NextResponse.json({
       userId: user.uId,
       username: user.name,

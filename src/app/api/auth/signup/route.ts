@@ -1,9 +1,10 @@
 import { createConnection } from "@/db";
 import { NextResponse } from "next/server";
+import bcrypt from "bcryptjs";
 
 export const POST = async (request: Request) => {
   try {
-    const { username, role, term } = await request.json();
+    const { username, password, role, term } = await request.json();
     const connection = await createConnection();
 
     // Check if user already exists
@@ -19,10 +20,12 @@ export const POST = async (request: Request) => {
       );
     }
 
+    const hashedPassword = await bcrypt.hash(password, 10);
+
     // Create new user
     const [result] = await connection.query(
-      "INSERT INTO Users (name, role, term) VALUES (?, ?, ?)",
-      [username, role, term]
+      "INSERT INTO Users (name, password, role, term) VALUES (?, ?, ?, ?)",
+      [username, hashedPassword, role, term]
     );
 
     // Get the inserted user's ID

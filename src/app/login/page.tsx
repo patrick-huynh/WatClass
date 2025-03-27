@@ -5,15 +5,23 @@ import { useRouter } from 'next/navigation';
 import Button from '../components/Button';
 import Image from 'next/image';
 import { useUser } from '../hooks/useUser';
+import bcrypt from 'bcryptjs';
 
 export default function LoginPage() {
   const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const router = useRouter();
   const { login } = useUser();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!username || !password || username.trim() === '' || password.trim() === '') {
+      setError('Username or password cannot be empty');
+      return;
+    }
+
     setError('');
 
     try {
@@ -22,7 +30,7 @@ export default function LoginPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username }),
+        body: JSON.stringify({ username, password }),
       });
 
       const data = await response.json();
@@ -73,6 +81,21 @@ export default function LoginPage() {
                   placeholder="Username"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Password
+                </label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  className="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
             </div>
