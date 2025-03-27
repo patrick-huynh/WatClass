@@ -79,7 +79,7 @@ export default function Form() {
         : [1, 10],
       difficulty: computedScores.difficulty
         ? [Math.round(computedScores.difficulty)]
-        : [5],
+        : [1, 10],
     };
 
     console.log("Filter Payload:", filterPayload);
