@@ -64,17 +64,17 @@ export default function Form() {
 
     const filterPayload = {
       analyticalThinking: computedScores.analyticalThinking
-        ? [Math.max(1, computedScores.analyticalThinking - 1), Math.min(10, computedScores.analyticalThinking + 1)]
+        ? [Math.round(Math.max(1, computedScores.analyticalThinking - 1)), Math.round(Math.min(10, computedScores.analyticalThinking + 1))]
         : [1, 10],
       creativity: computedScores.creativity
-        ? [Math.max(1, computedScores.creativity - 1), Math.min(10, computedScores.creativity + 1)]
+        ? [Math.round(Math.max(1, computedScores.creativity - 1)), Math.round(Math.min(10, computedScores.creativity + 1))]
         : [1, 10],
       collaboration: computedScores.collaboration
-        ? [Math.max(1, computedScores.collaboration - 1), Math.min(10, computedScores.collaboration + 1)]
+        ? [Math.round(Math.max(1, computedScores.collaboration - 1)), Math.round(Math.min(10, computedScores.collaboration + 1))]
         : [1, 10],
       difficulty: computedScores.difficulty
-        ? [Math.max(1, computedScores.difficulty - 1), Math.min(10, computedScores.difficulty + 1)]
-        : [1, 10],
+        ? [Math.round(computedScores.difficulty)]
+        : [5],
     };
 
     console.log("Filter Payload:", filterPayload);
