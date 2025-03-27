@@ -24,7 +24,7 @@ CREATE TABLE Courses (
   cId VARCHAR(20) CHECK (cId regexp '^[A-Z]+ [0-9]+$') PRIMARY KEY,
   -- course code
   name VARCHAR(255) NOT NULL,
-  subject VARCHAR(10) NOT NULL
+  subject VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE Questions (

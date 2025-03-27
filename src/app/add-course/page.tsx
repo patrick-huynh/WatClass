@@ -44,7 +44,9 @@ export default function AddCoursePage() {
         difficulty: '',
       });
     } else if(response.status == 409){
-      alert("Failed: Duplicate Course");
+      alert(`Failed to add course: Course with code ${course.cId} already exists`);
+    } else if (response.status == 405) {
+      alert ('Failed to add course: Course code must be formatted as capital letters followed immediately by digits');
     } else {
       alert('Failed to add course.'); // TODO: maybe customize
     }

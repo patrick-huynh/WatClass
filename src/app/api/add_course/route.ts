@@ -14,9 +14,9 @@ interface CoursePayload {
 
 export const POST = async (req: NextRequest) => {
   const connection = await createConnection();
+  const body = (await req.json()) as CoursePayload;
+  const { cId, name, subject, analyticalThinking, creativity, collaboration, difficulty } = body;
   try {
-    const body = (await req.json()) as CoursePayload;
-    const { cId, name, subject, analyticalThinking, creativity, collaboration, difficulty } = body;
     if( !cId || ! name || !subject || !analyticalThinking || !creativity || !collaboration || !difficulty) 
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     const insertCourses = `INSERT INTO Courses (cId, name, subject) VALUES (?, ?, ?);`;
@@ -31,6 +31,11 @@ export const POST = async (req: NextRequest) => {
       return NextResponse.json(
         { message: 'Duplicate entry error' },
         { status: 409 } // Conflict status code for duplicate entries
+      );
+    } else if (error.code === 'ER_CHECK_CONSTRAINT_VIOLATED') {
+      return NextResponse.json(
+        { message: 'Formatting error' },
+        { status: 405 }
       );
     }
     return NextResponse.json(
