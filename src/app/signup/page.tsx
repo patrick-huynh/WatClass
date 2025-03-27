@@ -94,28 +94,30 @@ export default function SignupPage() {
                   <option value="professor">Professor</option>
                 </select>
               </div>
-              <div>
-                <label htmlFor="term" className="sr-only">
-                  Term
-                </label>
-                <select
-                  id="term"
-                  name="term"
-                  required
-                  className="appearance-none rounded-b relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                  value={term}
-                  onChange={(e) => setTerm(e.target.value)}
-                >
-                  <option value="1A">1A</option>
-                  <option value="1B">1B</option>
-                  <option value="2A">2A</option>
-                  <option value="2B">2B</option>
-                  <option value="3A">3A</option>
-                  <option value="3B">3B</option>
-                  <option value="4A">4A</option>
-                  <option value="4B">4B</option>
-                </select>
-              </div>
+              {role === 'student' && (
+                <div>
+                  <label htmlFor="term" className="sr-only">
+                    Term
+                  </label>
+                  <select
+                    id="term"
+                    name="term"
+                    required
+                    className="appearance-none rounded-b relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    value={term}
+                    onChange={(e) => setTerm(e.target.value)}
+                  >
+                    <option value="1A">1A</option>
+                    <option value="1B">1B</option>
+                    <option value="2A">2A</option>
+                    <option value="2B">2B</option>
+                    <option value="3A">3A</option>
+                    <option value="3B">3B</option>
+                    <option value="4A">4A</option>
+                    <option value="4B">4B</option>
+                  </select>
+                </div>
+              )}
             </div>
 
             <div className="flex flex-col gap-4">
