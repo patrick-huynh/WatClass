@@ -23,7 +23,8 @@ export default function Form() {
   };
 
   const handleNextQuestion = async () => {
-    if (!answer) {
+    let answerNum = Number(answer);
+    if (!answerNum || answerNum < 1 || answerNum > 10) {
       alert('Please provide an answer between 1-10.');
       return;
     }
@@ -114,6 +115,7 @@ export default function Form() {
             max="10"
             value={answer}
             onChange={(e) => setAnswer(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && handleNextQuestion()}
             className="border p-2 rounded"
             required
           />
