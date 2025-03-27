@@ -29,7 +29,9 @@ export default function HomePage() {
                 router.push('/login');
               }} title="Logout" />)
           }
-          <Button onClick={() => router.push('/signup')} title="Signup" />
+          {
+            !user.isAuthenticated && (<Button onClick={() => router.push('/signup')} title="Signup" />)
+          }
         </div>
       </div>
 

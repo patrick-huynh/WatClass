@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import CourseTable from '../components/CourseTable';
+import Button from '../components/Button';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 export default function Form() {
   const [answers, setAnswers] = useState<{ qid: number; answer: number }[]>([]);
@@ -14,6 +17,7 @@ export default function Form() {
   const [recommendedCourses, setRecommendedCourses] = useState([]);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const categoryRanges = {
     analyticalThinking: [1, 21],
@@ -102,42 +106,50 @@ export default function Form() {
   };
 
   return (
-    <div className="p-6 max-w-md mx-auto">
-
-      {!submitted && !loading && !noMoreQuestions ? (
-        <div className="flex flex-col gap-2">
-          <h1 className="text-lg font-bold mb-4">Answer the Questions</h1>
-          <p className="text-md">{question.questionText}</p>
-          <input
-            type="number"
-            min="1"
-            max="10"
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
-            className="border p-2 rounded"
-            required
-          />
-          <button onClick={handleNextQuestion} className="bg-blue-500 text-white p-2 rounded mt-4">
-            Next Question
-          </button>
+    <main className="flex min-h-screen flex-col p-6">
+      <div className="flex justify-between items-center gap-4 mb-10 pr-10 shadow-md">
+        <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+        <div className="h-full flex flex-row gap-4">
+          <Button onClick={() => router.push('/')} title="Back to Home" />
         </div>
-      ) : null}
+      </div>
 
-      {!submitted && !loading && noMoreQuestions ? (
-        <div>
-          <p className="text-md font-bold text-green-600">All questions completed! 🎉</p>
-          <button onClick={handleSubmit} className="bg-green-500 text-white p-2 rounded mt-4">
-            Submit All Answers
-          </button>
-        </div>
-      ) : null}
+      <div className="flex flex-row justify-center items-center gap-4">
+        <div className="max-w-4xl w-full space-y-8 p-8 bg-white rounded-lg shadow">
+          {!submitted && !loading && !noMoreQuestions ? (
+            <div className="flex flex-col gap-4">
+              <h1 className="text-2xl font-bold text-center">Answer the Questions</h1>
+              <p className="text-md">{question.questionText}</p>
+              <input
+                type="number"
+                min="1"
+                max="10"
+                value={answer}
+                onChange={(e) => setAnswer(e.target.value)}
+                className="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                required
+              />
+              <Button title="Next Question" onClick={handleNextQuestion} />
+            </div>
+          ) : null}
 
-      {submitted && (
-        <div>
-          <h1 className="text-lg font-bold mb-4">Recommended Courses</h1>
-          <CourseTable courses={recommendedCourses} submitted={submitted} loading={loading} />
+          {!submitted && !loading && noMoreQuestions ? (
+            <div className="flex flex-col gap-4">
+              <p className="text-md font-bold text-green-600 text-center">All questions completed! 🎉</p>
+              <Button title="Submit All Answers" onClick={handleSubmit} />
+            </div>
+          ) : null}
+
+          {submitted && (
+            <div className="flex flex-col gap-4 w-full">
+              <h1 className="text-2xl font-bold text-center">Recommended Courses</h1>
+              <div className="w-full overflow-x-auto">
+                <CourseTable courses={recommendedCourses} submitted={submitted} loading={loading} />
+              </div>
+            </div>
+          )}
         </div>
-      )}
-    </div>
+      </div>
+    </main>
   );
 }
