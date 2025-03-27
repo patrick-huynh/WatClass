@@ -17,7 +17,10 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col  p-6">
       <div className="flex justify-between items-center gap-4 mb-10 pr-10 shadow-md">
-        <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+        <div className="flex flex-row gap-4 items-center">
+          <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+          {user.isAuthenticated && <h1 className="text-xl">{user.username}</h1>}
+        </div>
         <div className="h-full flex flex-row gap-4">
           {user.role === 'professor' && <AddCourseButton />}
           {user.role === 'student' && <GetFormButton />}
