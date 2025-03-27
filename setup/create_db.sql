@@ -2,8 +2,6 @@ DROP DATABASE IF EXISTS WatClass;
 CREATE DATABASE WatClass;
 USE WatClass;
 
-DROP TABLE IF EXISTS CourseRecommended;
-
 DROP TABLE IF EXISTS CoursePinned;
 
 DROP TABLE IF EXISTS Answers;
@@ -73,14 +71,6 @@ CREATE TABLE Answers (
 );
 
 CREATE TABLE CoursePinned (
-  uId INT,
-  cId VARCHAR(20),
-  PRIMARY KEY (uId, cId),
-  FOREIGN KEY (uId) REFERENCES Users (uId),
-  FOREIGN KEY (cId) REFERENCES Courses (cId)
-);
-
-CREATE TABLE CourseRecommended (
   uId INT,
   cId VARCHAR(20),
   PRIMARY KEY (uId, cId),
