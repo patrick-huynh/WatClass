@@ -41,8 +41,6 @@ export default function HomePage() {
           <div className="flex flex-row justify-center items-center gap-4">
             <div className="max-w-4xl text-center">
               <h1 className="text-2xl font-bold mb-4">Please login/signup to continue</h1>
-              <Button onClick={() => router.push('/login')} title="Login" />
-              <Button onClick={() => router.push('/signup')} title="Signup" />
             </div>
           </div>
         )
