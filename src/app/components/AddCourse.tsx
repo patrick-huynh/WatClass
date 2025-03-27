@@ -1,15 +1,14 @@
 "use client";
 
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import Button from "./Button";
 
-
 export default function AddCourseButton() {
+  const router = useRouter();
+
   return (
     <div>
-      <Link href="/add-course">
-        <Button title="Add Course" onClick={() => {}} />
-      </Link>
+      <Button title="Add Course" onClick={() => router.push('/add-course')} />
     </div>
   );
 }

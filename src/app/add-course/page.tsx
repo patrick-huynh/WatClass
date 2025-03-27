@@ -17,9 +17,9 @@ export default function AddCoursePage() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let { name, value } = e.target;
 
-    // Ensure rating values stay within 1-5 range
+    // Ensure rating values stay within 1-10 range
     if (['analyticalThinking', 'creativity', 'collaboration', 'trivia', 'difficulty'].includes(name)) {
-      const numValue = Math.max(1, Math.min(5, Number(value))); // Clamp value between 1-5
+      const numValue = Math.max(1, Math.min(10, Number(value))); // Clamp value between 1-10
       setCourse({ ...course, [name]: numValue.toString() });
     } else {
       setCourse({ ...course, [name]: value });
@@ -92,7 +92,7 @@ export default function AddCoursePage() {
           value={course.analyticalThinking}
           onChange={handleChange}
           min="1"
-          max="5"
+          max="10"
           className="border p-2 rounded"
           required
         />
@@ -103,7 +103,7 @@ export default function AddCoursePage() {
           value={course.creativity}
           onChange={handleChange}
           min="1"
-          max="5"
+          max="10"
           className="border p-2 rounded"
           required
         />
@@ -114,7 +114,7 @@ export default function AddCoursePage() {
           value={course.collaboration}
           onChange={handleChange}
           min="1"
-          max="5"
+          max="10"
           className="border p-2 rounded"
           required
         />
@@ -125,7 +125,7 @@ export default function AddCoursePage() {
           value={course.trivia}
           onChange={handleChange}
           min="1"
-          max="5"
+          max="10"
           className="border p-2 rounded"
           required
         />
@@ -136,7 +136,7 @@ export default function AddCoursePage() {
           value={course.difficulty}
           onChange={handleChange}
           min="1"
-          max="5"
+          max="10"
           className="border p-2 rounded"
           required
         />
