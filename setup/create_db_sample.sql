@@ -56,6 +56,7 @@ CREATE TABLE CourseRatings (
 CREATE TABLE Users (
   uId INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
   term VARCHAR(3) CHECK (
     term IN ('1A', '1B', '2A', '2B', '3A', '3B', '4A', '4B')
   ),
@@ -104,6 +105,7 @@ CREATE TABLE CourseRecommended (
 
 -- Load sample data
 START TRANSACTION;
+
 INSERT INTO
   Courses (cId, name, subject)
 VALUES
@@ -143,6 +145,7 @@ VALUES
   ('STAT 231', 3, 4, 3, 3),
   ('MATH 135', 4, 4, 4, 4),
   ('MATH 137', 5, 5, 5, 4);
+
 COMMIT;
 
 INSERT INTO
