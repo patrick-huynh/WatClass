@@ -149,9 +149,9 @@ VALUES
 COMMIT;
 
 INSERT INTO
-  Users (name, term, role)
+  Users (name, password, term, role)
 VALUES
-  ('test', '1A', 'student');
+  ('test', 'password', '1A', 'student');
 
 INSERT INTO
   Questions (questionText)
