@@ -27,7 +27,8 @@ export default function Form() {
   };
 
   const handleNextQuestion = async () => {
-    if (!answer) {
+    let answerNum = Number(answer);
+    if (!answerNum || answerNum < 1 || answerNum > 10) {
       alert('Please provide an answer between 1-10.');
       return;
     }
@@ -126,6 +127,7 @@ export default function Form() {
                 max="10"
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && handleNextQuestion()}
                 className="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                 required
               />
