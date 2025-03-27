@@ -21,9 +21,10 @@ export default function HomePage() {
           {user != 'professor' && <GetFormButton />}
           {
             user == ''
-            ? (<Button onClick={() => console.log('login')} title="Login" />)
+            ? (<Button onClick={() => setUser('student')} title="Login" />)
             : (<Button onClick={() => setUser('')} title="Logout" />)
           }
+          <Button onClick={() => console.log('signup')} title="Signup" />
         </div>
       </div>
 
