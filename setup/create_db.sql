@@ -86,6 +86,7 @@ CREATE TABLE CourseRecommended (
 );
 
 SET GLOBAL local_infile = true;
+START TRANSACTION;
 
 LOAD DATA LOCAL INFILE './setup/courses.csv'
 INTO TABLE Courses
@@ -122,4 +123,5 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+COMMIT;
 SET GLOBAL local_infile = false;

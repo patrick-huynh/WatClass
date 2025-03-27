@@ -103,6 +103,7 @@ CREATE TABLE CourseRecommended (
 );
 
 -- Load sample data
+START TRANSACTION;
 INSERT INTO
   Courses (cId, name, subject)
 VALUES
@@ -142,6 +143,7 @@ VALUES
   ('STAT 231', 3, 4, 3, 3),
   ('MATH 135', 4, 4, 4, 4),
   ('MATH 137', 5, 5, 5, 4);
+COMMIT;
 
 INSERT INTO
   Users (name, term, role)

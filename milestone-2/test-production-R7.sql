@@ -6,6 +6,7 @@ FROM
 WHERE
   subject = "ECON";
 
+START TRANSACTION;
 INSERT INTO
   Courses (cId, name, subject)
 VALUES
@@ -25,6 +26,7 @@ INSERT INTO
   )
 VALUES
   ('ECON103', 4, 1, 2, 2);
+COMMIT;
 
 SELECT
   *
