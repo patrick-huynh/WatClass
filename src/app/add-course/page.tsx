@@ -10,7 +10,6 @@ export default function AddCoursePage() {
     analyticalThinking: '',
     creativity: '',
     collaboration: '',
-    trivia: '',
     difficulty: '',
   });
 
@@ -18,7 +17,7 @@ export default function AddCoursePage() {
     let { name, value } = e.target;
 
     // Ensure rating values stay within 1-10 range
-    if (['analyticalThinking', 'creativity', 'collaboration', 'trivia', 'difficulty'].includes(name)) {
+    if (['analyticalThinking', 'creativity', 'collaboration', 'difficulty'].includes(name)) {
       const numValue = Math.max(1, Math.min(10, Number(value))); // Clamp value between 1-10
       setCourse({ ...course, [name]: numValue.toString() });
     } else {
@@ -42,7 +41,6 @@ export default function AddCoursePage() {
         analyticalThinking: '',
         creativity: '',
         collaboration: '',
-        trivia: '',
         difficulty: '',
       });
     } else if(response.status == 409){
@@ -112,17 +110,6 @@ export default function AddCoursePage() {
           name="collaboration"
           placeholder="Collaboration"
           value={course.collaboration}
-          onChange={handleChange}
-          min="1"
-          max="10"
-          className="border p-2 rounded"
-          required
-        />
-        <input
-          type="number"
-          name="trivia"
-          placeholder="Trivia"
-          value={course.trivia}
           onChange={handleChange}
           min="1"
           max="10"
