@@ -24,6 +24,8 @@ CREATE TABLE Courses (
   subject VARCHAR(255) NOT NULL
 );
 
+CREATE INDEX CoursesSubjectIndex ON Courses (subject);
+
 CREATE TABLE Questions (
   qId INT PRIMARY KEY AUTO_INCREMENT,
   questionText VARCHAR(255) NOT NULL
