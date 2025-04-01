@@ -34,10 +34,8 @@ export default function CoursesList({ uId }: CoursesListProps) {
   return (
     <div className="text-center mt-4">
       <Button onClick={fetchCourses} title={btnTitle} />
-      {courses.length > 0 ? (
+      {courses.length > 0 && (
         <DataTable uId={uId} courses={courses} includeFavourites={true} />
-      ) : (
-        <p className="text-gray-500 mt-4">No courses available</p>
       )}
     </div>
   );
