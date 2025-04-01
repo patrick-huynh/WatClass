@@ -5,6 +5,7 @@ import CoursesList from "./components/CoursesList";
 import AggregateStats from "./components/AggregateStats";
 import Image from "next/image";
 import AddCourseButton from "./components/AddCourse";
+import ViewCoursesButton from "./components/ViewCourses";
 import GetFormButton from "./components/RecForm";
 import Button from "./components/Button";
 import { useUser } from "./hooks/useUser";
@@ -22,7 +23,7 @@ export default function HomePage() {
           {user.isAuthenticated && <h1 className="text-xl">{user.username}</h1>}
         </div>
         <div className="h-full flex flex-row gap-4">
-          {user.role === 'professor' && <AddCourseButton />}
+          {user.role === 'professor' && <AddCourseButton /> && <ViewCoursesButton />}
           {user.role === 'student' && <GetFormButton />}
           {
             !user.isAuthenticated
