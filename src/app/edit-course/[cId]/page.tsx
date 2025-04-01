@@ -2,6 +2,7 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import Button from '@/app/components/Button';
 
 export default function EditCoursePage() {
   const params = useParams() as { cId: string };
@@ -108,12 +109,7 @@ export default function EditCoursePage() {
             onChange={(e) => setDifficulty(Number(e.target.value))}
           />
         </div>
-        <button
-          onClick={handleUpdate}
-          className="mt-4 bg-blue-600 text-white px-4 py-2 rounded"
-        >
-          Update
-        </button>
+        <Button onClick={handleUpdate} title="Update" />
       </div>
     </div>
   );
