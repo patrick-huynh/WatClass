@@ -23,7 +23,12 @@ export default function HomePage() {
           {user.isAuthenticated && <h1 className="text-xl">{user.username}</h1>}
         </div>
         <div className="h-full flex flex-row gap-4">
-          {user.role === 'professor' && <AddCourseButton /> && <ViewCoursesButton />}
+        {user.role === 'professor' && (
+          <>
+            <AddCourseButton />
+            <ViewCoursesButton />
+          </>
+)}
           {user.role === 'student' && <GetFormButton />}
           {
             !user.isAuthenticated
