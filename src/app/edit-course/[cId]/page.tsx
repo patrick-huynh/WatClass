@@ -53,6 +53,8 @@ export default function EditCoursePage() {
     if (res.ok) {
       alert('Course updated!');
       router.push('/view-courses');
+    } else if (res.status == 405) {
+      alert ('Failed to update course: Course rating must be between 1 and 10');
     } else {
       alert('Failed to update course.');
     }
