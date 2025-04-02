@@ -79,16 +79,34 @@ export default function DataTable({ uId, courses, columnNames, includeFavourites
     );
   };
 
+  const getSortedCourses = (isFavourites: boolean = false) => (
+    sortedCourses.map((course, rowIndex) => {
+    if (isFavourites && !favourites[course['Course Code']]) {
+      return null;
+    }
+    if (!isFavourites && favourites[course['Course Code']]) {
+      return null;
+    }
+    const rowKey = course['Course Code'] ?? course['Subject'];
+
+    return (
+      <tr key={rowKey} className="border-b border-gray-300 hover:bg-gray-100">
+        {displayedColumns.map((col) => (
+          <td key={`${col}-${rowKey}`} className="p-3 text-center">{course[col]}</td>
+        ))}
+        {includeFavourites && (
+          <td key={`fav-${rowKey}`} className="p-3 text-center">
+            <button onClick={() => toggleFavourite(rowKey)} className="flex justify-center items-center w-full">
+              <FaHeart className={`cursor-pointer text-2xl transition-colors ${favourites[rowKey] ? "text-red-500" : "text-gray-300"}`} />
+            </button>
+          </td>
+        )}
+      </tr>
+    );
+  }))
+
   return (
     <div className="mt-4">
-      {/* Display Favourited cId List */}
-      {includeFavourites && getFavouriteCIds().length > 0 && (
-        <div className="mt-4 p-3 bg-gray-100 border border-gray-300 rounded">
-          <p className="font-semibold">Favourited Course IDs:</p>
-          <p className="text-gray-800">{getFavouriteCIds().join(", ")}</p>
-        </div>
-      )}
-
       <table className="min-w-full bg-white">
         <thead>
           <tr className="bg-main text-white border-b border-gray-400">
@@ -101,24 +119,10 @@ export default function DataTable({ uId, courses, columnNames, includeFavourites
           </tr>
         </thead>
         <tbody>
-          {sortedCourses.map((course, rowIndex) => {
-            const rowKey = course['Course Code'] ?? course['Subject'];
-
-            return (
-              <tr key={rowKey} className="border-b border-gray-300 hover:bg-gray-100">
-                {displayedColumns.map((col) => (
-                  <td key={`${col}-${rowKey}`} className="p-3 text-center">{course[col]}</td>
-                ))}
-                {includeFavourites && (
-                  <td key={`fav-${rowKey}`} className="p-3 text-center">
-                    <button onClick={() => toggleFavourite(rowKey)} className="flex justify-center items-center w-full">
-                      <FaHeart className={`cursor-pointer text-2xl transition-colors ${favourites[rowKey] ? "text-red-500" : "text-gray-300"}`} />
-                    </button>
-                  </td>
-                )}
-              </tr>
-            );
-          })}
+          {/* Display Favourited cId List */}
+          {includeFavourites && getFavouriteCIds().length > 0 && getSortedCourses(true)}
+          {/* Display Non-Favourited cId List */}
+          {getSortedCourses(false)}
         </tbody>
       </table>
     </div>
