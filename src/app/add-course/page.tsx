@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Button from '../components/Button';
 
 export default function AddCoursePage() {
   const [course, setCourse] = useState({
@@ -56,6 +57,7 @@ export default function AddCoursePage() {
     <div className="p-6 max-w-md mx-auto">
       <h1 className="text-lg font-bold mb-4">Add a New Course</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+      <label className="block font-medium">Course Code</label>
         <input
           type="text"
           name="cId"
@@ -65,6 +67,7 @@ export default function AddCoursePage() {
           className="border p-2 rounded"
           required
         />
+        <label className="block font-medium">Course Name</label>
         <input
           type="text"
           name="name"
@@ -74,6 +77,7 @@ export default function AddCoursePage() {
           className="border p-2 rounded"
           required
         />
+        <label className="block font-medium">Course Subject</label>
         <input
           type="text"
           name="subject"
@@ -84,7 +88,7 @@ export default function AddCoursePage() {
           required
         />
 
-        <h2 className="text-sm font-semibold mt-2">Ratings (1-10)</h2>
+        <label className="block font-medium">Analytical Thinking</label>
         <input
           type="number"
           name="analyticalThinking"
@@ -96,6 +100,7 @@ export default function AddCoursePage() {
           className="border p-2 rounded"
           required
         />
+        <label className="block font-medium">Creativity</label>
         <input
           type="number"
           name="creativity"
@@ -107,6 +112,7 @@ export default function AddCoursePage() {
           className="border p-2 rounded"
           required
         />
+        <label className="block font-medium">Collaboration</label>
         <input
           type="number"
           name="collaboration"
@@ -118,6 +124,7 @@ export default function AddCoursePage() {
           className="border p-2 rounded"
           required
         />
+        <label className="block font-medium">Difficulty</label>
         <input
           type="number"
           name="difficulty"
@@ -133,6 +140,7 @@ export default function AddCoursePage() {
         <button type="submit" className="bg-blue-500 text-white p-2 rounded mt-4">
           Submit
         </button>
+        <Button type="submit" title="Update" />
       </form>
     </div>
   );
