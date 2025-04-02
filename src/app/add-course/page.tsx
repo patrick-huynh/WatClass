@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { toast } from 'react-toastify';
 import Button from '../components/Button';
 import Image from 'next/image';
 
@@ -37,7 +38,7 @@ export default function AddCoursePage() {
       body: JSON.stringify(course),
     });
     if (response.ok) {
-      alert('Course added successfully!'); // TODO: maybe customize
+      toast.success('Course added successfully!');
       setCourse({
         cId: '',
         name: '',
@@ -48,11 +49,11 @@ export default function AddCoursePage() {
         difficulty: '',
       });
     } else if(response.status == 409){
-      alert(`Failed to add course: Course with code ${course.cId} already exists`);
+      toast.error(`Failed to add course: Course with code ${course.cId} already exists`);
     } else if (response.status == 405) {
-      alert ('Failed to add course: Course code must be formatted as capital letters followed immediately by digits');
+      toast.error('Failed to add course: Course code must be formatted as capital letters followed immediately by digits');
     } else {
-      alert('Failed to add course.');
+      toast.error('Failed to add course.');
     }
   };
 
