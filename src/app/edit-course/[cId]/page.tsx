@@ -2,6 +2,7 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import Button from '../../components/Button';
 import Image from 'next/image';
 
@@ -53,12 +54,12 @@ export default function EditCoursePage() {
     });
 
     if (res.ok) {
-      alert('Course successfully updated!');
+      toast.success('Course successfully updated!');
       router.push('/view-courses');
     } else if (res.status == 405) {
-      alert ('Failed to update course: Course rating must be between 1 and 10');
+      toast.error('Failed to update course: Course rating must be between 1 and 10');
     } else {
-      alert('Failed to update course.');
+      toast.error('Failed to update course.');
     }
   };
 

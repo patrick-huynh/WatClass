@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { toast } from 'react-toastify';
 import CourseTable from '../components/CourseTable';
 import Button from '../components/Button';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 
 export default function Form() {
   const [answers, setAnswers] = useState<{ qid: number; answer: number }[]>([]);
@@ -29,7 +30,7 @@ export default function Form() {
   const handleNextQuestion = async () => {
     let answerNum = Number(answer);
     if (!answerNum || answerNum < 1 || answerNum > 10) {
-      alert('Please provide an answer between 1-10.');
+      toast.error('Please provide an answer between 1-10.');
       return;
     }
 
