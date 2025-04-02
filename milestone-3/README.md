@@ -36,4 +36,5 @@ SELECT * FROM Courses;
 3. Favouritng courses on the courses list for viewing later, saved to user's account
 4. A questionnaire for giving course recommendations
 5. Sign up/log in to view saved favourite courses
-6. Adding new courses - feature only available for users with professor roles
+6. Adding new courses - only available for users with professor roles
+7. Editing existing courses info - only available for users with professor roles
