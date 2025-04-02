@@ -4,7 +4,7 @@ import React from "react";
 
 interface ButtonProps {
   onClick?: () => void;
-  type?: "submit";
+  type?: "submit" | "button";
   title: string;
 }
 

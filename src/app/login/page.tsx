@@ -101,8 +101,8 @@ export default function LoginPage() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <Button title="Sign in" onClick={() => handleSubmit(new Event('submit') as any)} />
-              <Button onClick={() => router.push('/signup')} title="Create new account" />
+              <Button type="submit" title="Sign in" />
+              <Button type="button" onClick={() => router.push('/signup')} title="Create new account" />
             </div>
           </form>
         </div>
