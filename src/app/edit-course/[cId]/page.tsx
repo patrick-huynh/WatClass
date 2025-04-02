@@ -35,7 +35,8 @@ export default function EditCoursePage() {
     }
   }, [cId]);
 
-  const handleUpdate = async () => {
+  const handleUpdate = async (e: React.FormEvent) => {
+    e.preventDefault();
     const payload = {
       cId,
       name,
@@ -52,7 +53,7 @@ export default function EditCoursePage() {
     });
 
     if (res.ok) {
-      alert('Course updated!');
+      alert('Course successfully updated!');
       router.push('/view-courses');
     } else if (res.status == 405) {
       alert ('Failed to update course: Course rating must be between 1 and 10');
@@ -110,8 +111,6 @@ export default function EditCoursePage() {
             value={difficulty}
             onChange={(e) => setDifficulty(Number(e.target.value))}
           />
-
-
           <Button type="submit" title="Update" />
         </form>
       </div>
