@@ -146,7 +146,7 @@ export default function AddCoursePage() {
             className="border p-2 rounded"
             required
           />
-          <Button type="submit" title="Update" />
+          <Button type="submit" title="Submit" />
         </form>
       </div>
     </main>
