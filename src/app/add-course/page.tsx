@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Button from '../components/Button';
+import Image from 'next/image';
 
 export default function AddCoursePage() {
   const [course, setCourse] = useState({
@@ -13,6 +15,7 @@ export default function AddCoursePage() {
     collaboration: '',
     difficulty: '',
   });
+  const router = useRouter();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let { name, value } = e.target;
@@ -49,99 +52,103 @@ export default function AddCoursePage() {
     } else if (response.status == 405) {
       alert ('Failed to add course: Course code must be formatted as capital letters followed immediately by digits');
     } else {
-      alert('Failed to add course.'); // TODO: maybe customize
+      alert('Failed to add course.');
     }
   };
 
   return (
-    <div className="p-6 max-w-md mx-auto">
-      <h1 className="text-lg font-bold mb-4">Add a New Course</h1>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-2">
-      <label className="block font-medium">Course Code</label>
-        <input
-          type="text"
-          name="cId"
-          placeholder="Course Code"
-          value={course.cId}
-          onChange={handleChange}
-          className="border p-2 rounded"
-          required
-        />
-        <label className="block font-medium">Course Name</label>
-        <input
-          type="text"
-          name="name"
-          placeholder="Course Name"
-          value={course.name}
-          onChange={handleChange}
-          className="border p-2 rounded"
-          required
-        />
-        <label className="block font-medium">Course Subject</label>
-        <input
-          type="text"
-          name="subject"
-          placeholder="Subject"
-          value={course.subject}
-          onChange={handleChange}
-          className="border p-2 rounded"
-          required
-        />
+    <main className="flex min-h-screen flex-col p-6">
+      <div className="flex justify-between items-center gap-4 mb-10 pr-10 shadow-md">
+        <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+        <div className="h-full flex flex-row gap-4">
+          <Button onClick={() => router.push('/')} title="Back to Home" />
+        </div>
+      </div>
+      <div className="p-6 w-full max-w-2xl mx-auto bg-white shadow-md rounded-md">
+        <h1 className="text-2xl font-bold text-center">Add a New Course</h1>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+          <label className="block font-medium">Course Code</label>
+          <input
+            type="text"
+            name="cId"
+            placeholder="Course Code"
+            value={course.cId}
+            onChange={handleChange}
+            className="border p-2 rounded"
+            required
+          />
+          <label className="block font-medium">Course Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Course Name"
+            value={course.name}
+            onChange={handleChange}
+            className="border p-2 rounded"
+            required
+          />
+          <label className="block font-medium">Course Subject</label>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            value={course.subject}
+            onChange={handleChange}
+            className="border p-2 rounded"
+            required
+          />
 
-        <label className="block font-medium">Analytical Thinking</label>
-        <input
-          type="number"
-          name="analyticalThinking"
-          placeholder="Analytical Thinking"
-          value={course.analyticalThinking}
-          onChange={handleChange}
-          min="1"
-          max="10"
-          className="border p-2 rounded"
-          required
-        />
-        <label className="block font-medium">Creativity</label>
-        <input
-          type="number"
-          name="creativity"
-          placeholder="Creativity"
-          value={course.creativity}
-          onChange={handleChange}
-          min="1"
-          max="10"
-          className="border p-2 rounded"
-          required
-        />
-        <label className="block font-medium">Collaboration</label>
-        <input
-          type="number"
-          name="collaboration"
-          placeholder="Collaboration"
-          value={course.collaboration}
-          onChange={handleChange}
-          min="1"
-          max="10"
-          className="border p-2 rounded"
-          required
-        />
-        <label className="block font-medium">Difficulty</label>
-        <input
-          type="number"
-          name="difficulty"
-          placeholder="Difficulty"
-          value={course.difficulty}
-          onChange={handleChange}
-          min="1"
-          max="10"
-          className="border p-2 rounded"
-          required
-        />
-
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded mt-4">
-          Submit
-        </button>
-        <Button type="submit" title="Update" />
-      </form>
-    </div>
+          <label className="block font-medium">Analytical Thinking</label>
+          <input
+            type="number"
+            name="analyticalThinking"
+            placeholder="Analytical Thinking"
+            value={course.analyticalThinking}
+            onChange={handleChange}
+            min="1"
+            max="10"
+            className="border p-2 rounded"
+            required
+          />
+          <label className="block font-medium">Creativity</label>
+          <input
+            type="number"
+            name="creativity"
+            placeholder="Creativity"
+            value={course.creativity}
+            onChange={handleChange}
+            min="1"
+            max="10"
+            className="border p-2 rounded"
+            required
+          />
+          <label className="block font-medium">Collaboration</label>
+          <input
+            type="number"
+            name="collaboration"
+            placeholder="Collaboration"
+            value={course.collaboration}
+            onChange={handleChange}
+            min="1"
+            max="10"
+            className="border p-2 rounded"
+            required
+          />
+          <label className="block font-medium">Difficulty</label>
+          <input
+            type="number"
+            name="difficulty"
+            placeholder="Difficulty"
+            value={course.difficulty}
+            onChange={handleChange}
+            min="1"
+            max="10"
+            className="border p-2 rounded"
+            required
+          />
+          <Button type="submit" title="Update" />
+        </form>
+      </div>
+    </main>
   );
 }

@@ -16,7 +16,7 @@ export default function HomePage() {
   const router = useRouter();
 
   return (
-    <main className="flex min-h-screen flex-col  p-6">
+    <main className="flex min-h-screen flex-col p-6">
       <div className="flex justify-between items-center gap-4 mb-10 pr-10 shadow-md">
         <div className="flex flex-row gap-4 items-center">
           <Image src="/Logo.svg" alt="logo" width={150} height={150} />

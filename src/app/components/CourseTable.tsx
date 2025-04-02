@@ -19,26 +19,18 @@ interface CourseTableProps {
   
     return (
       <div className="mt-6">
-        <table className="w-full border-collapse border border-gray-300">
+        <table className="min-w-full bg-white">
           <thead>
-            <tr className="bg-gray-100">
-              <th className="border p-2">Course Code</th>
-              <th className="border p-2">Course Name</th>
-              <th className="border p-2">Analytical Thinking</th>
-              <th className="border p-2">Creativity</th>
-              <th className="border p-2">Collaboration</th>
-              <th className="border p-2">Difficulty</th>
+            <tr className="bg-main text-white">
+              <th className="p-3 text-center">Course Code</th>
+              <th className="p-3 text-center">Course Name</th>
             </tr>
           </thead>
           <tbody>
             {courses.map((course) => (
-              <tr key={course.cId} className="border">
-                <td className="border p-2">{course.cId}</td>
-                <td className="border p-2">{course.name}</td>
-                <td className="border p-2">{course.analyticalThinking}</td>
-                <td className="border p-2">{course.creativity}</td>
-                <td className="border p-2">{course.collaboration}</td>
-                <td className="border p-2">{course.difficulty}</td>
+              <tr key={course.cId} className="border-b border-gray-300 hover:bg-gray-100">
+                <td className="p-3 text-center">{course.cId}</td>
+                <td className="p-3 text-center">{course.name}</td>
               </tr>
             ))}
           </tbody>

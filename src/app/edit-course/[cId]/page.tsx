@@ -2,7 +2,8 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import Button from '@/app/components/Button';
+import Button from '../../components/Button';
+import Image from 'next/image';
 
 export default function EditCoursePage() {
   const params = useParams() as { cId: string };
@@ -64,55 +65,56 @@ export default function EditCoursePage() {
   if (loading) return <div className="p-4">Loading...</div>;
 
   return (
-    <div className="p-4 max-w-xl mx-auto">
-      <h1 className="text-xl font-bold mb-4">Edit Course: {cId}</h1>
-      <div className="space-y-4">
-        <div>
-          <label className="block font-medium">Course Name</label>
+    <main className="flex min-h-screen flex-col p-6">
+      <div className="flex justify-between items-center gap-4 mb-10 pr-10 shadow-md">
+        <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+        <div className="h-full flex flex-row gap-4">
+          <Button onClick={() => router.push('/')} title="Back to Home" />
+        </div>
+      </div>
+      <div className="p-6 w-full max-w-2xl mx-auto bg-white shadow-md rounded-md">
+      <h1 className="text-2xl font-bold text-center">Edit Course: {cId}</h1>
+        <form onSubmit={handleUpdate} className="flex flex-col gap-2">
+          <label className="block font-medium">Course Code</label>
           <input
-            className="border px-2 py-1 w-full"
+            type="text"
+            className="border p-2 rounded"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-        </div>
-        <div>
           <label className="block font-medium">Analytical Thinking</label>
           <input
             type="number"
-            className="border px-2 py-1 w-full"
+            className="border p-2 rounded"
             value={analyticalThinking}
             onChange={(e) => setAnalyticalThinking(Number(e.target.value))}
           />
-        </div>
-        <div>
           <label className="block font-medium">Creativity</label>
           <input
             type="number"
-            className="border px-2 py-1 w-full"
+            className="border p-2 rounded"
             value={creativity}
             onChange={(e) => setCreativity(Number(e.target.value))}
           />
-        </div>
-        <div>
           <label className="block font-medium">Collaboration</label>
           <input
             type="number"
-            className="border px-2 py-1 w-full"
+            className="border p-2 rounded"
             value={collaboration}
             onChange={(e) => setCollaboration(Number(e.target.value))}
           />
-        </div>
-        <div>
           <label className="block font-medium">Difficulty</label>
           <input
             type="number"
-            className="border px-2 py-1 w-full"
+            className="border p-2 rounded"
             value={difficulty}
             onChange={(e) => setDifficulty(Number(e.target.value))}
           />
-        </div>
-        <Button onClick={handleUpdate} title="Update" />
+
+
+          <Button type="submit" title="Update" />
+        </form>
       </div>
-    </div>
+    </main>
   );
 }
