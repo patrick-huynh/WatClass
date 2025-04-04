@@ -1,19 +1,37 @@
 Rainbow Li: 20903853
 - R5
 - R9 (updated) query and UI implementation
+- E/R and relational models
+- Created UI for
+    - Adding and updating courses
+    - View courses details page
+    - Recommendation quiz
+    - Recommendation result table
+- SQL query & tests for updating a course
+- Some auxiliary APIs that support the features
 
 Ed: 20960761
 - C1, C2, C3 queries corresponding to R8, R9, R10
 - R13, R14
 - Added new server-side input validation related to add course flow (R7), 
 - Helped with authentication by adding password checks
+- SQL script for db table schema & attribute constraints
+- SQL query & tests for
+    - Looking up next question in questionnaire based on user's answer
+    - Favouriting course
+Server-side input validation for forms (e.g. invalid course code when adding new course/invalid rating when editing course)
+Password login
+
 
 Patrick Huynh: 20896258
+- Set up starter project with MySQL
 - R1-3 and R6-9
+- Implemented next question API endpoints and SQL query
 - Created API endpoint for R8
-- Implemented advanced feature views for R6
-- Implemented transactions to Course and CourseRatings insertion
+- Implemented views on course ratings to speed up query
+- Implemented transactions to existing Course and CourseRatings queries to ensure database integrity
 - Edited UI to make favourited courses pinned
+
 
 Edward: 20946799
 - C1, C3 queries corresponding to R6, R7, C5
@@ -22,7 +40,20 @@ Edward: 20946799
 - New Filter Query
 - Filter API endpoint code
 - R15
+- SQL query & tests for
+    - Average statistics
+    - Course Insertion
+- Backend API for average statistics, course insertion
+- Using transactions to ensure integrity
+- Filtering courses in the recommendation algorithm & API
+- Slideshow creation
+
 
 Aadar: 20876832
 - Acquiring sample dataset
 - C1, C2 generate data for questions.csv and nextQuestions.csv
+- Prepared the sample and production databases (i.e. web scraped)
+- Created the courses list and how the queries should display the information
+- Designed the logo for the application
+- Implemented the “favourites” courses feature
+
