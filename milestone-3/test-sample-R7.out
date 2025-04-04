@@ -1,0 +1,24 @@
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+
+| cId      | name                               | subject | cId      | analyticalThinking | creativity | collaboration | difficulty |
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+
+| CS 115   | Introduction to Computer Science 1 | CS      | CS 115   |                  4 |          3 |             5 |          2 |
+| CS 341   | Algorithms                         | CS      | CS 341   |                  5 |          4 |             5 |          4 |
+| CS 350   | Operating Systems                  | CS      | CS 350   |                  4 |          5 |             4 |          5 |
+| MATH 135 | Algebra for Honours Mathematics    | MATH    | MATH 135 |                  4 |          4 |             4 |          4 |
+| MATH 137 | Calculus 1 for Honours Mathematics | MATH    | MATH 137 |                  5 |          5 |             5 |          4 |
+| STAT 230 | Probability                        | STAT    | STAT 230 |                  2 |          3 |             4 |          3 |
+| STAT 231 | Statistics                         | STAT    | STAT 231 |                  3 |          4 |             3 |          3 |
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+
+
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+
+| cId      | name                               | subject | cId      | analyticalThinking | creativity | collaboration | difficulty |
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+
+| CS 115   | Introduction to Computer Science 1 | CS      | CS 115   |                  4 |          3 |             5 |          2 |
+| CS 341   | Algorithms                         | CS      | CS 341   |                  5 |          4 |             5 |          4 |
+| CS 350   | Operating Systems                  | CS      | CS 350   |                  4 |          5 |             4 |          5 |
+| ECON 101 | Introduction to Microeconomics     | ECON    | ECON 101 |                  4 |          1 |             2 |          2 |
+| MATH 135 | Algebra for Honours Mathematics    | MATH    | MATH 135 |                  4 |          4 |             4 |          4 |
+| MATH 137 | Calculus 1 for Honours Mathematics | MATH    | MATH 137 |                  5 |          5 |             5 |          4 |
+| STAT 230 | Probability                        | STAT    | STAT 230 |                  2 |          3 |             4 |          3 |
+| STAT 231 | Statistics                         | STAT    | STAT 231 |                  3 |          4 |             3 |          3 |
++----------+------------------------------------+---------+----------+--------------------+------------+---------------+------------+

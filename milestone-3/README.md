@@ -1,8 +1,4 @@
-# 🏫 WatClass
-
-Explore hundreds of courses and plan all your study terms at the University of Waterloo with this all-in-one platform.
-
-CS 348 Project Group Members: Ed, Edward, Rainbow, Aadar, Patrick
+# CS 348 - Undergrad Planner Milestone 3
 
 ## Requirements
 

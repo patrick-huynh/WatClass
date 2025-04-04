@@ -1,0 +1,100 @@
++---------+----------------------------------------------------+---------+---------+--------------------+------------+---------------+------------+
+| ECON100 | Principles of Economics                            | ECON    | ECON100 |                  5 |          5 |             5 |          5 |
+| ECON101 | Introduction to Microeconomics                     | ECON    | ECON101 |                  9 |          8 |             5 |          9 |
+| ECON102 | Introduction to Macroeconomics                     | ECON    | ECON102 |                  8 |          5 |             5 |          5 |
+| ECON201 | Microeconomic Theory for Business and Policy       | ECON    | ECON201 |                  9 |          8 |             7 |          9 |
+| ECON202 | Macroeconomic Theory 1                             | ECON    | ECON202 |                  9 |          8 |             5 |          9 |
+| ECON206 | Money and Banking 1                                | ECON    | ECON206 |                  9 |          8 |             5 |          9 |
+| ECON207 | Economic Growth and Development 1                  | ECON    | ECON207 |                  8 |          5 |             7 |          5 |
+| ECON211 | Introduction to Mathematical Economics             | ECON    | ECON211 |                  9 |          5 |             5 |          5 |
+| ECON212 | Introduction to Game Theory                        | ECON    | ECON212 |                  9 |          8 |             5 |          9 |
+| ECON220 | Entrepreneurship Principles and Practices          | ECON    | ECON220 |                  8 |          8 |             7 |          9 |
+| ECON221 | Statistics for Economists                          | ECON    | ECON221 |                  9 |          8 |             5 |          9 |
+| ECON231 | Introduction to International Economics            | ECON    | ECON231 |                  8 |          8 |             5 |          9 |
+| ECON241 | Introduction to Public Economics                   | ECON    | ECON241 |                  9 |          7 |             5 |          9 |
+| ECON254 | Economics of Sport                                 | ECON    | ECON254 |                  9 |          8 |             7 |          9 |
+| ECON255 | Introduction to the Economics of Natural Resources | ECON    | ECON255 |                  8 |          5 |             5 |          5 |
+| ECON256 | Introduction to Health Economics                   | ECON    | ECON256 |                  5 |          5 |             5 |          5 |
+| ECON290 | Models of Choice in Competitive Markets            | ECON    | ECON290 |                  8 |          8 |             5 |          9 |
+| ECON301 | Microeconomic Theory 2                             | ECON    | ECON301 |                  5 |          7 |             5 |          9 |
+| ECON302 | Macroeconomic Theory 2                             | ECON    | ECON302 |                  8 |          5 |             5 |          5 |
+| ECON306 | Macroeconomics                                     | ECON    | ECON306 |                  8 |          8 |             5 |          5 |
+| ECON311 | Mathematical Economics                             | ECON    | ECON311 |                  5 |          5 |             5 |          5 |
+| ECON321 | Introduction to Econometrics                       | ECON    | ECON321 |                  5 |          5 |             5 |          5 |
+| ECON322 | Econometric Analysis 1                             | ECON    | ECON322 |                  9 |          8 |             5 |          5 |
+| ECON323 | Econometric Analysis 2                             | ECON    | ECON323 |                  9 |          8 |             3 |          5 |
+| ECON332 | International Finance                              | ECON    | ECON332 |                  8 |          7 |             5 |          9 |
+| ECON341 | Public Economics: Expenditure                      | ECON    | ECON341 |                  5 |          5 |             5 |          5 |
+| ECON344 | Principles of Marketing                            | ECON    | ECON344 |                  8 |          7 |             8 |          9 |
+| ECON351 | Labour Economics                                   | ECON    | ECON351 |                  8 |          8 |             5 |          9 |
+| ECON361 | Cost-Benefit Analysis and Project Evaluation       | ECON    | ECON361 |                  8 |          5 |             7 |          5 |
+| ECON366 | Gender and Economics                               | ECON    | ECON366 |                  3 |          8 |             5 |          9 |
+| ECON371 | Business Finance 1                                 | ECON    | ECON371 |                  9 |          7 |             5 |          9 |
+| ECON372 | Business Finance 2                                 | ECON    | ECON372 |                  8 |          8 |             5 |          5 |
+| ECON391 | Equilibrium in Market Economies                    | ECON    | ECON391 |                  9 |          8 |             5 |          9 |
+| ECON392 | Strategic Situations and Welfare Economics         | ECON    | ECON392 |                  5 |          8 |             5 |          9 |
+| ECON406 | Money and Banking 2                                | ECON    | ECON406 |                  5 |          8 |             5 |          9 |
+| ECON408 | Business Cycles                                    | ECON    | ECON408 |                  8 |          5 |             5 |          5 |
+| ECON421 | Econometric Theory                                 | ECON    | ECON421 |                  9 |          8 |             5 |          5 |
+| ECON423 | Time Series Econometrics                           | ECON    | ECON423 |                  5 |          7 |             5 |          9 |
+| ECON424 | Machine Learning in Economics                      | ECON    | ECON424 |                  8 |          5 |             5 |          5 |
+| ECON443 | Advanced Public Economics                          | ECON    | ECON443 |                  5 |          5 |             5 |          5 |
+| ECON451 | Law and Economics                                  | ECON    | ECON451 |                  5 |          5 |             5 |          5 |
+| ECON472 | Senior Honours Essay                               | ECON    | ECON472 |                  5 |          7 |             5 |          9 |
+| ECON483 | Special Topics                                     | ECON    | ECON483 |                  8 |          8 |             5 |          5 |
+| ECON484 | Special Topics                                     | ECON    | ECON484 |                  5 |          8 |             5 |          9 |
+| ECON491 | Advanced Microeconomics                            | ECON    | ECON491 |                  5 |          5 |             5 |          5 |
++---------+----------------------------------------------------+---------+---------+--------------------+------------+---------------+------------+
+45 rows in set (0.00 sec)
+
++---------+----------------------------------------------------+---------+---------+--------------------+------------+---------------+------------+
+| cId     | name                                               | subject | cId     | analyticalThinking | creativity | collaboration | difficulty |
++---------+----------------------------------------------------+---------+---------+--------------------+------------+---------------+------------+
+| ECON100 | Principles of Economics                            | ECON    | ECON100 |                  5 |          5 |             5 |          5 |
+| ECON101 | Introduction to Microeconomics                     | ECON    | ECON101 |                  9 |          8 |             5 |          9 |
+| ECON102 | Introduction to Macroeconomics                     | ECON    | ECON102 |                  8 |          5 |             5 |          5 |
+| ECON103 | Introduction to Microeconomics II                  | ECON    | ECON103 |                  4 |          1 |             2 |          2 |
+| ECON201 | Microeconomic Theory for Business and Policy       | ECON    | ECON201 |                  9 |          8 |             7 |          9 |
+| ECON202 | Macroeconomic Theory 1                             | ECON    | ECON202 |                  9 |          8 |             5 |          9 |
+| ECON206 | Money and Banking 1                                | ECON    | ECON206 |                  9 |          8 |             5 |          9 |
+| ECON207 | Economic Growth and Development 1                  | ECON    | ECON207 |                  8 |          5 |             7 |          5 |
+| ECON211 | Introduction to Mathematical Economics             | ECON    | ECON211 |                  9 |          5 |             5 |          5 |
+| ECON212 | Introduction to Game Theory                        | ECON    | ECON212 |                  9 |          8 |             5 |          9 |
+| ECON220 | Entrepreneurship Principles and Practices          | ECON    | ECON220 |                  8 |          8 |             7 |          9 |
+| ECON221 | Statistics for Economists                          | ECON    | ECON221 |                  9 |          8 |             5 |          9 |
+| ECON231 | Introduction to International Economics            | ECON    | ECON231 |                  8 |          8 |             5 |          9 |
+| ECON241 | Introduction to Public Economics                   | ECON    | ECON241 |                  9 |          7 |             5 |          9 |
+| ECON254 | Economics of Sport                                 | ECON    | ECON254 |                  9 |          8 |             7 |          9 |
+| ECON255 | Introduction to the Economics of Natural Resources | ECON    | ECON255 |                  8 |          5 |             5 |          5 |
+| ECON256 | Introduction to Health Economics                   | ECON    | ECON256 |                  5 |          5 |             5 |          5 |
+| ECON290 | Models of Choice in Competitive Markets            | ECON    | ECON290 |                  8 |          8 |             5 |          9 |
+| ECON301 | Microeconomic Theory 2                             | ECON    | ECON301 |                  5 |          7 |             5 |          9 |
+| ECON302 | Macroeconomic Theory 2                             | ECON    | ECON302 |                  8 |          5 |             5 |          5 |
+| ECON306 | Macroeconomics                                     | ECON    | ECON306 |                  8 |          8 |             5 |          5 |
+| ECON311 | Mathematical Economics                             | ECON    | ECON311 |                  5 |          5 |             5 |          5 |
+| ECON321 | Introduction to Econometrics                       | ECON    | ECON321 |                  5 |          5 |             5 |          5 |
+| ECON322 | Econometric Analysis 1                             | ECON    | ECON322 |                  9 |          8 |             5 |          5 |
+| ECON323 | Econometric Analysis 2                             | ECON    | ECON323 |                  9 |          8 |             3 |          5 |
+| ECON332 | International Finance                              | ECON    | ECON332 |                  8 |          7 |             5 |          9 |
+| ECON341 | Public Economics: Expenditure                      | ECON    | ECON341 |                  5 |          5 |             5 |          5 |
+| ECON344 | Principles of Marketing                            | ECON    | ECON344 |                  8 |          7 |             8 |          9 |
+| ECON351 | Labour Economics                                   | ECON    | ECON351 |                  8 |          8 |             5 |          9 |
+| ECON361 | Cost-Benefit Analysis and Project Evaluation       | ECON    | ECON361 |                  8 |          5 |             7 |          5 |
+| ECON366 | Gender and Economics                               | ECON    | ECON366 |                  3 |          8 |             5 |          9 |
+| ECON371 | Business Finance 1                                 | ECON    | ECON371 |                  9 |          7 |             5 |          9 |
+| ECON372 | Business Finance 2                                 | ECON    | ECON372 |                  8 |          8 |             5 |          5 |
+| ECON391 | Equilibrium in Market Economies                    | ECON    | ECON391 |                  9 |          8 |             5 |          9 |
+| ECON392 | Strategic Situations and Welfare Economics         | ECON    | ECON392 |                  5 |          8 |             5 |          9 |
+| ECON406 | Money and Banking 2                                | ECON    | ECON406 |                  5 |          8 |             5 |          9 |
+| ECON408 | Business Cycles                                    | ECON    | ECON408 |                  8 |          5 |             5 |          5 |
+| ECON421 | Econometric Theory                                 | ECON    | ECON421 |                  9 |          8 |             5 |          5 |
+| ECON423 | Time Series Econometrics                           | ECON    | ECON423 |                  5 |          7 |             5 |          9 |
+| ECON424 | Machine Learning in Economics                      | ECON    | ECON424 |                  8 |          5 |             5 |          5 |
+| ECON443 | Advanced Public Economics                          | ECON    | ECON443 |                  5 |          5 |             5 |          5 |
+| ECON451 | Law and Economics                                  | ECON    | ECON451 |                  5 |          5 |             5 |          5 |
+| ECON472 | Senior Honours Essay                               | ECON    | ECON472 |                  5 |          7 |             5 |          9 |
+| ECON483 | Special Topics                                     | ECON    | ECON483 |                  8 |          8 |             5 |          5 |
+| ECON484 | Special Topics                                     | ECON    | ECON484 |                  5 |          8 |             5 |          9 |
+| ECON491 | Advanced Microeconomics                            | ECON    | ECON491 |                  5 |          5 |             5 |          5 |
++---------+----------------------------------------------------+---------+---------+--------------------+------------+---------------+------------+
+46 rows in set (0.00 sec)
