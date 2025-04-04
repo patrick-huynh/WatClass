@@ -1,10 +1,12 @@
 Rainbow Li: 20903853
 - R5
-- wR9 (updated) query and UI implementation
+- R9 (updated) query and UI implementation
 
 Ed: 20960761
 - C1, C2, C3 queries corresponding to R8, R9, R10
-- R13, R14, added new server-side input validation related to add course flow (R7), helped with authentication by adding password checks
+- R13, R14
+- Added new server-side input validation related to add course flow (R7), 
+- Helped with authentication by adding password checks
 
 Patrick Huynh: 20896258
 - R1-3 and R6-9
@@ -15,8 +17,11 @@ Patrick Huynh: 20896258
 
 Edward: 20946799
 - C1, C3 queries corresponding to R6, R7, C5
-- R7 API code, connect with front end, New Filter Query, Filter API endpoint code.
-Will do R15
+- R7 API code
+- Connect with front end
+- New Filter Query
+- Filter API endpoint code
+- R15
 
 Aadar: 20876832
 - Acquiring sample dataset
